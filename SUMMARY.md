@@ -9,7 +9,16 @@
 
 ## 🖥️ Module 1: Dasar Komputer & Internet
 
-* [Lesson 1: Apa itu Komputer?](module-1-dasar-komputer/lesson-01-apa-itu-komputer.md)
+* [Lesson 1: Apa itu Komputer?](module-1-dasar-komputer/lesson-01-apa-itu-komputer/README.md)
+  * [Intro](module-1-dasar-komputer/lesson-01-apa-itu-komputer/intro.md)
+  * [Konsep Dasar](module-1-dasar-komputer/lesson-01-apa-itu-komputer/konsep-dasar.md)
+  * [Hardware](module-1-dasar-komputer/lesson-01-apa-itu-komputer/konsep-hardware.md)
+  * [Software](module-1-dasar-komputer/lesson-01-apa-itu-komputer/konsep-software.md)
+  * [Operating System](module-1-dasar-komputer/lesson-01-apa-itu-komputer/konsep-os.md)
+  * [Workflow](module-1-dasar-komputer/lesson-01-apa-itu-komputer/konsep-workflow.md)
+  * [Exercises](module-1-dasar-komputer/lesson-01-apa-itu-komputer/exercises.md)
+  * [Kesalahan Umum](module-1-dasar-komputer/lesson-01-apa-itu-komputer/kesalahan-umum.md)
+  * [Summary](module-1-dasar-komputer/lesson-01-apa-itu-komputer/summary.md)
 * [Lesson 2: File System & Path](module-1-dasar-komputer/lesson-02-file-system/README.md)
   * [Intro](module-1-dasar-komputer/lesson-02-file-system/intro.md)
   * [Folder Hierarchy & Path](module-1-dasar-komputer/lesson-02-file-system/konsep-hierarchy.md)
