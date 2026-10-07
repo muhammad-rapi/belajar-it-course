@@ -42,7 +42,8 @@ graph LR
 
 **📹 Video Explanation:**
 
-{% embed url="https://github.com/muhammad-rapi/belajar-it-course/raw/main/assets/videos/computer-workflow.mp4" %}
+![Computer Workflow Animation](../../../assets/videos/computer-workflow.gif)
+*Input → Process → Network → Output dalam 25 detik*
 
 **Coba perhatikan**:
 - Semua ini happen **otomatis**. OS + Chrome handle complexity. Kamu cuma "ketik + enter".

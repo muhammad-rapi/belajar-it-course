@@ -42,6 +42,7 @@ graph TD
 
 **📹 Video Explanation:**
 
-{% embed url="https://github.com/muhammad-rapi/belajar-it-course/raw/main/assets/videos/kitchen-analogy.mp4" %}
+![Kitchen Analogy Animation](../../../assets/videos/kitchen-analogy.gif)
+*CPU, RAM, dan Storage explained dengan analogi dapur*
 
 ---
