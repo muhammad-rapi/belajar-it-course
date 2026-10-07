@@ -20,6 +20,26 @@
 
 **Total time**: <1 detik (miliaran instruksi dieksekusi).
 
+<!-- DIAGRAM: Computer Workflow -->
+```mermaid
+graph LR
+    A[Input<br/>Keyboard] --> B[CPU<br/>Process]
+    B --> C[RAM<br/>Working Memory]
+    C --> D[Network<br/>HTTP Request]
+    D --> E[Server<br/>Google]
+    E --> D
+    D --> B
+    B --> F[Output<br/>Monitor Display]
+    
+    style A fill:#e3f2fd
+    style B fill:#fff3e0
+    style C fill:#f3e5f5
+    style D fill:#e8f5e9
+    style E fill:#fce4ec
+    style F fill:#e3f2fd
+```
+*Diagram: Computer workflow ketika buka google.com*
+
 <!-- VIDEO PLACEHOLDER -->
 **📹 Visual Aid**: [Computer Workflow Animation](../../../assets/videos/remotion-computer-workflow.md)  
 *60-second animated visualization: Input → Process → Output (video coming soon)*

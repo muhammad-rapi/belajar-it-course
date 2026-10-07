@@ -18,6 +18,28 @@
 
 Komputer works exactly like this, tapi jauh lebih cepat (milyaran operasi per detik).
 
+<!-- DIAGRAM: Kitchen Analogy -->
+```mermaid
+graph TD
+    A[Kamu<br/>Operating System] --> B[Kompor<br/>CPU]
+    A --> C[Meja Kerja<br/>RAM]
+    A --> D[Kulkas<br/>Storage]
+    
+    B --> E[Piring<br/>Output]
+    C -.Bahan Sementara.-> B
+    D -.Bahan Permanen.-> C
+    
+    F[Resep<br/>Software] -.Instruksi.-> A
+    
+    style A fill:#fff3e0
+    style B fill:#ffebee
+    style C fill:#e3f2fd
+    style D fill:#e8f5e9
+    style E fill:#f3e5f5
+    style F fill:#fce4ec
+```
+*Diagram: Analogi dapur - bagaimana komponen komputer collaborate*
+
 <!-- VIDEO PLACEHOLDER -->
 **📹 Visual Aid**: [CPU, RAM, Storage Analogy Animation](../../../assets/videos/remotion-hardware-analogy.md)  
 *Animated visualization of the kitchen analogy (video coming soon)*
