@@ -1,48 +1,14 @@
 # Lesson 2: File System & Path
 
-Setelah kamu ngerti apa itu komputer (hardware + software), sekarang waktunya deep dive ke **cara komputer organize data**: file system.
+Pelajari cara komputer mengorganisir files dan folders, bedanya absolute vs relative path, file extensions, dan permissions.
 
-## Apa yang Akan Kamu Pelajari
+## Sub-Pages
 
-Di lesson ini kamu akan:
-- Ngerti struktur file system (folder hierarchy)
-- Paham apa itu path (absolute vs relative)
-- Bisa navigate folder seperti pro
-- Ngerti file permissions (read, write, execute)
+1. [Introduction](./intro.md) - Kenapa perlu belajar file system
+2. [Hierarchy](./konsep-hierarchy.md) - Struktur folder, root directory, absolute vs relative path
+3. [File Types](./konsep-file-types.md) - Extensions dan kegunaannya
+4. [Permissions](./konsep-permissions.md) - Siapa boleh baca/edit file
+5. [Exercises](./exercises.md) - Hands-on practice
+6. [Summary](./summary.md) - Key takeaways & next steps
 
-## Sub-Lessons
-
-Lesson ini dipecah jadi beberapa bagian:
-
-1. **[Intro: Kenapa File System Penting](intro.md)**
-   - Masalah yang diselesaikan
-   - Analogi real-world
-
-2. **[Konsep: Folder Hierarchy & Path](konsep-hierarchy.md)**
-   - Tree structure
-   - Root directory
-   - Absolute vs relative path
-
-3. **[Konsep: File Types & Extensions](konsep-file-types.md)**
-   - Text files, binary files
-   - Extensions (.txt, .jpg, .exe, dll)
-   - Hidden files
-
-4. **[Konsep: File Permissions](konsep-permissions.md)**
-   - Read, Write, Execute
-   - User vs System files
-   - Security implications
-
-5. **[Praktek: Exercises](exercises.md)**
-   - 3 hands-on exercises
-   - Hints & solutions
-
-6. **[Summary & Next Steps](summary.md)**
-   - Key takeaways
-   - Teaser lesson berikutnya
-
----
-
-**Estimated time**: 30-40 menit (baca + praktek)
-
-**Next**: Mulai dari [Intro →](intro.md)
+**Duration**: ~20 menit baca + 30 menit praktek
