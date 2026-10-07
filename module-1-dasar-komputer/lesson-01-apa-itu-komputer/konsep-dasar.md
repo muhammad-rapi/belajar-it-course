@@ -1,5 +1,8 @@
 ### Komputer itu Apa Sih?
 
+![Modern Computer Setup](https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&q=80)
+*Photo by [Kari Shea](https://unsplash.com/@karishea) on [Unsplash](https://unsplash.com)*
+
 **Definisi simple**: Komputer itu mesin yang bisa **nyimpen data**, **proses data**, dan **nampilin hasil** dengan cepat. That's it.
 
 **Analogi: Dapur**

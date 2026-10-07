@@ -1,8 +1,14 @@
 ### Hardware: Bagian Fisik Komputer
 
+![Computer Hardware Components](https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&q=80)
+*Photo by [Christian Wiediger](https://unsplash.com/@christianw) on [Unsplash](https://unsplash.com)*
+
 Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 
 #### 1. CPU (Central Processing Unit) - Otak Komputer
+
+![CPU Processor](https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&q=80)
+*Photo by [Olivier Collet](https://unsplash.com/@ocollet) on [Unsplash](https://unsplash.com)*
 
 **Fungsi**: Eksekusi instruksi (hitung, proses, decision).
 
@@ -31,6 +37,9 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 
 #### 2. RAM (Random Access Memory) - Meja Kerja
 
+![RAM Memory Module](https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?w=600&q=80)
+*Photo by [Harrison Broadbent](https://unsplash.com/@harrisonbroadbent) on [Unsplash](https://unsplash.com)*
+
 **Fungsi**: Simpen data **sementara** yang lagi dipake. Cepat diakses, tapi ilang kalau komputer dimatiin.
 
 **Analogi**: Meja kerja kamu waktu masak. Kamu taruh bahan-bahan yang lagi dipake di meja (nasi, telur, bumbu) biar gampang diambil. Kalau mejanya kecil (RAM dikit), kamu harus bolak-balik ke kulkas tiap mau ambil bahan (lambat). Kalau mejanya lega (RAM banyak), semua bahan ada di meja (cepat).
@@ -57,6 +66,9 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 ---
 
 #### 3. Storage - Kulkas/Gudang
+
+![SSD and HDD Storage](https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&q=80)
+*Photo by [Benjamin Lehman](https://unsplash.com/@benjaminlehman) on [Unsplash](https://unsplash.com)*
 
 **Fungsi**: Simpen data **permanen**. File, foto, video, aplikasi. Ga ilang waktu komputer dimatiin.
 
