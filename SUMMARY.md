@@ -5,7 +5,16 @@
 
 ## 💭 Module 0: Persiapan Mental
 
-* [Lesson 1: Masuk ke Dunia IT - Ketakutan yang Wajar](module-0-persiapan/lesson-01-ketakutan.md)
+* [Lesson 1: Masuk ke Dunia IT - Ketakutan](module-0-persiapan/lesson-01-ketakutan/README.md)
+  * [Intro](module-0-persiapan/lesson-01-ketakutan/intro.md)
+  * [Ketakutan #1: Terlambat Mulai](module-0-persiapan/lesson-01-ketakutan/ketakutan-1-terlambat.md)
+  * [Ketakutan #2: Ga Jago Matematika](module-0-persiapan/lesson-01-ketakutan/ketakutan-2-matematika.md)
+  * [Ketakutan #3: Butuh Laptop Mahal](module-0-persiapan/lesson-01-ketakutan/ketakutan-3-laptop.md)
+  * [Ketakutan #4: Ga Dapet Kerjaan](module-0-persiapan/lesson-01-ketakutan/ketakutan-4-dapet-kerja.md)
+  * [Ketakutan #5: Overwhelmed](module-0-persiapan/lesson-01-ketakutan/ketakutan-5-overwhelmed.md)
+  * [Praktek (Self-Assessment)](module-0-persiapan/lesson-01-ketakutan/exercises.md)
+  * [Kesalahan Umum](module-0-persiapan/lesson-01-ketakutan/kesalahan-umum.md)
+  * [Summary](module-0-persiapan/lesson-01-ketakutan/summary.md)
 
 ## 🖥️ Module 1: Dasar Komputer & Internet
 
