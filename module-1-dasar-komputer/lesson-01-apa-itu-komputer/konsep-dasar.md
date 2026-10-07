@@ -40,8 +40,8 @@ graph TD
 ```
 *Diagram: Analogi dapur - bagaimana komponen komputer collaborate*
 
-<!-- VIDEO PLACEHOLDER -->
-**📹 Visual Aid**: [CPU, RAM, Storage Analogy Animation](../../../assets/videos/remotion-hardware-analogy.md)  
-*Animated visualization of the kitchen analogy (video coming soon)*
+**📹 Video Explanation:**
+
+{% embed url="https://github.com/muhammad-rapi/belajar-it-course/raw/main/assets/videos/kitchen-analogy.mp4" %}
 
 ---

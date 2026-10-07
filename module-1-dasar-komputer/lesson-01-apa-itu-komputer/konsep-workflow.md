@@ -40,9 +40,9 @@ graph LR
 ```
 *Diagram: Computer workflow ketika buka google.com*
 
-<!-- VIDEO PLACEHOLDER -->
-**📹 Visual Aid**: [Computer Workflow Animation](../../../assets/videos/remotion-computer-workflow.md)  
-*60-second animated visualization: Input → Process → Output (video coming soon)*
+**📹 Video Explanation:**
+
+{% embed url="https://github.com/muhammad-rapi/belajar-it-course/raw/main/assets/videos/computer-workflow.mp4" %}
 
 **Coba perhatikan**:
 - Semua ini happen **otomatis**. OS + Chrome handle complexity. Kamu cuma "ketik + enter".
