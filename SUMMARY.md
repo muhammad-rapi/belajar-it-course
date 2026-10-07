@@ -9,7 +9,8 @@
 
 ## Module 1: Dasar Komputer & Internet
 
-* [Coming Soon](module-1-dasar-komputer/coming-soon.md)
+* [Lesson 1: Apa itu Komputer?](module-1-dasar-komputer/lesson-01-apa-itu-komputer.md)
+* [Lesson 2: Coming Soon](module-1-dasar-komputer/coming-soon.md)
 
 ## Resources
 
