@@ -1,9 +1,22 @@
-# Exercises
+## Exercises
 
-⚠️ **Content Under Development**
+**1. Inspect Google**
+- Buka google.com
+- Inspect logo Google
+- Edit jadi nama lu
+- Screenshot
 
-This section will cover important concepts about exercises.
+**2. Console**
+```javascript
+console.log("Hello from console");
+alert("Test");
+document.body.style.background = "red";
+```
 
----
+**3. Network Tab**
+- Buka news website
+- Check network tab
+- Liat berapa request (images, JS, CSS)
+- Check yang paling lambat load
 
-**Status**: Coming soon
+Done! Lu udah paham DevTools dasar.

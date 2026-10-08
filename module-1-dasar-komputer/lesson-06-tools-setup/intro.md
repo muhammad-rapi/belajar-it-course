@@ -1,9 +1,7 @@
-# Intro
+3 tools wajib:
 
-⚠️ **Content Under Development**
+**VS Code** = Text editor (tempat nulis code)  
+**Git** = Version control (track perubahan code)  
+**Node.js** = JavaScript runtime (run JS di luar browser)
 
-This section will cover important concepts about intro.
-
----
-
-**Status**: Coming soon
+Setelah install ini, lu siap coding.
