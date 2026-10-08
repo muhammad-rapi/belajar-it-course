@@ -1,6 +1,6 @@
 # Masuk ke Dunia IT: Ketakutan yang Wajar
 
-Lesson ini addressing the elephant in the room: **ketakutan-ketakutan yang bikin kamu belum mulai** belajar IT. Kita bakal bahas satu-satu, mana yang valid (dan gimana mitigasinya), mana yang cuma mitos.
+Lesson ini bahas langsung: **ketakutan-ketakutan yang bikin kamu belum mulai belajar IT**. Kita bahas satu-satu, mana yang bener (dan gimana ngatasinnya), mana yang cuma mitos doang.
 
 ## Sub-Lessons
 

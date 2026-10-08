@@ -1,6 +1,6 @@
 # Apa itu Komputer?
 
-Lesson ini jelasin **apa yang terjadi di balik layar** waktu kamu pake komputer. Ga perlu jadi teknisi, tapi kamu harus ngerti konsep dasar: hardware, software, operating system, dan gimana mereka collaborate.
+Lesson ini jelasin **apa yang terjadi di balik layar** waktu kamu pake komputer. Lu nggak perlu jadi teknisi. Cukup ngerti konsep dasar: hardware, software, operating system, dan gimana mereka kerja bareng.
 
 ## Sub-Lessons
 

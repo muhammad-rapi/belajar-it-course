@@ -49,7 +49,7 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background tekni
 **Bahasa Indonesia natural** - No AI slop, no buzzwords, conversational tone\
 **Analogies dari daily life** - Gojek, KTP, warung, bukan abstract tech jargon\
 **Exercises hands-on** - Praktek > teori, semua lesson ada latihan\
-**Realistic expectations** - Ga janji jadi expert 1 bulan, tapi kasih roadmap jujur\
+**Realistic expectations** - Gue ga janji lu jadi expert dalam 1 bulan. Yang gue kasih: roadmap jujur berapa lama sampe lu bisa kerja.
 **Free & Open** - Gratis untuk basic modules, paid untuk advanced (support project)
 
 ## Komitmen yang Kamu Butuhkan
@@ -70,7 +70,7 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background tekni
 
 &#x20;[**Lesson 1: Masuk ke Dunia IT - Ketakutan yang Wajar**](module-0-persiapan/lesson-01-ketakutan.md)
 
-Lesson pertama bukan tentang coding. Ini addressing the elephant in the room: **ketakutan yang bikin kamu belum mulai**. Setelah lesson ini, kamu bakal tau apakah IT cocok buat kamu dan gimana cara mulai tanpa overwhelmed.
+Lesson pertama bukan tentang coding. Ini bahas langsung: **ketakutan yang bikin kamu belum mulai**. Baca ini dulu biar tau IT cocok buat lu atau nggak, dan mulai dari mana tanpa sampe pusing.
 
 ***
 

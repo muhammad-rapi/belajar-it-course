@@ -27,7 +27,7 @@
 
 ## Lanjut Kemana?
 
-Sekarang kamu udah paham **apa yang ada di dalam komputer** dan **gimana cara kerjanya**. Next step: kita bakal belajar **cara "ngomong" ke komputer** via **command line** (terminal).
+Sekarang kamu udah paham **apa yang ada di dalam komputer** dan **cara kerjanya**. Next step: kita bakal belajar **cara "ngomong" ke komputer** via **command line** (terminal).
 
 Command line itu interface text-based yang powerful banget buat developer. Lebih cepat dari klik-klik GUI, dan banyak tools development cuma available via command line.
 

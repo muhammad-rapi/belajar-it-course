@@ -32,7 +32,7 @@ Setelah lesson ini, kamu bisa:
 > 
 > **Indonesia** → **DKI Jakarta** → **Jakarta Selatan** → **Jl. Sudirman No. 123** → **Apartemen Thamrin** → **Lantai 15** → **Unit 1505**
 
-Komputer works exactly like this:
+Komputer sistemnya sama persis:
 
 ```
 C:\                           ← Root (negara)

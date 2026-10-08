@@ -64,6 +64,18 @@
   * [Exercises](module-1-dasar-komputer/lesson-06-tools-setup/exercises.md)
   * [Summary](module-1-dasar-komputer/lesson-06-tools-setup/summary.md)
 
+## 🐍 Module 2: Dasar Programming dengan Python
+
+* [Module 2 Overview](module-2-python-dasar/README.md)
+* [Lesson 1: Hello World & Variables](module-2-python-dasar/lesson-01-hello-world/README.md)
+  * [Intro](module-2-python-dasar/lesson-01-hello-world/intro.md)
+  * [Hello World](module-2-python-dasar/lesson-01-hello-world/konsep-hello-world.md)
+  * [Variables](module-2-python-dasar/lesson-01-hello-world/konsep-variables.md)
+  * [Naming & Best Practices](module-2-python-dasar/lesson-01-hello-world/konsep-naming.md)
+  * [Exercises](module-2-python-dasar/lesson-01-hello-world/exercises.md)
+  * [Kesalahan Umum](module-2-python-dasar/lesson-01-hello-world/kesalahan-umum.md)
+  * [Summary](module-2-python-dasar/lesson-01-hello-world/summary.md)
+
 ## 📚 Resources
 
 * [Join Community](resources/community.md)

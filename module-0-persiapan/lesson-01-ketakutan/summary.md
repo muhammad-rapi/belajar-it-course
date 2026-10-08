@@ -5,7 +5,7 @@
 * **Ketakutan "terlambat mulai"** adalah mitos. Umur bukan blocker, yang penting start sekarang.
 * **Matematika bukan requirement**. 90% kerjaan IT cuma butuh logic dasar + praktek.
 * **Laptop mahal bukan mandatory**. Laptop 3-5 juta (atau yang kamu punya) cukup mulai.
-* **Risk ga dapet kerja** itu real, tapi bisa diminimize dengan portfolio solid + network + realistic timeline (6-12 bulan).
+* **Risk ga dapet kerja** itu real, bisa diminimize dengan portfolio solid + networking
 * **Overwhelmed itu normal**, fix-nya: ikutin roadmap linear, commit 1 path dulu (recommendation: Frontend).
 
 **Key actions**:

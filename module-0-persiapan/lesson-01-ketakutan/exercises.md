@@ -115,7 +115,7 @@ Dokumen timeline (Google Docs, Notion, atau kertas) dengan:
 
 * Jam/minggu commitment
 * Breakdown per bulan (apa yang dipelajari, milestone)
-* Checkpoint verifiable (bukan "belajar React", tapi "2 project React deployed")
+* Checkpoint verifiable (konkret: "2 project React deployed", bukan cuma "belajar React")
 
 <details>
 

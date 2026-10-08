@@ -6,7 +6,7 @@
 > "Laptop aku lambat banget, ga bisa dipake. Kayaknya harus beli baru."
 
 **Kenapa salah**:
-Seringkali laptop "lambat" bukan karena hardware jelek, tapi:
+Seringkali laptop "lambat" - penyebabnya bukan hardware jelek:
 - **RAM full** (terlalu banyak apps buka)
 - **Storage full** (disk 90%+ full = slow)
 - **Masih pakai HDD** (upgrade ke SSD = instant speed boost)
@@ -46,7 +46,7 @@ Banyak apps = banyak yang jalan di background (consume RAM, CPU, disk). Most app
 - **Terminal** (built-in)
 - **Git** (version control)
 
-That's it. Install yang lain kalau actual butuh.
+Segitu doang. Install yang lain kalau beneran butuh.
 
 ---
 

@@ -2,7 +2,7 @@
 
 Hardware tanpa software = mesin mati. Software = **instruksi** yang ngasih tau hardware apa yang harus dilakuin.
 
-**Analogi**: Kompor tanpa resep = ga bisa masak apa-apa. Kamu butuh **resep (software)** buat ngasih tau gimana cara masak.
+**Analogi**: Kompor tanpa resep = ga bisa masak apa-apa. Kamu butuh **resep (software)** buat ngasih tau cara masaknya.
 
 #### Jenis Software:
 

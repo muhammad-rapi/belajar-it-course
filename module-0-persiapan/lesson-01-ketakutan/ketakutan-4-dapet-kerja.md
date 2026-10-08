@@ -1,6 +1,6 @@
 ### Ketakutan #4: "Takut ga dapet kerjaan setelah belajar"
 
-**Realita**: Ini **valid concern**. Market competitive, tapi **ada demand** kalau kamu tau gimana positioning.
+**Realita**: Wajar sih ini takut. Market emang kompetitif, tapi **ada demand** kalau lu punya skill yang dicari.
 
 **Fakta (situasi market Indonesia 2024-2025)**:
 
@@ -28,13 +28,13 @@
 
 > Masuk industry IT kayak apply kerja chef. Gelar culinary school helps, tapi yang lebih penting: **kamu bisa masak apa? Ada video/foto masakan kamu? Pernah cater event? Testimoni client?** Portfolio > Ijazah.
 
-**Action (mitigasi risk)**:
+**Action (kurangin risiko)**:
 
 1. **Sambil belajar, bikin portfolio**. Jangan tunggu "udah expert" baru bikin project. Bikin dari awal, dokumentasi progress.
 2. **Pick 1 niche** (frontend, backend, mobile, automation, data). Jadi spesialis, bukan generalist biasa.
 3. **Network early**. Join Discord/Telegram tech Indonesia, follow senior dev di Twitter/LinkedIn, ikut meetup.
 4. **Set realistic timeline**: Belajar serius 6-12 bulan (part-time) atau 3-6 bulan (full-time) buat dapet skill yang marketable. Bukan 1 bulan terus expect dapet kerja.
 
-**Kesimpulan**: Risk ga dapet kerja **real**, tapi **bisa diminimize** dengan portfolio solid + network. Industry butuh orang skilled, bukan cuma ijazah.
+**Kesimpulan**: Risiko ga dapet kerja itu nyata. Bisa dikurangin kalau lu punya portfolio solid dan networking.
 
 ***
