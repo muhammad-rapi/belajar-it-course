@@ -1,36 +1,56 @@
 # Join Community
 
-## Discord (Coming Soon)
-
-Discord server sedang disetup. Stay tuned!
-
-**What you'll get**:
-- Tanya jawab real-time
-- Share progress & portfolio
-- Accountability partners
-- Job opportunities & referrals
-- Study groups
-
-## GitHub Discussions
-
-Sementara Discord belum ready, kamu bisa:
-- [Open issue](https://github.com/muhammad-rapi/belajar-it-course/issues) kalau ada yang error/typo
-- [Start discussion](https://github.com/muhammad-rapi/belajar-it-course/discussions) kalau mau share feedback atau tanya seputar course
-
-## Social Media
-
-Follow untuk update:
-- **Twitter/X**: [@muhammad_rapi](https://twitter.com/muhammad_rapi) (if available)
-- **LinkedIn**: [Muhammad Rapi](https://linkedin.com/in/muhammad-rapi) (if available)
+Tempat diskusi, tanya jawab, dan share progress!
 
 ---
 
-**Want to contribute?**
+## 💬 Discord - Anak IT Ngumpul
 
-Course ini open source! Kamu bisa:
-- Fix typo/error (submit PR)
-- Suggest improvement (open issue)
-- Add examples/exercises (submit PR)
-- Translate to other languages (open discussion first)
+**Join Discord**: [https://discord.gg/rjc4pPxEeb](https://discord.gg/rjc4pPxEeb)
 
-Check [CONTRIBUTING.md](../CONTRIBUTING.md) untuk guidelines.
+Di Discord lu bisa:
+- Tanya soal materi course
+- Share progress belajar
+- Diskusi coding problems
+- Help each other
+- Dapet update terbaru
+
+**Channels**:
+- `#perkenalan` - introduce yourself
+- `#tanya-jawab` - ask anything
+- `#share-progress` - show your projects
+- `#resources` - useful links & materials
+
+---
+
+## 📱 Social Media
+
+Follow buat update & tips IT:
+
+**Instagram**: [@m.raapiii](https://instagram.com/m.raapiii)  
+Tips, snippets, dan behind-the-scenes course development.
+
+**LinkedIn**: [Muhammad Rapi](https://www.linkedin.com/in/muhammad-rapi/)  
+Professional updates & career tips.
+
+---
+
+## 📖 Course Links
+
+**GitBook**: [anak-it-ngumpul.gitbook.io](https://anak-it-ngumpul.gitbook.io)  
+Course content (always up-to-date).
+
+**GitHub**: [muhammad-rapi/belajar-it-course](https://github.com/muhammad-rapi/belajar-it-course)  
+Source code, contribute, report issues.
+
+---
+
+## ❓ Pertanyaan?
+
+Langsung aja tanya di **Discord** → [https://discord.gg/rjc4pPxEeb](https://discord.gg/rjc4pPxEeb)
+
+Biasanya ada yang reply dalam beberapa jam. Community-driven, semua saling bantu!
+
+---
+
+**Selamat belajar!** 🚀

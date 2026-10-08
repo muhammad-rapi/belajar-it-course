@@ -117,3 +117,6 @@
 ## 📚 Resources
 
 * [Join Community](resources/community.md)
+* [Practice Platforms](resources/practice-platforms.md)
+* [Developer Tools](resources/tools.md)
+* [Documentation & References](resources/documentation.md)
