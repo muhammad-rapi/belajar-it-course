@@ -75,6 +75,19 @@
   * [Exercises](module-2-python-dasar/lesson-01-hello-world/exercises.md)
   * [Kesalahan Umum](module-2-python-dasar/lesson-01-hello-world/kesalahan-umum.md)
   * [Summary](module-2-python-dasar/lesson-01-hello-world/summary.md)
+* [Lesson 2: Data Types & Operations](module-2-python-dasar/lesson-02-data-types/README.md)
+  * [Intro](module-2-python-dasar/lesson-02-data-types/intro.md)
+  * [String Operations](module-2-python-dasar/lesson-02-data-types/konsep-string.md)
+  * [Lists](module-2-python-dasar/lesson-02-data-types/konsep-list.md)
+  * [Dictionaries](module-2-python-dasar/lesson-02-data-types/konsep-dictionary.md)
+* [Lesson 3: Conditionals (If-Else)](module-2-python-dasar/lesson-03-conditionals/README.md)
+  * [Intro](module-2-python-dasar/lesson-03-conditionals/intro.md)
+  * [If Statement](module-2-python-dasar/lesson-03-conditionals/konsep-if.md)
+  * [If-Else](module-2-python-dasar/lesson-03-conditionals/konsep-if-else.md)
+  * [If-Elif-Else](module-2-python-dasar/lesson-03-conditionals/konsep-if-elif-else.md)
+  * [Comparison & Logic Operators](module-2-python-dasar/lesson-03-conditionals/konsep-operators.md)
+  * [Exercises](module-2-python-dasar/lesson-03-conditionals/exercises.md)
+  * [Summary](module-2-python-dasar/lesson-03-conditionals/summary.md)
 
 ## 📚 Resources
 
