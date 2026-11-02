@@ -21,6 +21,7 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa latar belakang t
 * Internet, web, dan HTTP
 * Browser dan DevTools
 * Memasang tools yang dipakai di module berikutnya
+* Git dan GitHub dasar untuk menyimpan riwayat kode
 
 **Module 2: Dasar Pemrograman dengan Python**
 
@@ -42,18 +43,18 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa latar belakang t
 Kurang cocok kalau:
 
 * Kamu sudah pengalaman coding. Isinya akan terasa terlalu dasar.
-* Kamu mau hasil instan dalam 1 sampai 2 bulan. Perkiraan yang jujur untuk sampai siap melamar kerja adalah 6 sampai 12 bulan.
+* Kamu mau hasil instan. Belajar IT butuh bulanan, bukan hitungan hari.
 
 ## Kenapa Course Ini Beda
 
 **Latihan di setiap lesson.** Kamu mengetik dan menjalankan sendiri, bukan cuma membaca.\
-**Janji yang realistis.** Nggak ada janji jadi ahli dalam sebulan. Yang ada perkiraan waktu yang jujur sampai kamu bisa kerja.\
+**Janji yang realistis.** Nggak ada janji jadi ahli dalam sebulan. Module gratis ini memberi fondasi, bukan jaminan langsung dapat kerja.\
 **Gratis di awal.** Module dasar gratis. Module lanjutan nanti ada yang berbayar untuk mendukung pembuatan course ini.
 
 ## Waktu dan Peralatan
 
 **Waktu**: 10 sampai 15 jam per minggu, cukup untuk yang masih kerja penuh waktu.\
-**Durasi**: 6 sampai 12 bulan sampai skill-nya bisa dipakai kerja, tergantung kecepatanmu.\
+**Durasi**: Module 0 sampai 2 kira-kira 2 sampai 3 bulan dengan waktu belajar di atas, tergantung kecepatanmu.\
 **Peralatan**: laptop atau PC biasa. Nggak perlu yang mahal.\
 **Kebiasaan**: satu jam tiap hari lebih berguna daripada sepuluh jam di akhir pekan saja.
 

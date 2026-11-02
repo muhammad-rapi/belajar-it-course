@@ -20,6 +20,7 @@ Course gratis belajar IT untuk pemula absolut - dari dasar komputer sampai progr
 * Lesson 4: Internet & Web
 * Lesson 5: Browser & DevTools
 * Lesson 6: Developer Tools Setup
+* Lesson 7: Git dan GitHub Dasar
 
 ### Module 2: Pemrograman Fundamental (Python)
 
