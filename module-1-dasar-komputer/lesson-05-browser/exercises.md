@@ -83,3 +83,5 @@ Kerjain berurutan. Tiap latihan butuh sekitar 5 sampai 10 menit.
 2. Klik ikon Device Toolbar di DevTools.
 3. Pilih ukuran iPhone atau Pixel dari dropdown.
 4. Catat satu hal yang kelihatan kurang nyaman di layar kecil, misalnya teks terlalu kecil atau menu menumpuk.
+
+**Hasil yang benar**: lu punya satu catatan konkret, misalnya "menu navigasi numpuk dan nggak kebaca", bukan sekadar "kelihatannya biasa aja". Kalau semuanya kelihatan rapi, catat itu juga dan coba satu situs lain.

@@ -39,7 +39,8 @@ Cukup tiga ini. Menambah banyak extension di awal malah bikin bingung dan memper
 Buka Settings (`Cmd + ,` di Mac, `Ctrl + ,` di Windows / Linux), lalu cari:
 
 - **Auto Save**: pilih `afterDelay`. File tersimpan otomatis dan lu nggak lupa menyimpan.
-- **Format On Save**: centang. Prettier akan merapikan kode tiap lu simpan.
+- **Format On Save**: centang.
+- **Default Formatter**: pilih `Prettier - Code formatter`. Tanpa ini, Format On Save nggak tahu harus pakai formatter yang mana, jadi nggak ada yang terjadi waktu lu simpan.
 - **Font Size**: 14 sampai 16 biar nyaman di mata.
 
 ### Shortcut yang Layak Dihafal

@@ -24,7 +24,7 @@ node --version
 npm --version
 ```
 
-Hasil yang benar: dua angka versi, misalnya `v22.x.x` dan `10.x.x`. Angka persisnya bisa beda, yang penting keduanya muncul.
+Hasil yang benar: dua angka versi, misalnya `v26.x.x` dan `11.x.x`. Angka persisnya bisa beda tergantung kapan lu download, yang penting keduanya muncul dan versi Node-nya angka dua digit.
 
 ### Coba Jalanin JavaScript
 
