@@ -199,24 +199,24 @@ clear
 
 ## Tips Praktis
 
-**1. Tab autocomplete**
+**1. Melengkapi nama dengan Tab**
 
-Ketik sebagian nama folder, terus Tab:
+Ketik sebagian nama folder, lalu tekan Tab:
 
 ```bash
-cd Doc<Tab>  # Auto-jadi: cd Documents
+cd Doc<Tab>  # jadi: cd Documents
 ```
 
-**2. Command history**
+**2. Riwayat perintah**
 
-Pencet `↑` buat liat command sebelumnya. Ga usah ketik ulang.
+Tekan `↑` buat melihat perintah sebelumnya, jadi nggak perlu ngetik ulang.
 
-**3. Copy-paste di terminal**
+**3. Salin dan tempel di terminal**
 
 - macOS: `Cmd + C` / `Cmd + V`
-- Windows: Klik kanan → paste (atau `Ctrl + Shift + V`)
+- Windows: klik kanan untuk menempel (atau `Ctrl + Shift + V`)
 - Linux: `Ctrl + Shift + C` / `Ctrl + Shift + V`
 
 ---
 
-Next: **Navigation** - absolute vs relative path.
+Berikutnya: navigasi dan path.
