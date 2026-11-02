@@ -4,74 +4,74 @@ icon: question
 
 # Cara Pakai Course Ini
 
-Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background teknis.
+Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa latar belakang teknis.
 
-## Apa yang Akan Kamu Pelajari?
+## Isi Course
 
 **Module 0: Persiapan Mental**
 
-* Address ketakutan dan kekhawatiran yang bikin kamu belum mulai
-* Roadmap realistis sesuai kondisi kamu
-* Decision framework: mulai sekarang atau postpone?
+* Lima ketakutan yang biasanya bikin orang belum mulai, dan kenapa kebanyakan nggak seseram kelihatannya
+* Latihan menilai kondisi kamu sendiri sebelum mulai
 
-**Module 1: Dasar Komputer & Internet**
+**Module 1: Dasar Komputer dan Internet**
 
-* Apa itu komputer, hardware, software, OS
-* File system, folder, path
-* Command line basics
-* Internet, web, HTTP
-* Browser & DevTools
+* Apa itu komputer, hardware, software, dan sistem operasi
+* File, folder, dan path
+* Dasar command line
+* Internet, web, dan HTTP
+* Browser dan DevTools
+* Memasang tools yang dipakai di module berikutnya
 
-**Module 2: Pemrograman Fundamental**
+**Module 2: Dasar Pemrograman dengan Python**
 
-* Python basics (variables, functions, loops, conditionals)
-* Problem solving & debugging
-* Mini projects
+* Variabel, tipe data, kondisi, perulangan, dan function
+* Tiga proyek kecil di akhir untuk mengulang semuanya
 
 **Module 3: Web Development**
 
-* HTML, CSS, JavaScript
-* React basics
-* Deploy website
+* HTML, CSS, dan JavaScript dasar
+* Mengambil data dari internet dan menaruh website kamu secara online
 
-## Siapa yang Cocok Ikut Course Ini?
+## Siapa yang Cocok
 
-* Cocok: Kamu yang **belum pernah coding** sama sekali
-* Cocok: Kamu yang **career switch** dari bidang lain
-* Cocok: Kamu yang **ragu mulai** karena takut terlambat/ga cocok
-* Cocok: Kamu yang **belajar sendiri** (self-paced, no deadline)
+* Kamu yang belum pernah coding sama sekali
+* Kamu yang mau pindah karier dari bidang lain
+* Kamu yang ragu mulai karena takut terlambat atau merasa nggak cocok
+* Kamu yang belajar sendiri dan nggak butuh jadwal kelas
 
-* Kurang cocok: Kamu yang **udah expert** (course ini terlalu basic)
-* Kurang cocok: Kamu yang **expect hasil instan** 1-2 bulan (realistic timeline: 6-12 bulan)
+Kurang cocok kalau:
 
-## Kenapa Course Ini Beda?
+* Kamu sudah pengalaman coding. Isinya akan terasa terlalu dasar.
+* Kamu mau hasil instan dalam 1 sampai 2 bulan. Perkiraan yang jujur untuk sampai siap melamar kerja adalah 6 sampai 12 bulan.
 
-**Exercises hands-on** - Praktek > teori, semua lesson ada latihan\
-**Realistic expectations** - Gue ga janji lu jadi expert dalam 1 bulan. Yang gue kasih: roadmap jujur berapa lama sampe lu bisa kerja.
-**Free & Open** - Gratis untuk basic modules, paid untuk advanced (support project)
+## Kenapa Course Ini Beda
 
-## Komitmen yang Kamu Butuhkan
+**Latihan di setiap lesson.** Kamu mengetik dan menjalankan sendiri, bukan cuma membaca.\
+**Janji yang realistis.** Nggak ada janji jadi ahli dalam sebulan. Yang ada perkiraan waktu yang jujur sampai kamu bisa kerja.\
+**Gratis di awal.** Module dasar gratis. Module lanjutan nanti ada yang berbayar untuk mendukung pembuatan course ini.
 
-**Waktu**: 10-15 jam/minggu (realistic untuk yang masih kerja full-time)\
-**Durasi**: 6-12 bulan sampai skill marketable (tergantung pace kamu)\
-**Tools**: Laptop/PC (spek biasa aja cukup, ga perlu mahal)\
-**Mindset**: **Consistency over intensity** - Better 1 jam/hari consistent than 10 jam weekend aja
+## Waktu dan Peralatan
 
-## Cara Pakai Course Ini
+**Waktu**: 10 sampai 15 jam per minggu, cukup untuk yang masih kerja penuh waktu.\
+**Durasi**: 6 sampai 12 bulan sampai skill-nya bisa dipakai kerja, tergantung kecepatanmu.\
+**Peralatan**: laptop atau PC biasa. Nggak perlu yang mahal.\
+**Kebiasaan**: satu jam tiap hari lebih berguna daripada sepuluh jam di akhir pekan saja.
 
-1. **Baca lesson berurutan** - Jangan skip, setiap lesson build on previous
-2. **Kerjain semua exercises** - Ini yang bikin skill masuk ke muscle memory
-3. **Join community** - Tanya jawab, share progress, accountability
-4. **Build portfolio sambil belajar** - Tiap selesai section, bikin mini project
+## Cara Belajar
 
-## Mulai dari Mana?
+1. Baca lesson berurutan. Jangan loncat, karena tiap lesson dipakai di lesson berikutnya.
+2. Kerjakan semua latihan. Skill baru terasa nempel setelah kamu mengetiknya sendiri.
+3. Gabung di komunitas untuk bertanya dan berbagi progres.
+4. Bikin hasil kecil setiap selesai satu bagian, supaya nanti ada yang bisa kamu tunjukkan.
 
-&#x20;[**Lesson 1: Masuk ke Dunia IT - Ketakutan yang Wajar**](module-0-persiapan/lesson-01-ketakutan.md)
+## Mulai dari Mana
 
-Lesson pertama bukan tentang coding. Ini bahas langsung: **ketakutan yang bikin kamu belum mulai**. Baca ini dulu biar tau IT cocok buat lu atau nggak, dan mulai dari mana tanpa sampe pusing.
+[Lesson 1: Masuk ke Dunia IT, Ketakutan yang Wajar](module-0-persiapan/lesson-01-ketakutan/README.md)
+
+Lesson pertama belum membahas coding. Isinya soal ketakutan yang bikin banyak orang belum mulai, supaya kamu tahu apa yang sebenarnya perlu dikhawatirkan dan dari mana mulainya.
 
 ***
 
-**Questions?** Drop di [Discord Community](resources/community.md) atau open issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues)
+**Ada pertanyaan?** Tanyakan di [Discord](resources/community.md) atau buka issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues).
 
-**Want to support?** Star repo ini, share ke temen yang butuh, atau [buy me a coffee](https://trakteer.id/)
+**Mau mendukung?** Beri bintang di repo ini, bagikan ke teman yang butuh, atau traktir lewat [Trakteer](https://trakteer.id/).
