@@ -1,6 +1,6 @@
 ## Install Git
 
-Git adalah program yang nyimpen riwayat perubahan di sebuah folder proyek. Bayangin fitur save point di game: lu bisa balik ke kondisi mana pun yang pernah disimpan. Di course ini kita cuma pasang dan atur dulu. Cara pakainya dibahas belakangan.
+Git adalah program yang nyimpen riwayat perubahan di sebuah folder proyek. Bayangin fitur save point di game: lu bisa balik ke kondisi mana pun yang pernah disimpan. Di lesson ini kita cuma pasang dan atur dulu. Cara pakainya dibahas di Lesson 7.
 
 Git beda dari GitHub. Git adalah program di laptop lu. GitHub adalah website buat nyimpen proyek Git secara online, mirip Google Drive buat kode.
 

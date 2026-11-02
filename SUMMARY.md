@@ -67,6 +67,15 @@
   * [Exercises](module-1-dasar-komputer/lesson-06-tools-setup/exercises.md)
   * [Kesalahan Umum](module-1-dasar-komputer/lesson-06-tools-setup/kesalahan-umum.md)
   * [Summary](module-1-dasar-komputer/lesson-06-tools-setup/summary.md)
+* [Lesson 7: Git & GitHub Dasar](module-1-dasar-komputer/lesson-07-git-github/README.md)
+  * [Intro](module-1-dasar-komputer/lesson-07-git-github/intro.md)
+  * [Commit](module-1-dasar-komputer/lesson-07-git-github/konsep-commit.md)
+  * [Riwayat & Membatalkan](module-1-dasar-komputer/lesson-07-git-github/konsep-riwayat.md)
+  * [Branch](module-1-dasar-komputer/lesson-07-git-github/konsep-branch.md)
+  * [GitHub](module-1-dasar-komputer/lesson-07-git-github/konsep-github.md)
+  * [Exercises](module-1-dasar-komputer/lesson-07-git-github/exercises.md)
+  * [Kesalahan Umum](module-1-dasar-komputer/lesson-07-git-github/kesalahan-umum.md)
+  * [Summary](module-1-dasar-komputer/lesson-07-git-github/summary.md)
 
 ## Module 2: Dasar Programming dengan Python
 
