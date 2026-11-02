@@ -1,34 +1,37 @@
-## Summary - Developer Tools Setup
+## Summary
 
-**Installed**:
-✅ VS Code - Text editor  
-✅ Git - Version control  
-✅ Node.js - JavaScript runtime  
+**Yang udah terpasang**
+- VS Code: tempat nulis kode
+- Python 3: ngejalanin kode Python
+- Git: nyimpen riwayat perubahan
+- Node.js dan npm: ngejalanin JavaScript di luar browser
 
-**VS Code extensions**:
-- Python
-- Prettier
-- Live Server
-- GitLens
+**Perintah buat ngecek semuanya**
 
-**Git config**:
 ```bash
-git config --global user.name "..."
-git config --global user.email "..."
+code --version
+python3 --version   # Windows: python --version
+git --version
+node --version
+npm --version
 ```
 
----
+**Kalau ada yang error**
+- Buka terminal baru dulu
+- Cek apakah PATH udah benar, terutama di Windows
+- Baca Kesalahan Umum
 
-## 🎉 Module 1 Complete!
+## Rekap Module 1
 
-Lu udah paham:
-- ✅ Komputer (hardware, software, OS)
-- ✅ File system & path
-- ✅ Command line basics
-- ✅ Internet & web (HTTP, DNS)
-- ✅ Browser & DevTools
-- ✅ Developer tools setup
+Selama enam lesson, lu udah belajar:
 
-**Next**: Module 2 - Dasar Programming dengan Python!
+1. Apa itu komputer: hardware, software, dan OS
+2. File system dan path
+3. Command line
+4. Internet, HTTP, dan DNS
+5. Browser dan DevTools
+6. Setup tools buat coding
 
-Lu udah siap belajar coding. Let's go! 🚀
+## Lanjut Kemana?
+
+Di Module 2, kita mulai nulis Python dari program yang paling sederhana. Semua tools yang dibutuhin udah ada di laptop lu.

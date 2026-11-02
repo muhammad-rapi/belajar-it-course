@@ -1,26 +1,54 @@
 ## Install Node.js
 
-**Download**: [nodejs.org](https://nodejs.org/)  
-Pilih **LTS** (Long Term Support).
+Node.js memungkinkan kode JavaScript jalan di luar browser. Selama ini JavaScript cuma hidup di dalam browser. Dengan Node.js, lu bisa ngejalanin JavaScript langsung dari terminal, dan banyak tools web modern dibangun di atasnya.
 
-**macOS/Windows**: Download installer, install  
-**Linux**: Via package manager
+Bareng Node.js ikut terpasang **npm** (Node Package Manager), tempat lu download library JavaScript buatan orang lain. Analogi: npm itu toko aplikasi, tapi buat potongan kode.
+
+---
+
+### Langkah Install
+
+1. Buka [nodejs.org](https://nodejs.org/).
+2. Download versi **LTS** (Long Term Support). Versi ini yang paling stabil dan paling aman dipakai buat belajar.
+3. **macOS dan Windows**: jalankan installer dan ikuti petunjuknya dengan pilihan default.
+4. **Linux**: ikuti panduan resmi di halaman download Node.js sesuai distro lu, karena langkahnya berubah dari waktu ke waktu.
+
+---
+
+### Cek Hasilnya
+
+Buka terminal baru, lalu ketik:
+
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash -
-sudo apt-get install -y nodejs
+node --version
+npm --version
 ```
 
-**Test**:
-```bash
-node --version  # v18.x.x atau v20.x.x
-npm --version   # 9.x.x atau 10.x.x
+Hasil yang benar: dua angka versi, misalnya `v22.x.x` dan `10.x.x`. Angka persisnya bisa beda, yang penting keduanya muncul.
+
+### Coba Jalanin JavaScript
+
+Buat file `halo.js` dengan isi:
+
+```javascript
+console.log("Halo dari Node.js");
 ```
 
-**npm** = Node Package Manager (install library JavaScript).
+Lalu di terminal, masuk ke folder tempat file itu disimpan dan jalankan:
 
-**First package**:
 ```bash
-npm install -g nodemon  # Tool auto-restart server
+node halo.js
 ```
 
-**Done!** Lu udah punya semua tools developer.
+Tulisan "Halo dari Node.js" harus muncul di terminal.
+
+### Yang Perlu Lu Tau Soal npm
+
+Untuk sekarang cukup kenal dua perintah:
+
+```bash
+npm init -y          # bikin file package.json di folder ini
+npm install nama-library   # download library ke folder proyek
+```
+
+Nggak perlu dicoba sekarang. Lu bakal sering pakai ini begitu mulai bikin website.
