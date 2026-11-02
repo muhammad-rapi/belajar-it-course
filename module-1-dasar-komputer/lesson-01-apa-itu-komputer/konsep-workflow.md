@@ -1,10 +1,10 @@
 ### Putting It All Together: Workflow Komputer
 
-**Scenario**: Kamu buka Chrome, ketik "google.com", enter.
+**Scenario**: Lu buka Chrome, ketik "google.com", enter.
 
 **What happens** (simplified):
 
-1. **Input**: Kamu ketik di keyboard → OS detect keystroke → pass ke Chrome.
+1. **Input**: Lu ketik di keyboard → OS detect keystroke → pass ke Chrome.
 2. **Process**:
    - Chrome (app) minta OS: "Gue butuh RAM 500 MB buat load page ini."
    - OS alokasi RAM dari pool available.
@@ -45,7 +45,7 @@ graph LR
 <figure><img src="../../../assets/videos/computer-workflow.gif" alt="Computer Workflow Animation" width="100%"><figcaption><em>Input → Process → Network → Output dalam 25 detik</em></figcaption></figure>
 
 **Coba perhatikan**:
-- Semua ini happen **otomatis**. OS + Chrome handle complexity. Kamu cuma "ketik + enter".
+- Semua ini happen **otomatis**. OS + Chrome handle complexity. Lu cuma "ketik + enter".
 - Ini kenapa **faster hardware = better experience**. CPU/RAM/SSD lebih cepat = workflow ini lebih cepat.
 
 ---

@@ -7,21 +7,21 @@
 
 **Analogi: Dapur**
 
-> Bayangin kamu masak nasi goreng:
+> Bayangin lu masak nasi goreng:
 > - **Bahan (data)**: nasi, telur, bumbu (ini data yang mau diproses)
 > - **Kompor + wajan (processor)**: alat buat masak (process data)
 > - **Kulkas (storage)**: tempat simpen bahan (long-term storage)
 > - **Meja kerja (RAM)**: tempat naruh bahan yang lagi dipake (short-term, working memory)
 > - **Piring (output)**: hasil masakan yang siap disajikan (display/print)
 > - **Resep (software)**: instruksi cara masaknya (program/code)
-> - **Kamu (operating system)**: yang koordinasi semua (ambil bahan dari kulkas, taruh di meja, nyalain kompor, dll)
+> - **Lu (operating system)**: yang koordinasi semua (ambil bahan dari kulkas, taruh di meja, nyalain kompor, dll)
 
 Komputer kerja persis kayak gini, cuma jauh lebih cepat (milyaran operasi per detik).
 
 <!-- DIAGRAM: Kitchen Analogy -->
 ```mermaid
 graph TD
-    A[Kamu<br/>Operating System] --> B[Kompor<br/>CPU]
+    A[Lu<br/>Operating System] --> B[Kompor<br/>CPU]
     A --> C[Meja Kerja<br/>RAM]
     A --> D[Kulkas<br/>Storage]
     

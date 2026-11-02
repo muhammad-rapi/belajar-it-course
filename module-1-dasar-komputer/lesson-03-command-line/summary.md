@@ -1,6 +1,6 @@
 ## Summary - Command Line Basics
 
-Selamat! Lu udah bisa ngobrol sama komputer lewat terminal.
+Sekarang lu udah bisa ngasih perintah ke komputer lewat terminal.
 
 ---
 
@@ -119,6 +119,6 @@ Setelah itu, tinggal ketik `ll` instead of `ls -la`.
 
 ---
 
-Lu udah lewati mental block "takut terminal". Sekarang lu punya **superpowers** yang kebanyakan orang ga punya. 
+Lu udah lewati mental block "takut terminal". Itu hambatan terbesar buat kebanyakan pemula.
 
 Next: Lesson 4 - Internet & Web!

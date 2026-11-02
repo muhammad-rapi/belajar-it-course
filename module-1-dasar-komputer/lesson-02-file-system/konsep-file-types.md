@@ -10,7 +10,7 @@
 - `script.py` → .py = Python code
 - `installer.exe` → .exe = Executable (program)
 
-**Analogi**: Extension kayak label di kotak. Kamu liat "Buku Pelajaran" vs "Mainan" — langsung tau isinya apa tanpa buka.
+**Analogi**: Extension kayak label di kotak. Lu liat "Buku Pelajaran" vs "Mainan", langsung tau isinya apa tanpa buka.
 
 ---
 
@@ -54,7 +54,7 @@
 ## Kenapa Extension Penting?
 
 ### 1. OS Tau Aplikasi Apa yang Dipakai
-Kalo kamu double-click `foto.jpg`, OS otomatis buka pakai Photos app. Double-click `dokumen.docx` → buka pakai Word.
+Kalo lu double-click `foto.jpg`, OS otomatis buka pakai Photos app. Double-click `dokumen.docx` → buka pakai Word.
 
 Ini karena OS punya **file association**: mapping extension → default app.
 
@@ -68,7 +68,7 @@ Hacker sering nyamar pake double extension. User kira PDF, ternyata executable.
 **Rule**: Selalu cek extension sebelum buka file dari stranger.
 
 ### 3. Compatibility
-Kalo kamu share file ke orang lain, extension matters:
+Kalo lu share file ke orang lain, extension matters:
 - `.docx` → butuh Word (atau compatible editor)
 - `.pdf` → universal, semua OS bisa buka
 
@@ -77,12 +77,12 @@ Kalo kamu share file ke orang lain, extension matters:
 ## Kesalahan Umum
 
 ### "File Corrupt" Setelah Rename Extension
-**Masalah**: Kamu rename `.txt` jadi `.docx`, Word ga bisa buka.
+**Masalah**: Lu rename `.txt` jadi `.docx`, Word ga bisa buka.
 
-**Solusi**: Jangan rename extension kecuali kamu tau format aslinya sama. Convert pakai tool yang bener.
+**Solusi**: Jangan rename extension kecuali lu tau format aslinya sama. Convert pakai tool yang bener.
 
 ### Hidden Extension = Security Risk
-Kalo extension di-hide, kamu ga tau file asli apa. Malware sering exploit ini.
+Kalo extension di-hide, lu ga tau file asli apa. Malware sering exploit ini.
 
 **Solusi**: Selalu unhide extension di File Explorer/Finder.
 

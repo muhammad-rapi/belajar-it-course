@@ -1,4 +1,4 @@
-### Operating System (OS): The Boss
+### Operating System (OS): Pengatur Semuanya
 
 OS itu **software paling penting**. Tanpa OS, komputer cuma besi mati.
 
@@ -20,7 +20,7 @@ OS itu **software paling penting**. Tanpa OS, komputer cuma besi mati.
 **Real example**:
 
 **Windows**:
-- Paling umum (90% PC market share)
+- Paling banyak dipakai di PC dan laptop
 - User-friendly, support banyak software/games
 - Cons: Bloatware, update sering annoying
 
@@ -31,12 +31,12 @@ OS itu **software paling penting**. Tanpa OS, komputer cuma besi mati.
 
 **Linux**:
 - Open-source, free
-- Powerful, customizable, favorite developer/server
+- Bisa diatur sesuka hati, dan jadi pilihan utama buat server dan banyak developer
 - Cons: Learning curve steep (banyak via command line), support software consumer terbatas
 
 **Coba perhatikan**:
-- Waktu kamu buka app, OS yang load app dari storage ke RAM, terus instruksikan CPU buat jalanin.
-- Waktu kamu save file, OS yang tulis data dari RAM ke storage.
-- Waktu kamu copy file, OS yang manage operasi (read source → write destination).
+- Waktu lu buka app, OS yang load app dari storage ke RAM, terus instruksikan CPU buat jalanin.
+- Waktu lu save file, OS yang tulis data dari RAM ke storage.
+- Waktu lu copy file, OS yang manage operasi (read source → write destination).
 
 ---

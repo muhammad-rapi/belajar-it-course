@@ -22,7 +22,7 @@ Lu udah paham gimana data ngalir lewat internet.
 - Phonebook internet
 - Translate domain → IP
 - Cache di browser, OS, router
-- Propagation: 24-48 jam
+- Propagation: beberapa menit sampai sehari lebih, tergantung TTL
 
 ---
 

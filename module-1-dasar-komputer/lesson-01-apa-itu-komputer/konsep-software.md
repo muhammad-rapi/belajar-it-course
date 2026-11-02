@@ -2,7 +2,7 @@
 
 Hardware tanpa software = mesin mati. Software = **instruksi** yang ngasih tau hardware apa yang harus dilakuin.
 
-**Analogi**: Kompor tanpa resep = ga bisa masak apa-apa. Kamu butuh **resep (software)** buat ngasih tau cara masaknya.
+**Analogi**: Kompor tanpa resep = ga bisa masak apa-apa. Lu butuh **resep (software)** buat ngasih tau cara masaknya.
 
 #### Jenis Software:
 
@@ -13,7 +13,7 @@ Hardware tanpa software = mesin mati. Software = **instruksi** yang ngasih tau h
 
 OS ngatur semua: akses hardware (CPU, RAM, storage), manage apps, handle input/output.
 
-**Analogi**: Kamu yang koordinasi dapur. Kamu yang ambil bahan dari kulkas (storage), taruh di meja kerja (RAM), kasih ke koki (CPU), dan atur timing semua masakan selesai bareng.
+**Analogi**: Lu yang koordinasi dapur. Lu yang ambil bahan dari kulkas (storage), taruh di meja kerja (RAM), kasih ke koki (CPU), dan atur timing semua masakan selesai bareng.
 
 **2. Applications (Apps)** - Tools spesifik:
 - **Browser** (Chrome, Firefox): Akses internet.

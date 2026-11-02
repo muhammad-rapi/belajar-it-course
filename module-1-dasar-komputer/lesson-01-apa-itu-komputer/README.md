@@ -1,6 +1,6 @@
 # Apa itu Komputer?
 
-Lesson ini jelasin **apa yang terjadi di balik layar** waktu kamu pake komputer. Lu nggak perlu jadi teknisi. Cukup ngerti konsep dasar: hardware, software, operating system, dan gimana mereka kerja bareng.
+Lesson ini jelasin **apa yang terjadi di balik layar** waktu lu pake komputer. Lu nggak perlu jadi teknisi. Cukup ngerti konsep dasar: hardware, software, operating system, dan gimana mereka kerja bareng.
 
 ## Sub-Lessons
 
@@ -8,7 +8,7 @@ Lesson ini jelasin **apa yang terjadi di balik layar** waktu kamu pake komputer.
 2. [Konsep Dasar: Definisi Komputer](konsep-dasar.md)
 3. [Hardware: CPU, RAM, Storage, I/O](konsep-hardware.md)
 4. [Software: OS, Apps, Drivers](konsep-software.md)
-5. [Operating System: The Boss](konsep-os.md)
+5. [Operating System: Pengatur Semuanya](konsep-os.md)
 6. [Workflow: Input → Process → Output](konsep-workflow.md)
 7. [Praktek: 3 Exercises](exercises.md)
 8. [Kesalahan Umum & Fixes](kesalahan-umum.md)

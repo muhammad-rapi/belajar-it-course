@@ -76,7 +76,7 @@ Terus Enter. Output:
 Hello World
 ```
 
-Selamat! Lu udah jalanin command pertama.
+Itu command pertama lu.
 
 ---
 
@@ -118,7 +118,7 @@ cdd Desktop  # Command not found (ga ada command 'cdd')
 
 Terminal cuma bilang "ga ngerti command itu", ga bakal crash atau rusak apa-apa.
 
-**Yang harus hati-hati**: Command yang **delete** atau **modify** file sistem. Tapi semua ada confirmation atau bisa di-undo.
+**Yang harus hati-hati**: command yang menghapus atau mengubah file, seperti `rm`. Command itu jalan tanpa konfirmasi dan nggak ada Recycle Bin. File yang kehapus lewat terminal nggak bisa dibalikin dengan gampang.
 
 ---
 

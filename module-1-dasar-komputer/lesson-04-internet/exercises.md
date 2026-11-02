@@ -20,7 +20,7 @@ dig google.com
 host google.com
 ```
 
-**Expected Output** (nslookup):
+**Expected Output** (nslookup). Angka IP lu bisa beda dari contoh ini, itu normal, karena Google punya banyak server:
 ```
 Server:  8.8.8.8
 Name:    google.com

@@ -1,6 +1,6 @@
 ## Masalah yang Akan Kita Selesaikan
 
-Kamu pasti udah pake komputer/laptop berkali-kali. Buka Chrome, ngetik dokumen, download file, install aplikasi. Tapi pernah mikir cara kerjanya gimana?
+Lu pasti udah pake komputer/laptop berkali-kali. Buka Chrome, ngetik dokumen, download file, install aplikasi. Tapi pernah mikir cara kerjanya gimana?
 
 Kebanyakan orang langsung loncat ke "belajar coding" tanpa ngerti dasar komputer. Ujungnya bingung waktu ada error kayak "memory full", "CPU 100%", atau "app not responding". Ga ngerti kenapa, gimana fixnya juga bingung.
 

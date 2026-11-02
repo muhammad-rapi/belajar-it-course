@@ -2,17 +2,17 @@
 
 ## Latihan 1: Eksplorasi File System
 
-**Tujuan**: Familiar dengan struktur folder komputer kamu.
+**Tujuan**: Familiar dengan struktur folder komputer lu.
 
-### Yang Perlu Kamu Lakukan:
+### Yang Perlu Lu Lakukan:
 
 1. Buka File Explorer (Windows) atau Finder (macOS)
 2. Navigate ke root directory (C:/ atau /)
 3. Explore folders: Program Files / Applications, Users
-4. Masuk ke home directory kamu
+4. Masuk ke home directory lu
 5. Document path dari Downloads folder
 
-**Expected**: Kamu bisa tau absolute path dari folder-folder penting.
+**Expected**: Lu bisa tau absolute path dari folder-folder penting.
 
 ---
 

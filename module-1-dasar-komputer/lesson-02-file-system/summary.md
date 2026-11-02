@@ -53,15 +53,15 @@
 
 ## Apa Selanjutnya?
 
-Sekarang kamu udah ngerti file system. Next step: **Command Line**.
+Sekarang lu udah ngerti file system. Next step: **Command Line**.
 
-Di Lesson 3, kamu akan belajar:
+Di Lesson 3, lu akan belajar:
 - Navigate folders via Terminal/Command Prompt
 - Create/delete files tanpa GUI
 - Batch operations (rename 100 files sekaligus)
 - Shell commands dasar
 
-File system adalah fondasi. Command Line adalah superpowernya.
+File system adalah fondasinya. Command line adalah cara tercepat buat memakainya.
 
 ---
 

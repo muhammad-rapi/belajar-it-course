@@ -3,7 +3,7 @@
 ![Computer Hardware Components](https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&q=80)
 *Photo by [Christian Wiediger](https://unsplash.com/@christianw) on [Unsplash](https://unsplash.com)*
 
-Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
+Hardware itu **semua yang bisa lu sentuh**. Komponen fisik.
 
 #### 1. CPU (Central Processing Unit) - Otak Komputer
 
@@ -14,12 +14,12 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 
 **Analogi**: Koki yang masak. Semua proses masak (motong, tumis, aduk) dilakuin sama koki. Semakin jago kokinya (CPU cepat), semakin cepat masakannya selesai.
 
-**Spec yang sering kamu lihat**:
+**Spec yang sering lu lihat**:
 - **Clock Speed** (GHz): Seberapa cepat CPU kerja. Contoh: 2.5 GHz = 2.5 milyar cycle per detik.
 - **Cores**: Jumlah "koki". Dual-core = 2 koki (bisa masak 2 hal sekaligus). Quad-core = 4 koki.
 
 **Real example**:
-- Intel i3, i5, i7, i9 (angka lebih tinggi = lebih powerful)
+- Intel i3, i5, i7, i9 (angka lebih tinggi = lebih kencang)
 - AMD Ryzen 3, 5, 7, 9
 - Apple M1, M2, M3 (chip ARM, efficient)
 
@@ -30,7 +30,7 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 - Running heavy apps
 
 **Coba perhatikan**:
-- Waktu kamu buka banyak tab Chrome terus laptop ngelag? Itu CPU overload (terlalu banyak instruksi yang harus diproses sekaligus).
+- Waktu lu buka banyak tab Chrome terus laptop ngelag? Itu CPU overload (terlalu banyak instruksi yang harus diproses sekaligus).
 - Check CPU usage: Windows (Task Manager), Mac (Activity Monitor).
 
 ---
@@ -42,9 +42,9 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 
 **Fungsi**: Simpen data **sementara** yang lagi dipake. Cepat diakses, tapi ilang kalau komputer dimatiin.
 
-**Analogi**: Meja kerja kamu waktu masak. Kamu taruh bahan-bahan yang lagi dipake di meja (nasi, telur, bumbu) biar gampang diambil. Kalau mejanya kecil (RAM dikit), kamu harus bolak-balik ke kulkas tiap mau ambil bahan (lambat). Kalau mejanya lega (RAM banyak), semua bahan ada di meja (cepat).
+**Analogi**: Meja kerja lu waktu masak. Lu taruh bahan-bahan yang lagi dipake di meja (nasi, telur, bumbu) biar gampang diambil. Kalau mejanya kecil (RAM dikit), lu harus bolak-balik ke kulkas tiap mau ambil bahan (lambat). Kalau mejanya lega (RAM banyak), semua bahan ada di meja (cepat).
 
-**Spec yang sering kamu lihat**:
+**Spec yang sering lu lihat**:
 - **Capacity**: 4GB, 8GB, 16GB, 32GB. Lebih banyak = bisa buka lebih banyak apps sekaligus.
 - **Speed**: DDR4, DDR5 (ga terlalu penting buat user biasa).
 
@@ -72,7 +72,7 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 
 **Fungsi**: Simpen data **permanen**. File, foto, video, aplikasi. Ga ilang waktu komputer dimatiin.
 
-**Analogi**: Kulkas atau gudang. Kamu simpen bahan makanan di kulkas. Kapanpun kamu mau masak, ambil dari kulkas. Bedanya sama meja kerja (RAM): kulkas lebih lambat diakses, tapi bisa simpen lebih banyak dan ga ilang waktu listrik mati.
+**Analogi**: Kulkas atau gudang. Lu simpen bahan makanan di kulkas. Kapanpun lu mau masak, ambil dari kulkas. Bedanya sama meja kerja (RAM): kulkas lebih lambat diakses, tapi bisa simpen lebih banyak dan ga ilang waktu listrik mati.
 
 **Jenis storage**:
 
@@ -100,23 +100,23 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 
 ---
 
-#### 4. Output Devices - Cara Komputer "Ngomong" ke Kamu
+#### 4. Output Devices - Cara Komputer "Ngomong" ke Lu
 
 **Monitor/Screen**: Nampilin visual (text, image, video).  
 **Speaker**: Output audio.  
 **Printer**: Output fisik (kertas).
 
-**Analogi**: Piring tempat naruh hasil masakan. Kamu masak (CPU proses), hasil akhirnya ditaro di piring (monitor nampilin hasil).
+**Analogi**: Piring tempat naruh hasil masakan. Lu masak (CPU proses), hasil akhirnya ditaro di piring (monitor nampilin hasil).
 
 ---
 
-#### 5. Input Devices - Cara Kamu "Ngomong" ke Komputer
+#### 5. Input Devices - Cara Lu "Ngomong" ke Komputer
 
 **Keyboard**: Input text/command.  
 **Mouse/Trackpad**: Navigate UI, click.  
 **Microphone**: Input audio (voice command, recording).  
 **Camera**: Input video (video call, foto).
 
-**Analogi**: Kamu kasih instruksi ke komputer. Kayak kamu kasih tau koki (CPU) mau masak apa.
+**Analogi**: Lu kasih instruksi ke komputer. Kayak lu kasih tau koki (CPU) mau masak apa.
 
 ---

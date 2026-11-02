@@ -4,8 +4,8 @@
 
 **Permissions** = aturan siapa boleh **baca**, **edit**, atau **hapus** file/folder.
 
-**Analogi**: Kamar kos kamu punya aturan:
-- **Kamu (owner)**: boleh masuk, tidur, ubah furniture (full access)
+**Analogi**: Kamar kos lu punya aturan:
+- **Lu (owner)**: boleh masuk, tidur, ubah furniture (full access)
 - **Teman (group)**: boleh masuk, duduk, tapi ga boleh pindahin kasur (read + limited write)
 - **Stranger (others)**: ga boleh masuk sama sekali (no access)
 
@@ -91,7 +91,7 @@ chmod 755 deploy.sh   # Owner can edit+run, others can only run
 ## Kesalahan Umum
 
 ### chmod 777 Everything
-**Masalah**: Semua orang (even malware) bisa edit file kamu.
+**Masalah**: Semua orang (even malware) bisa edit file lu.
 
 **Fix**: Pakai permission yang reasonable (644 for files, 755 for folders).
 

@@ -33,11 +33,11 @@ Upgrade SSD + clean up often **lebih worth it** daripada beli laptop baru (save 
 > "Aku install 50 apps biar siap buat apapun. Tapi laptop kok jadi lambat ya?"
 
 **Kenapa salah**:
-Banyak apps = banyak yang jalan di background (consume RAM, CPU, disk). Most apps kamu install ga pernah dipake (bloat).
+Banyak apps = banyak yang jalan di background (consume RAM, CPU, disk). Most apps lu install ga pernah dipake (bloat).
 
 **Cara bener**:
-- Install **cuma yang kamu actually pake** (minimal setup).
-- Kalau jarang pake, **uninstall**. Kamu bisa reinstall kapan aja kalau butuh.
+- Install **cuma yang lu actually pake** (minimal setup).
+- Kalau jarang pake, **uninstall**. Lu bisa reinstall kapan aja kalau butuh.
 - Gunain **portable apps** atau **web apps** (ga perlu install, run from browser).
 
 **Example minimalist setup** (coding):

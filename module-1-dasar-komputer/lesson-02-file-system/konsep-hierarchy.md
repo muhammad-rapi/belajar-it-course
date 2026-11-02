@@ -32,7 +32,7 @@ C:\                          ← ROOT (Windows)
 **Coba perhatikan**:
 - Windows pakai backslash `\`
 - macOS/Linux pakai forward slash `/`
-- Ini penting banget kalo kamu coding (harus pakai yang sesuai OS)
+- Ini penting banget kalo lu coding (harus pakai yang sesuai OS)
 
 ---
 
@@ -53,17 +53,17 @@ C:\Users\Rafi\Documents\Kerja\Laporan.docx
 /Users/rafi/Documents/Kerja/Laporan.docx
 ```
 
-**Kegunaan**: Kalo kamu mau akses file dari MANAPUN, pakai absolute path. Pasti ketemu.
+**Kegunaan**: Kalo lu mau akses file dari MANAPUN, pakai absolute path. Pasti ketemu.
 
 ---
 
 ### Relative Path
 **Definisi**: Alamat RELATIF dari posisi sekarang.
 
-**Analogi**: Kamu lagi di Sudirman. Temen bilang "ke Thamrin residence aja, jalannya cuma 500 meter dari sini". Ga perlu sebut dari Indonesia.
+**Analogi**: Lu lagi di Sudirman. Temen bilang "ke Thamrin residence aja, jalannya cuma 500 meter dari sini". Ga perlu sebut dari Indonesia.
 
 **Contoh**:
-Kamu lagi di folder `C:\Users\Rafi\Documents\`:
+Lu lagi di folder `C:\Users\Rafi\Documents\`:
 ```
 Kerja\Laporan.docx          ← Relative path (Kerja subfolder dari Documents)
 ..\Downloads\foto.jpg       ← .. artinya "naik 1 level ke atas"
@@ -72,9 +72,9 @@ Kerja\Laporan.docx          ← Relative path (Kerja subfolder dari Documents)
 **Special symbols**:
 - `.` (single dot) = folder sekarang
 - `..` (double dot) = folder parent (naik 1 level)
-- `~` (tilde, macOS/Linux) = home directory kamu (`/Users/rafi`)
+- `~` (tilde, macOS/Linux) = home directory lu (`/Users/rafi`)
 
-**Kegunaan**: Relative path lebih pendek, bagus kalo file struktur kamu tetap (project coding). Tapi kalo structure berubah, bisa error.
+**Kegunaan**: Relative path lebih pendek, bagus kalo file struktur lu tetap (project coding). Tapi kalo structure berubah, bisa error.
 
 ---
 
@@ -116,7 +116,7 @@ C:\Users\Rafi\               ← Root (batang)
 **macOS**: `/Users/[username]/`  
 **Linux**: `/home/[username]/`
 
-Ini folder "rumah" kamu. Semua file pribadi (Documents, Downloads, Pictures) ada di sini.
+Ini folder "rumah" lu. Semua file pribadi (Documents, Downloads, Pictures) ada di sini.
 
 **Shortcut**:
 - Windows: `%USERPROFILE%` atau `~` (PowerShell)
@@ -152,7 +152,7 @@ C:\
 └── Volumes/             ← External drives (USB, etc.)
 ```
 
-**WARNING**: Jangan hapus atau edit file di `Windows\`, `System\`, atau `Library\` kecuali kamu tau persis apa yang kamu lakukan. Bisa bikin OS crash.
+**WARNING**: Jangan hapus atau edit file di `Windows\`, `System\`, atau `Library\` kecuali lu tau persis apa yang lu lakukan. Bisa bikin OS crash.
 
 ---
 
@@ -184,7 +184,7 @@ Desktop.ini    ← Windows settings file (hidden)
 Buka File Explorer (Windows) atau Finder (macOS) sekarang:
 
 1. **Navigate ke root directory** (`C:\` atau `/`)
-2. **Masuk ke home directory kamu** (`C:\Users\[nama-kamu]\` atau `/Users/[nama-kamu]`)
+2. **Masuk ke home directory lu** (`C:\Users\[nama-lu]\` atau `/Users/[nama-lu]`)
 3. **Cari folder Downloads**. Cek path-nya (klik address bar di Windows atau klik kanan → Get Info di macOS)
 4. **Coba relative path**:
    - Dari Downloads, gimana path ke Documents? (hint: `../Documents`)

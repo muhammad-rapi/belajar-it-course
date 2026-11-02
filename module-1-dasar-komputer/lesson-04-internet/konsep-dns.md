@@ -171,7 +171,7 @@ host google.com
 
 Kalau lu update DNS record (misal: ganti IP server), ga langsung update global.
 
-**Propagation time**: 24-48 jam
+**Propagation time**: biasanya beberapa menit sampai beberapa jam, kadang sampai sehari lebih
 
 Karena cache di tiap layer. TTL (Time To Live) nentuin berapa lama cache.
 

@@ -1,10 +1,10 @@
 ## Praktek
 
-### Latihan 1: Inspect Komputer Kamu
+### Latihan 1: Inspect Komputer Lu
 
-**Tujuan**: Familiar dengan hardware komputer kamu (spec, usage).
+**Tujuan**: Familiar dengan hardware komputer lu (spec, usage).
 
-**Yang Perlu Kamu Lakukan**:
+**Yang Perlu Lu Lakukan**:
 
 **Windows**:
 1. Buka **Task Manager** (Ctrl + Shift + Esc)
@@ -70,7 +70,7 @@ Ga ada "solusi" fixed karena setiap komputer beda spec. Tapi **guideline**:
 - **HDD**: Lambat tapi murah (good buat backup/archive)
 - **SSD**: Cepat, upgrade paling worth it
 
-**Action**: Kalau komputer kamu sering lag, prioritize upgrade:
+**Action**: Kalau komputer lu sering lag, prioritize upgrade:
 1. **Upgrade SSD** (kalau masih HDD) - impact paling besar
 2. **Add RAM** (kalau <8 GB dan sering multitask)
 3. **CPU** (paling mahal, usually ga perlu upgrade kecuali CPU really old)
@@ -83,7 +83,7 @@ Ga ada "solusi" fixed karena setiap komputer beda spec. Tapi **guideline**:
 
 **Tujuan**: Ngerti gimana apps consume resources (CPU, RAM, disk).
 
-**Yang Perlu Kamu Lakukan**:
+**Yang Perlu Lu Lakukan**:
 
 1. **Buka Task Manager / Activity Monitor** (tetap di tab Performance)
 
@@ -131,18 +131,18 @@ Chrome + VS Code + YouTube 4K: CPU 40%, RAM 5 GB, GPU active
 <details>
 <summary>Solusi + Insight</summary>
 
-**Pattern yang kamu notice**:
+**Pattern yang lu notice**:
 
 1. **Apps modern consume banyak RAM** (Chrome, Slack, Electron apps). Ini kenapa 8 GB RAM sekarang "minimum comfortable".
 
 2. **Video streaming/gaming consume CPU/GPU**. Decode video 4K butuh processing power.
 
-3. **Background apps** (Windows Update, antivirus, Spotify) consume resource meskipun kamu ga aktif pake. Check tab **Processes** buat lihat.
+3. **Background apps** (Windows Update, antivirus, Spotify) consume resource meskipun lu ga aktif pake. Check tab **Processes** buat lihat.
 
 **Real-world insight**:
 - **Coding**: IDE (VS Code, PyCharm) + browser (documentation, Stack Overflow) + terminal = butuh 8 GB+ RAM comfortable.
 - **Gaming**: CPU/GPU intensive. RAM 16 GB recommended.
-- **Video editing**: RAM 16 GB+ (4K footage bisa 10+ GB RAM), CPU/GPU powerful.
+- **Video editing**: RAM 16 GB+ (4K footage bisa 10+ GB RAM), CPU/GPU yang kencang.
 
 **Action**:
 - Kalau sering lag, **close apps yang ga dipake**. Jangan buka 50 tabs Chrome kalau cuma butuh 5.
@@ -157,7 +157,7 @@ Chrome + VS Code + YouTube 4K: CPU 40%, RAM 5 GB, GPU active
 
 **Tujuan**: Ngerti structure file di komputer (folder, path, file types).
 
-**Yang Perlu Kamu Lakukan**:
+**Yang Perlu Lu Lakukan**:
 
 1. **Buka File Explorer** (Windows) atau **Finder** (Mac)
 
@@ -166,7 +166,7 @@ Chrome + VS Code + YouTube 4K: CPU 40%, RAM 5 GB, GPU active
 **Windows**:
 - `C:\` (root drive, semua file ada di sini)
   - `C:\Users\[YourName]` (user folder)
-    - `Documents` (dokumen kamu)
+    - `Documents` (dokumen lu)
     - `Downloads` (file download)
     - `Desktop` (file di desktop)
   - `C:\Program Files` (aplikasi installed)
@@ -188,7 +188,7 @@ Chrome + VS Code + YouTube 4K: CPU 40%, RAM 5 GB, GPU active
 
 4. **Observe**:
    - File ada di storage (SSD/HDD)
-   - Waktu kamu open file (double-click), OS load file dari storage → RAM → app (e.g., Notepad) buka
+   - Waktu lu open file (double-click), OS load file dari storage → RAM → app (e.g., Notepad) buka
 
 **Expected Output**:
 
@@ -212,7 +212,7 @@ C:\Users\Rapi\
 - Mac/Linux: forward slash `/`
 
 **Hint 3**: Ga perlu hafal semua folder. Yang penting tau:
-- **User folder**: Tempat file personal kamu (Documents, Downloads, Desktop).
+- **User folder**: Tempat file personal lu (Documents, Downloads, Desktop).
 - **Program Files**: Aplikasi installed (ga perlu edit).
 - **System folder** (Windows, System): OS files (NEVER edit unless you know what you're doing).
 
@@ -223,7 +223,7 @@ C:\Users\Rapi\
 
 **Kenapa ini penting**:
 
-1. **Waktu coding**, kamu bakal banyak kerja dengan files (save code, run script, import file). Ngerti file system = ga bingung "file aku di mana?".
+1. **Waktu coding**, lu bakal banyak kerja dengan files (save code, run script, import file). Ngerti file system = ga bingung "file aku di mana?".
 
 2. **Path** itu konsep fundamental. Banyak error karena **wrong path** (file ga ketemu, app ga bisa load).
 

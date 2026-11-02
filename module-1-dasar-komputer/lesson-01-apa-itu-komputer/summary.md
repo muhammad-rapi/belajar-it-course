@@ -1,6 +1,6 @@
 ## Ringkasan
 
-**Yang udah kamu pelajari**:
+**Yang udah lu pelajari**:
 
 - **Komputer = Hardware + Software**. Hardware (fisik) + Software (instruksi) = sistem yang fungsional.
 - **Hardware utama**:
@@ -27,20 +27,8 @@
 
 ## Lanjut Kemana?
 
-Sekarang kamu udah paham **apa yang ada di dalam komputer** dan **cara kerjanya**. Next step: kita bakal belajar **cara "ngomong" ke komputer** via **command line** (terminal).
-
-Command line itu interface text-based yang bertenaga banget buat developer. Lebih cepat dari klik-klik GUI, dan banyak tools development cuma available via command line.
-
-**Lesson 3: "Command Line Basics - Ngobrol dengan Komputer via Text"** (lesson berikutnya)
-
-Di lesson itu kita bakal belajar:
-- Apa itu terminal/command line
-- Navigation folder via terminal (cd, ls, pwd)
-- File operations (mkdir, rm, cp, mv)
-- Kenapa developer prefer terminal vs GUI
-
-See you there! 
+Sekarang lu udah paham apa yang ada di dalam komputer dan cara kerjanya. Di Lesson 2, kita bahas gimana komputer nyimpen file: folder, path, dan permissions. Itu bekal buat Lesson 3, waktu lu mulai ngasih perintah lewat terminal.
 
 ---
 
-**Punya pertanyaan?** Drop di [Discord Community](../../resources/community.md) atau open issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues)
+**Punya pertanyaan?** Tanyakan di [Discord Community](../../resources/community.md) atau buka issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues)
