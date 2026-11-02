@@ -1,36 +1,36 @@
-### Komputer itu Apa Sih?
+## Komputer Itu Apa
 
-![Modern Computer Setup](https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&q=80)
-*Photo by [Kari Shea](https://unsplash.com/@karishea) on [Unsplash](https://unsplash.com)*
+![Setup komputer](https://images.unsplash.com/photo-1587831990711-23ca6441447b?w=800&q=80)
+*Foto oleh [Kari Shea](https://unsplash.com/@karishea) di [Unsplash](https://unsplash.com)*
 
-**Definisi simple**: Komputer itu mesin yang bisa **nyimpen data**, **proses data**, dan **nampilin hasil** dengan cepat. Segitu doang.
+Komputer adalah mesin yang bisa menyimpan data, memproses data, dan menampilkan hasilnya dengan sangat cepat. Itu intinya.
 
-**Analogi: Dapur**
+### Analogi Dapur
 
-> Bayangin lu masak nasi goreng:
-> - **Bahan (data)**: nasi, telur, bumbu (ini data yang mau diproses)
-> - **Kompor + wajan (processor)**: alat buat masak (process data)
-> - **Kulkas (storage)**: tempat simpen bahan (long-term storage)
-> - **Meja kerja (RAM)**: tempat naruh bahan yang lagi dipake (short-term, working memory)
-> - **Piring (output)**: hasil masakan yang siap disajikan (display/print)
-> - **Resep (software)**: instruksi cara masaknya (program/code)
-> - **Lu (operating system)**: yang koordinasi semua (ambil bahan dari kulkas, taruh di meja, nyalain kompor, dll)
+Bayangin lu lagi masak nasi goreng:
 
-Komputer kerja persis kayak gini, cuma jauh lebih cepat (milyaran operasi per detik).
+- **Bahan (data)**: nasi, telur, bumbu. Ini yang mau diolah.
+- **Kompor dan wajan (CPU)**: alat buat ngolah bahan.
+- **Kulkas (storage)**: tempat nyimpen bahan buat jangka panjang.
+- **Meja kerja (RAM)**: tempat naruh bahan yang lagi dipakai sekarang.
+- **Piring (output)**: hasil masakan yang siap disajikan, yaitu tampilan di layar.
+- **Resep (software)**: instruksi cara masaknya.
+- **Pengatur dapur (sistem operasi)**: yang ngambil bahan dari kulkas, naruh di meja, dan nyalain kompor pada waktu yang pas.
 
-<!-- DIAGRAM: Kitchen Analogy -->
+Komputer kerja persis begitu, cuma jauh lebih cepat. Dia bisa ngerjain miliaran langkah dalam satu detik.
+
 ```mermaid
 graph TD
-    A[Lu<br/>Operating System] --> B[Kompor<br/>CPU]
-    A --> C[Meja Kerja<br/>RAM]
+    A[Pengatur dapur<br/>Operating System] --> B[Kompor<br/>CPU]
+    A --> C[Meja kerja<br/>RAM]
     A --> D[Kulkas<br/>Storage]
-    
+
     B --> E[Piring<br/>Output]
-    C -.Bahan Sementara.-> B
-    D -.Bahan Permanen.-> C
-    
+    C -.Bahan sementara.-> B
+    D -.Bahan permanen.-> C
+
     F[Resep<br/>Software] -.Instruksi.-> A
-    
+
     style A fill:#fff3e0
     style B fill:#ffebee
     style C fill:#e3f2fd
@@ -38,10 +38,8 @@ graph TD
     style E fill:#f3e5f5
     style F fill:#fce4ec
 ```
-*Diagram: Analogi dapur - gimana komponen komputer kerja bareng*
+*Diagram: komponen komputer dengan analogi dapur*
 
-**Video Explanation:**
+<figure><img src="../../../assets/videos/kitchen-analogy.gif" alt="Animasi analogi dapur" width="100%"><figcaption><em>CPU, RAM, dan storage dijelasin lewat analogi dapur</em></figcaption></figure>
 
-<figure><img src="../../../assets/videos/kitchen-analogy.gif" alt="Kitchen Analogy Animation" width="100%"><figcaption><em>CPU, RAM, dan Storage explained dengan analogi dapur</em></figcaption></figure>
-
----
+Coba perhatikan: kalau lu hapus salah satu bagian, dapurnya nggak bisa jalan. Kompor tanpa bahan nggak ada gunanya. Bahan tanpa resep nggak jadi apa-apa.

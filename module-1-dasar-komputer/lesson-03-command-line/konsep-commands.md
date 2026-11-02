@@ -1,6 +1,6 @@
-## Basic Commands
+## Perintah Dasar
 
-10 command paling sering dipake. Hafal ini, lu udah 80% siap.
+Sepuluh perintah yang paling sering dipakai. Hafal ini, dan sebagian besar kerjaan harian di terminal sudah bisa lu tangani.
 
 ---
 
@@ -179,7 +179,7 @@ clear
 
 ---
 
-## Cheat Sheet
+## Tabel Padanan Perintah
 
 | Task | macOS/Linux | Windows CMD | PowerShell/Git Bash |
 |------|-------------|-------------|---------------------|

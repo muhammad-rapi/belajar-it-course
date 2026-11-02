@@ -1,42 +1,38 @@
-### Operating System (OS): Pengatur Semuanya
+## Operating System: Pengatur Semuanya
 
-OS itu **software paling penting**. Tanpa OS, komputer cuma besi mati.
+Sistem operasi (OS) adalah software terpenting di komputer. Tanpa OS, komputer cuma tumpukan komponen yang nggak bisa dipakai.
 
-**Fungsi OS**:
-1. **Manage hardware**: Alokasi RAM ke apps, schedule CPU tasks, akses storage.
-2. **Provide interface**: GUI (Graphical User Interface) atau CLI (Command Line Interface) buat user interact dengan komputer.
-3. **Run applications**: Kasih environment buat apps jalan.
-4. **Security**: Manage permissions (app mana yang boleh akses camera, file, dll).
+### Empat Tugas OS
 
-**Analogi: Manajer Restoran**
+1. **Ngatur hardware**: bagi RAM ke tiap aplikasi, atur giliran CPU, dan atur akses ke storage.
+2. **Nyediain tampilan buat lu**: lewat klik dan jendela (GUI), atau lewat teks di terminal (CLI).
+3. **Ngejalanin aplikasi**: nyediain tempat buat aplikasi bisa jalan.
+4. **Menjaga keamanan**: nentuin aplikasi mana yang boleh akses kamera, file, atau jaringan.
 
-> OS itu manajer restoran. Dia koordinasi:
-> - **Koki (CPU)**: Assign tugas masak apa, prioritas mana yang urgent.
-> - **Meja kerja (RAM)**: Alokasi space buat tiap pesanan.
-> - **Gudang (storage)**: Manage inventory bahan.
-> - **Pelayan (I/O)**: Terima order dari customer (input), antar makanan (output).
-> - **Kasir (security)**: Cek payment, manage akses.
+### Analogi: Manajer Restoran
 
-**Real example**:
+OS itu manajer restoran. Dia ngatur:
 
-**Windows**:
-- Paling banyak dipakai di PC dan laptop
-- User-friendly, support banyak software/games
-- Cons: Bloatware, update sering annoying
+- **Koki (CPU)**: siapa masak pesanan apa dan mana yang didahulukan
+- **Meja kerja (RAM)**: ruang buat tiap pesanan
+- **Gudang (storage)**: stok bahan
+- **Pelayan (input dan output)**: nerima pesanan dan nganterin hasil
+- **Aturan akses**: siapa yang boleh masuk dapur dan buka gudang
 
-**macOS**:
-- Exclusive buat Apple hardware (MacBook, iMac)
-- Clean UI, optimized (tight integration hardware + software)
-- Cons: Mahal, limited software (ga semua apps/games available)
+Lu nggak pernah ketemu manajernya langsung, tapi tanpa dia restoran berantakan.
 
-**Linux**:
-- Open-source, free
-- Bisa diatur sesuka hati, dan jadi pilihan utama buat server dan banyak developer
-- Cons: Learning curve steep (banyak via command line), support software consumer terbatas
+### Tiga OS yang Umum
 
-**Coba perhatikan**:
-- Waktu lu buka app, OS yang load app dari storage ke RAM, terus instruksikan CPU buat jalanin.
-- Waktu lu save file, OS yang tulis data dari RAM ke storage.
-- Waktu lu copy file, OS yang manage operasi (read source → write destination).
+| OS | Dipakai di | Catatan |
+|---|---|---|
+| **Windows** | PC dan laptop dari banyak merek | Paling banyak dipakai di komputer pribadi. Software dan game-nya paling lengkap. |
+| **macOS** | Perangkat Apple saja (MacBook, iMac) | Tampilannya rapi dan terintegrasi dengan hardware Apple. Hanya jalan di perangkat Apple. |
+| **Linux** | Server, dan laptop buat yang suka mengatur sendiri | Gratis dan open source. Dipakai di sebagian besar server. Butuh waktu buat terbiasa dengan terminal. |
 
----
+Ketiganya bisa dipakai buat belajar coding di course ini.
+
+### Coba Perhatikan
+
+- Waktu lu buka aplikasi, OS yang ngambil aplikasi itu dari storage, naruh di RAM, lalu nyuruh CPU menjalankannya.
+- Waktu lu simpan file, OS yang nulis data dari RAM ke storage.
+- Waktu lu copy file, OS yang baca dari tempat asal dan nulis ke tujuan.

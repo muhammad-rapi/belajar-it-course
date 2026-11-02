@@ -1,77 +1,59 @@
 ## Kesalahan Umum
 
-### 1. Nganggep "Laptop Lambat" = Harus Beli Baru
+### 1. Mengira Laptop Lambat Berarti Harus Beli Baru
 
-**Contoh**:
-> "Laptop aku lambat banget, ga bisa dipake. Kayaknya harus beli baru."
+Contohnya: "Laptop aku lemot banget, kayaknya harus ganti."
 
-**Kenapa salah**:
-Seringkali laptop "lambat" - penyebabnya bukan hardware jelek:
-- **RAM full** (terlalu banyak apps buka)
-- **Storage full** (disk 90%+ full = slow)
-- **Masih pakai HDD** (upgrade ke SSD = instant speed boost)
-- **Malware/bloatware** (background apps makan resource)
+Sering kali penyebabnya bukan hardware yang rusak. Beberapa penyebab umum:
 
-**Cara bener**:
-1. **Check resource usage** (Task Manager). Identify bottleneck (RAM, CPU, atau disk).
-2. **Try upgrade dulu**:
-   - Upgrade SSD (300-500rb buat 256 GB) = laptop kerasa 3x lebih cepat
-   - Add RAM (kalau <8 GB)
-3. **Clean up**:
-   - Uninstall apps yang ga dipake
-   - Scan malware (Windows Defender cukup)
-   - Disable startup apps
-4. **Reinstall OS** (last resort, tapi effective buat refresh).
+- RAM penuh karena terlalu banyak aplikasi dan tab
+- Storage hampir penuh
+- Masih pakai HDD
+- Terlalu banyak aplikasi yang jalan otomatis waktu komputer nyala
 
-Upgrade SSD + clean up often **lebih worth it** daripada beli laptop baru (save jutaan rupiah).
+Yang sebaiknya dicek dulu:
+
+1. Buka Task Manager atau Activity Monitor dan cari tahu apa yang paling penuh: CPU, RAM, atau disk.
+2. Tutup aplikasi dan tab yang nggak dipakai, lalu matikan aplikasi yang jalan otomatis saat startup.
+3. Kosongkan storage kalau sudah lebih dari sekitar 80 sampai 90 persen penuh.
+4. Kalau masih HDD, ganti ke SSD. Kalau RAM cuma 4 GB, tambah.
+
+Baru kalau semua itu nggak cukup, mulai pikirin beli baru.
 
 ---
 
-### 2. Ngira "Lebih Banyak Apps = Lebih Produktif"
+### 2. Install Semua Aplikasi yang Mungkin Kepakai
 
-**Contoh**:
-> "Aku install 50 apps biar siap buat apapun. Tapi laptop kok jadi lambat ya?"
+Contohnya: "Aku install 50 aplikasi biar siap buat apa pun, kok komputernya jadi berat?"
 
-**Kenapa salah**:
-Banyak apps = banyak yang jalan di background (consume RAM, CPU, disk). Most apps lu install ga pernah dipake (bloat).
+Banyak aplikasi menyalakan komponen yang jalan di latar belakang dan makan RAM serta CPU walau nggak lu buka. Install yang beneran lu pakai. Yang jarang dipakai, uninstall. Kalau butuh lagi, tinggal install ulang.
 
-**Cara bener**:
-- Install **cuma yang lu actually pake** (minimal setup).
-- Kalau jarang pake, **uninstall**. Lu bisa reinstall kapan aja kalau butuh.
-- Gunain **portable apps** atau **web apps** (ga perlu install, run from browser).
-
-**Example minimalist setup** (coding):
-- **Browser** (Chrome/Firefox)
-- **Text editor** (VS Code)
-- **Terminal** (built-in)
-- **Git** (version control)
-
-Segitu doang. Install yang lain kalau beneran butuh.
+Untuk koding, set minimal sudah cukup: browser, code editor, terminal, dan Git.
 
 ---
 
-### 3. Save Semua File di Desktop
+### 3. Nyimpen Semua File di Desktop
 
-**Contoh**:
-> "Desktop aku penuh 100+ file. Tapi gampang dicari, tinggal scroll."
+Contohnya: "Desktop aku penuh seratus file, tapi gampang kok nyarinya, tinggal scroll."
 
-**Kenapa salah**:
-- **Slow**: OS render semua icon tiap boot/refresh. Desktop ratusan file = lag.
-- **Messy**: Susah cari file (visual clutter).
-- **Risky**: Kalau OS corrupt atau reinstall, Desktop sering ilang (kecuali di-backup).
+Masalahnya:
 
-**Cara bener**:
-- **Desktop = temporary only**. File baru download/lagi dikerjain → taruh di Desktop sementara.
-- **Setiap hari/minggu, move ke folder proper** (Documents/Projects/[category]).
-- **Max 10-15 file di Desktop**. Lebih dari itu = time to organize.
+- File jadi susah dicari begitu jumlahnya banyak
+- Desktop adalah salah satu folder yang paling gampang ikut hilang waktu komputer diinstal ulang atau rusak, kalau lu nggak punya backup
+- Nama file mulai ngaco (`laporan_final_v2_beneran.docx`)
 
-**Folder structure recommended**:
+Yang lebih rapi: anggap Desktop tempat sementara. Tiap beberapa hari, pindahin ke folder yang jelas.
+
 ```
 Documents/
-  ├─ Work/
-  ├─ Personal/
-  ├─ Learning/
-  └─ Archive/
+  Kerja/
+  Pribadi/
+  Belajar/
+  Arsip/
 ```
 
 ---
+
+### 4. Nggak Pernah Backup
+
+Storage bisa rusak kapan saja, dan itu biasanya nggak ada tanda-tandanya. Simpan salinan file penting di tempat lain, misalnya Google Drive atau hard disk eksternal. Aturan paling sederhana: file yang hilang akan bikin lu nyesel, harus ada di minimal dua tempat.

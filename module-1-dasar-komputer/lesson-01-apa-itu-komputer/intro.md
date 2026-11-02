@@ -1,9 +1,21 @@
-## Masalah yang Akan Kita Selesaikan
+## Kenapa Perlu Tahu Ini
 
-Lu pasti udah pake komputer/laptop berkali-kali. Buka Chrome, ngetik dokumen, download file, install aplikasi. Tapi pernah mikir cara kerjanya gimana?
+Lu pasti udah sering pakai laptop. Buka Chrome, ngetik tugas, download file, install aplikasi. Tapi pernah kepikiran apa yang sebenarnya terjadi di dalamnya?
 
-Kebanyakan orang langsung loncat ke "belajar coding" tanpa ngerti dasar komputer. Ujungnya bingung waktu ada error kayak "memory full", "CPU 100%", atau "app not responding". Ga ngerti kenapa, gimana fixnya juga bingung.
+Banyak orang langsung loncat ke belajar coding tanpa ngerti dasar komputer. Akibatnya, waktu muncul pesan seperti "memory full", "CPU 100%", atau "app not responding", mereka nggak tahu artinya dan nggak tahu harus ngapain.
 
-Lesson ini jelasin **apa yang sebenernya terjadi di balik layar** waktu lu pake komputer. Lu nggak perlu jadi teknisi komputer beneran. Cukup ngerti konsep dasar: hardware, software, operating system, dan gimana mereka kerja bareng.
+### Yang Bakal Lu Dapat
 
-Abis lesson ini, lu punya gambaran jelas tentang komputer. Nanti waktu belajar programming, lu ga cuma "ikutin tutorial". Lu **paham kenapa code lu jalan** (atau kenapa mati).
+Setelah lesson ini, lu bisa:
+
+- Jelasin bedanya hardware dan software
+- Tahu fungsi CPU, RAM, dan storage, dan kenapa ketiganya beda
+- Tahu apa kerjaan sistem operasi
+- Cek spesifikasi dan pemakaian komputer lu sendiri
+- Nentuin kenapa laptop terasa lambat, dan apa yang layak diupgrade
+
+Waktu belajar programming nanti, ini yang bikin lu paham kenapa kode lu jalan atau kenapa mati, bukan cuma ngikutin tutorial.
+
+### Satu Analogi Sepanjang Lesson
+
+Seluruh lesson ini pakai satu analogi: dapur. Kompor, meja kerja, kulkas, dan resep. Kalau lu bingung di tengah jalan, balik ke dapur itu.

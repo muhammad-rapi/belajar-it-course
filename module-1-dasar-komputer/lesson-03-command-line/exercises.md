@@ -1,42 +1,29 @@
-## Exercises - Command Line Basics
+## Exercises
 
-Praktek langsung di terminal. **Ketik manual**, jangan copy-paste.
-
----
-
-### Exercise 1: Basic Navigation
-
-**Tujuan**: Navigasi folder dan cek posisi.
-
-**Yang Perlu Lu Lakukan**:
-1. Buka terminal
-2. Cek posisi sekarang (`pwd`)
-3. Balik ke home (`cd ~`)
-4. Pindah ke Desktop
-5. Liat isi Desktop
-6. Balik ke home lagi
-
-**Commands**:
-```bash
-pwd
-cd ~
-cd Desktop
-ls
-cd ~
-pwd
-```
-
-**Expected**: Tiap command jalan tanpa error, lu bisa lihat isi Desktop.
+Ketik sendiri, jangan copy-paste. Tiap latihan sekitar 5 sampai 10 menit. Di Windows, pakai Git Bash supaya perintahnya sama dengan contoh.
 
 ---
 
-### Exercise 2: Bikin Project Folder
+### Latihan 1: Pindah-pindah Folder
 
-**Tujuan**: Bikin struktur folder project.
+**Tujuan**: pindah folder dan cek posisi.
 
-**Yang Perlu Lu Lakukan**:
+1. Buka terminal.
+2. Jalankan `pwd` buat lihat posisi lu.
+3. Jalankan `cd ~` buat balik ke home.
+4. Pindah ke Desktop dengan `cd Desktop`, lalu lihat isinya dengan `ls`.
+5. Balik ke home lagi dan jalankan `pwd`.
 
-Bikin struktur ini:
+**Hasil yang benar**: semua perintah jalan tanpa error, dan `pwd` terakhir nunjukin folder home lu.
+
+---
+
+### Latihan 2: Bikin Folder Proyek
+
+**Tujuan**: bikin struktur folder dari terminal.
+
+Targetnya:
+
 ```
 belajar-python/
 ├── src/
@@ -44,7 +31,8 @@ belajar-python/
 └── docs/
 ```
 
-**Commands**:
+Jalankan:
+
 ```bash
 cd ~/Desktop
 mkdir belajar-python
@@ -53,130 +41,97 @@ mkdir src tests docs
 ls
 ```
 
-**Expected Output** (dari `ls`):
-```
-docs  src  tests
-```
+**Hasil yang benar**: `ls` nampilin `docs  src  tests`.
 
 ---
 
-### Exercise 3: Bikin File
+### Latihan 3: Bikin File
 
-**Tujuan**: Bikin file di folder project.
+**Tujuan**: bikin file di dalam folder.
 
-**Lanjutan dari Exercise 2:**
+Lanjut dari latihan 2:
 
 ```bash
 cd src
-touch main.py
-touch utils.py
+touch main.py utils.py
 ls
 ```
 
-**Expected**:
-```
-main.py  utils.py
-```
+**Hasil yang benar**: `ls` nampilin `main.py  utils.py`.
 
 ---
 
-### Exercise 4: Copy & Move
+### Latihan 4: Salin dan Pindah
 
-**Tujuan**: Copy file dan pindah folder.
+**Tujuan**: bedain `cp` dan `mv`.
 
-**Yang Perlu Lu Lakukan**:
-1. Copy `main.py` jadi `backup.py`
-2. Pindah `backup.py` ke folder `tests`
-3. Cek isi folder `tests`
+Masih di folder `src`:
 
-**Commands**:
 ```bash
-# Masih di folder src
 cp main.py backup.py
-ls               # Harusnya ada backup.py
-
+ls
 mv backup.py ../tests/
-ls               # backup.py udah ga ada
-
+ls
 cd ../tests
-ls               # backup.py ada di sini
+ls
 ```
+
+**Hasil yang benar**:
+
+- Setelah `cp`, `ls` nampilin tiga file: `backup.py  main.py  utils.py`.
+- Setelah `mv`, `ls` di `src` cuma nampilin `main.py  utils.py`.
+- `ls` di `tests` nampilin `backup.py`.
+
+Perhatikan bedanya: `cp` bikin salinan, `mv` mindahin file aslinya.
 
 ---
 
-### Exercise 5: Navigation Challenge
+### Latihan 5: Path Relatif
 
-**Tujuan**: Navigasi pakai relative path.
+**Tujuan**: pindah antar folder tanpa nulis path lengkap.
 
-**Starting point**: Lu di `/Desktop/belajar-python/tests`
-
-**Task**: Pindah ke `src` folder pakai relative path.
-
-**Commands**:
-```bash
-pwd              # .../belajar-python/tests
-cd ../src        # Naik 1 level, masuk src
-pwd              # .../belajar-python/src
-```
-
-**Bonus**: Dari `src`, pindah ke `docs` pakai 1 command.
+Dari folder `tests`:
 
 ```bash
+pwd
+cd ../src
+pwd
 cd ../docs
+pwd
 ```
+
+**Hasil yang benar**: tiap `pwd` nampilin folder yang sesuai (`tests`, `src`, lalu `docs`), semuanya di dalam `belajar-python`.
+
+**Tantangan**: dari `docs`, pindah ke `tests` dalam satu perintah.
+
+<details>
+<summary>Jawaban</summary>
+
+```bash
+cd ../tests
+```
+
+</details>
 
 ---
 
-### Exercise 6: Cleanup
+### Latihan 6: Rapikan dan Hapus
 
-**Tujuan**: Hapus project folder.
+**Tujuan**: pakai `rm` dengan sadar.
 
-**Yang Perlu Lu Lakukan**:
-1. Balik ke Desktop
-2. Hapus folder `belajar-python` beserta isinya
+1. Balik ke Desktop: `cd ~/Desktop`.
+2. Cek dulu isi yang mau dihapus: `ls belajar-python`.
+3. Hapus: `rm -r belajar-python`.
+4. Cek: `ls`. Folder `belajar-python` seharusnya sudah nggak ada.
 
-**Commands**:
-```bash
-cd ~/Desktop
-rm -r belajar-python
-ls               # belajar-python harusnya udah ga ada
-```
+Perhatikan: `rm` nggak ngirim ke Recycle Bin atau Trash. Kebiasaan yang baik: jalankan `ls` dulu buat memastikan lu menghapus folder yang benar.
 
 ---
 
-## Checklist
+### Cek Diri
 
-Abis ngerjain semua:
-- [ ] Lu bisa buka terminal tanpa bingung
-- [ ] Lu paham `pwd`, `cd`, `ls`, `mkdir`, `touch`, `rm`, `cp`, `mv`
-- [ ] Lu bisa navigasi folder pakai relative path (`..`, `.`)
-- [ ] Lu ga takut lagi sama terminal
+- Lu bisa buka terminal tanpa bingung.
+- Lu paham `pwd`, `cd`, `ls`, `mkdir`, `touch`, `rm`, `cp`, dan `mv`.
+- Lu bisa pindah folder pakai path relatif (`..` dan `.`).
 
----
-
-## Troubleshooting
-
-**Command not found**:
-```bash
-cdd Desktop  # Typo, harusnya 'cd'
-# bash: cdd: command not found
-```
-→ Cek spelling, pake Tab autocomplete.
-
-**No such file or directory**:
-```bash
-cd Dokumen  # Typo, harusnya 'Documents'
-# cd: no such file or directory: Dokumen
-```
-→ Cek nama folder pake `ls`, case-sensitive di macOS/Linux.
-
-**Permission denied**:
-```bash
-rm /System/file.txt
-# rm: cannot remove '/System/file.txt': Permission denied
-```
-→ Beberapa folder system-protected. Ga usah dipaksa.
-
----
-
-Next: **Summary** - ringkasan command line basics.
+Kalau ada yang masih ragu, ulangi latihannya. Kalau macet, buka bagian Kesalahan Umum.

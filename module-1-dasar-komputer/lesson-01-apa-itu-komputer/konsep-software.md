@@ -1,35 +1,29 @@
-### Software: Instruksi yang Bikin Hardware Berguna
+## Software: Instruksi di Balik Hardware
 
-Hardware tanpa software = mesin mati. Software = **instruksi** yang ngasih tau hardware apa yang harus dilakuin.
+Hardware tanpa software cuma barang elektronik yang nggak ngapa-ngapain. Software adalah instruksi yang ngasih tahu hardware harus ngapain. Kompor tanpa resep nggak bisa masak apa pun.
 
-**Analogi**: Kompor tanpa resep = ga bisa masak apa-apa. Lu butuh **resep (software)** buat ngasih tau cara masaknya.
+### Tiga Jenis Software
 
-#### Jenis Software:
+**1. Sistem operasi (OS)**
 
-**1. Operating System (OS)** - Koordinator utama:
-- **Windows** (PC gaming, office)
-- **macOS** (Apple ecosystem, creative work)
-- **Linux** (developer, server, open-source)
+Software utama yang ngatur semuanya: hardware, aplikasi, input dan output. Contohnya Windows, macOS, dan Linux. Dibahas lebih lengkap di bagian berikutnya.
 
-OS ngatur semua: akses hardware (CPU, RAM, storage), manage apps, handle input/output.
+**2. Aplikasi**
 
-**Analogi**: Lu yang koordinasi dapur. Lu yang ambil bahan dari kulkas (storage), taruh di meja kerja (RAM), kasih ke koki (CPU), dan atur timing semua masakan selesai bareng.
+Program buat tugas tertentu:
 
-**2. Applications (Apps)** - Tools spesifik:
-- **Browser** (Chrome, Firefox): Akses internet.
-- **Text Editor** (Word, Google Docs): Nulis dokumen.
-- **IDE** (VS Code, PyCharm): Coding.
-- **Games** (Dota, Valorant): Entertainment.
+- Browser (Chrome, Firefox) buat buka internet
+- Pengolah dokumen (Word, Google Docs) buat nulis
+- Code editor (VS Code) buat ngoding
+- Game
 
-Setiap app punya **instruksi spesifik** (code) yang bilang ke OS: "Gue butuh RAM sekian, akses storage ini, render pixel di monitor sini."
+Tiap aplikasi minta tolong ke OS. Misalnya, "aku butuh RAM sekian", "aku mau baca file ini", atau "aku mau nampilin gambar di layar".
 
-**3. Drivers** - Penerjemah hardware:
-Driver itu software kecil yang **translate** instruksi OS ke bahasa hardware.
+**3. Driver**
 
-Contoh:
-- **Printer driver**: OS bilang "print dokumen ini". Driver translate ke instruksi yang printer ngerti (format, warna, ukuran kertas).
-- **GPU driver** (NVIDIA, AMD): Game bilang "render grafik ini". Driver translate ke instruksi GPU.
+Driver adalah software kecil yang jadi penerjemah antara OS dan satu perangkat keras tertentu.
 
-Kalau driver ga install atau outdated, hardware ga bisa dipake (printer ga detect, game lag, dll).
+- **Driver printer**: OS bilang "cetak dokumen ini". Driver nerjemahin perintah itu jadi bahasa yang dimengerti printer.
+- **Driver kartu grafis (GPU)**: game minta "gambar adegan ini". Driver ngubahnya jadi instruksi buat GPU.
 
----
+Kalau driver belum terpasang atau terlalu lama nggak diperbarui, perangkatnya bisa nggak terdeteksi atau bekerja nggak maksimal. Printer yang "nggak kebaca" sering penyebabnya di sini.

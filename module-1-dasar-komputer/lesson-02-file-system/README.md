@@ -1,14 +1,17 @@
-# Lesson 2: File System & Path
+# Lesson 2: File System dan Path
 
-Pelajari cara komputer mengorganisir files dan folders, bedanya absolute vs relative path, file extensions, dan permissions.
+Cara komputer ngatur file dan folder, bedanya path absolut dan relatif, ekstensi file, dan permissions.
 
-## Sub-Pages
+## Sub-Lessons
 
-1. [Introduction](./intro.md) - Kenapa perlu belajar file system
-2. [Hierarchy](./konsep-hierarchy.md) - Struktur folder, root directory, absolute vs relative path
-3. [File Types](./konsep-file-types.md) - Extensions dan kegunaannya
-4. [Permissions](./konsep-permissions.md) - Siapa boleh baca/edit file
-5. [Exercises](./exercises.md) - Hands-on practice
-6. [Summary](./summary.md) - Key takeaways & next steps
+1. [Intro: Kenapa Perlu Belajar Ini](intro.md)
+2. [Folder dan Path](konsep-hierarchy.md)
+3. [File dan Ekstensi](konsep-file-types.md)
+4. [Permissions](konsep-permissions.md)
+5. [Exercises](exercises.md)
+6. [Kesalahan Umum](kesalahan-umum.md)
+7. [Summary](summary.md)
 
-**Duration**: ~20 menit baca + 30 menit praktek
+**Prasyarat**: Lesson 1.
+
+**Durasi**: sekitar 25 menit baca dan 30 menit praktek

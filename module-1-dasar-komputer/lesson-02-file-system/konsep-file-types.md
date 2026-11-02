@@ -1,91 +1,73 @@
-# File Types & Extensions
+## File dan Ekstensi
 
-## Apa itu Extension?
+### Apa itu Ekstensi
 
-**Extension** = 3-4 huruf setelah dot (.) di nama file. Ini ngasih tau komputer "file ini tipe apa, buka pakai aplikasi apa".
+**Ekstensi** adalah huruf di belakang titik terakhir pada nama file. Fungsinya ngasih tahu komputer tipe file itu, dan aplikasi apa yang cocok buat bukanya.
 
-**Contoh**:
-- `Laporan.docx` → .docx = Microsoft Word document
-- `foto.jpg` → .jpg = Image (JPEG format)
-- `script.py` → .py = Python code
-- `installer.exe` → .exe = Executable (program)
+- `Laporan.docx`: dokumen Word
+- `foto.jpg`: gambar JPEG
+- `script.py`: kode Python
+- `installer.exe`: program yang bisa dijalankan di Windows
 
-**Analogi**: Extension kayak label di kotak. Lu liat "Buku Pelajaran" vs "Mainan", langsung tau isinya apa tanpa buka.
-
----
-
-## Common File Types
-
-### Documents
-| Extension | Type | Opens With |
-|-----------|------|------------|
-| .txt | Plain text | Notepad, TextEdit |
-| .docx | Word document | Microsoft Word, Google Docs |
-| .pdf | PDF document | Adobe Reader, Preview |
-| .xlsx | Excel spreadsheet | Excel, Google Sheets |
-| .pptx | PowerPoint | PowerPoint, Google Slides |
-
-### Images
-| Extension | Type | Use Case |
-|-----------|------|----------|
-| .jpg / .jpeg | Photo (compressed) | Foto kamera, web images |
-| .png | Image (lossless) | Screenshots, graphics with transparency |
-| .gif | Animated image | Memes, simple animations |
-| .svg | Vector graphic | Logos, icons (scalable) |
-
-### Code / Development
-| Extension | Language | Description |
-|-----------|----------|-------------|
-| .py | Python | Python script |
-| .js | JavaScript | JavaScript code |
-| .html | HTML | Web page structure |
-| .css | CSS | Web page styling |
-| .json | JSON | Data format (config, API response) |
-
-### Archives
-| Extension | Type | Platform |
-|-----------|------|----------|
-| .zip | Compressed folder | Cross-platform |
-| .rar | Compressed (RAR) | Needs WinRAR/7-Zip |
-| .tar.gz | Compressed (Linux) | Linux/macOS |
+Ekstensi itu seperti label di kardus pindahan. Dari label "Buku" atau "Alat dapur" lu langsung tahu isinya tanpa buka.
 
 ---
 
-## Kenapa Extension Penting?
+### Ekstensi yang Sering Ketemu
 
-### 1. OS Tau Aplikasi Apa yang Dipakai
-Kalo lu double-click `foto.jpg`, OS otomatis buka pakai Photos app. Double-click `dokumen.docx` → buka pakai Word.
+**Dokumen**
 
-Ini karena OS punya **file association**: mapping extension → default app.
+| Ekstensi | Tipe | Dibuka dengan |
+|---|---|---|
+| `.txt` | teks biasa | Notepad, TextEdit |
+| `.docx` | dokumen Word | Word, Google Docs |
+| `.pdf` | dokumen PDF | browser, Preview, Adobe Reader |
+| `.xlsx` | spreadsheet | Excel, Google Sheets |
 
-### 2. Security
+**Gambar**
+
+| Ekstensi | Tipe | Biasa dipakai buat |
+|---|---|---|
+| `.jpg` atau `.jpeg` | foto terkompresi | foto kamera, gambar di web |
+| `.png` | gambar tanpa penurunan kualitas | screenshot, gambar dengan latar transparan |
+| `.gif` | gambar bergerak | animasi sederhana |
+| `.svg` | gambar vektor | logo dan ikon yang bisa diperbesar tanpa pecah |
+
+**Kode**
+
+| Ekstensi | Bahasa | Isinya |
+|---|---|---|
+| `.py` | Python | program Python |
+| `.js` | JavaScript | program JavaScript |
+| `.html` | HTML | struktur halaman web |
+| `.css` | CSS | tampilan halaman web |
+| `.json` | JSON | data terstruktur, misalnya konfigurasi atau balasan API |
+
+**Arsip**
+
+| Ekstensi | Tipe |
+|---|---|
+| `.zip` | folder terkompresi, bisa dibuka di semua sistem |
+| `.rar` | arsip terkompresi, butuh WinRAR atau 7-Zip |
+| `.tar.gz` | arsip terkompresi yang umum di Linux dan macOS |
+
+---
+
+### Kenapa Ekstensi Penting
+
+**1. Komputer tahu harus pakai aplikasi apa.** Waktu lu klik dua kali `foto.jpg`, OS buka aplikasi gambar. Klik dua kali `.docx`, kebuka Word. Pemetaan ekstensi ke aplikasi ini namanya **file association**.
+
+**2. Ekstensi bisa dipakai buat nipu.** Lihat nama file ini:
+
 ```
-invoice.pdf.exe  ← DANGER! Ini bukan PDF, ini .exe (malware trick)
+invoice.pdf.exe
 ```
 
-Hacker sering nyamar pake double extension. User kira PDF, ternyata executable.
+Ekstensi aslinya `.exe`, yaitu program. `.pdf` cuma bagian dari namanya. Kalau Windows lu menyembunyikan ekstensi, file ini kelihatan seperti `invoice.pdf`, dan banyak orang klik karena mengira itu PDF. Biasakan nampilin ekstensi dan jangan buka file `.exe` dari sumber yang nggak lu kenal.
 
-**Rule**: Selalu cek extension sebelum buka file dari stranger.
+Cara nampilin ekstensi:
 
-### 3. Compatibility
-Kalo lu share file ke orang lain, extension matters:
-- `.docx` → butuh Word (atau compatible editor)
-- `.pdf` → universal, semua OS bisa buka
+- Windows: File Explorer, tab View, centang **File name extensions**
+- macOS: Finder, menu Settings, tab Advanced, centang **Show all filename extensions**
 
----
-
-## Kesalahan Umum
-
-### "File Corrupt" Setelah Rename Extension
-**Masalah**: Lu rename `.txt` jadi `.docx`, Word ga bisa buka.
-
-**Solusi**: Jangan rename extension kecuali lu tau format aslinya sama. Convert pakai tool yang bener.
-
-### Hidden Extension = Security Risk
-Kalo extension di-hide, lu ga tau file asli apa. Malware sering exploit ini.
-
-**Solusi**: Selalu unhide extension di File Explorer/Finder.
-
----
-
-Lanjut ke [Permissions →](./konsep-permissions.md)
+**3. Orang lain butuh aplikasi yang cocok.** `.docx` butuh Word atau yang kompatibel. `.pdf` bisa dibuka hampir di semua perangkat, makanya sering dipakai buat dikirim ke orang lain.

@@ -1,122 +1,77 @@
-### Hardware: Bagian Fisik Komputer
+## Hardware: Bagian Fisik Komputer
 
-![Computer Hardware Components](https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&q=80)
-*Photo by [Christian Wiediger](https://unsplash.com/@christianw) on [Unsplash](https://unsplash.com)*
+![Komponen hardware komputer](https://images.unsplash.com/photo-1591799264318-7e6ef8ddb7ea?w=800&q=80)
+*Foto oleh [Christian Wiediger](https://unsplash.com/@christianw) di [Unsplash](https://unsplash.com)*
 
-Hardware itu **semua yang bisa lu sentuh**. Komponen fisik.
-
-#### 1. CPU (Central Processing Unit) - Otak Komputer
-
-![CPU Processor](https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&q=80)
-*Photo by [Olivier Collet](https://unsplash.com/@ocollet) on [Unsplash](https://unsplash.com)*
-
-**Fungsi**: Eksekusi instruksi (hitung, proses, decision).
-
-**Analogi**: Koki yang masak. Semua proses masak (motong, tumis, aduk) dilakuin sama koki. Semakin jago kokinya (CPU cepat), semakin cepat masakannya selesai.
-
-**Spec yang sering lu lihat**:
-- **Clock Speed** (GHz): Seberapa cepat CPU kerja. Contoh: 2.5 GHz = 2.5 milyar cycle per detik.
-- **Cores**: Jumlah "koki". Dual-core = 2 koki (bisa masak 2 hal sekaligus). Quad-core = 4 koki.
-
-**Real example**:
-- Intel i3, i5, i7, i9 (angka lebih tinggi = lebih kencang)
-- AMD Ryzen 3, 5, 7, 9
-- Apple M1, M2, M3 (chip ARM, efficient)
-
-**Kapan CPU penting**:
-- Coding (compile code)
-- Video editing
-- Gaming
-- Running heavy apps
-
-**Coba perhatikan**:
-- Waktu lu buka banyak tab Chrome terus laptop ngelag? Itu CPU overload (terlalu banyak instruksi yang harus diproses sekaligus).
-- Check CPU usage: Windows (Task Manager), Mac (Activity Monitor).
+Hardware adalah semua bagian komputer yang bisa lu pegang.
 
 ---
 
-#### 2. RAM (Random Access Memory) - Meja Kerja
+### 1. CPU: Kompor dan Kokinya
 
-![RAM Memory Module](https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?w=600&q=80)
-*Photo by [Harrison Broadbent](https://unsplash.com/@harrisonbroadbent) on [Unsplash](https://unsplash.com)*
+![CPU](https://images.unsplash.com/photo-1555617981-dac3880eac6e?w=600&q=80)
+*Foto oleh [Olivier Collet](https://unsplash.com/@ocollet) di [Unsplash](https://unsplash.com)*
 
-**Fungsi**: Simpen data **sementara** yang lagi dipake. Cepat diakses, tapi ilang kalau komputer dimatiin.
+**CPU** (Central Processing Unit) ngejalanin instruksi: ngitung, ngebandingin, dan mutusin. Semua proses "masak" terjadi di sini.
 
-**Analogi**: Meja kerja lu waktu masak. Lu taruh bahan-bahan yang lagi dipake di meja (nasi, telur, bumbu) biar gampang diambil. Kalau mejanya kecil (RAM dikit), lu harus bolak-balik ke kulkas tiap mau ambil bahan (lambat). Kalau mejanya lega (RAM banyak), semua bahan ada di meja (cepat).
+Dua angka yang sering muncul di spesifikasi:
 
-**Spec yang sering lu lihat**:
-- **Capacity**: 4GB, 8GB, 16GB, 32GB. Lebih banyak = bisa buka lebih banyak apps sekaligus.
-- **Speed**: DDR4, DDR5 (ga terlalu penting buat user biasa).
+- **Clock speed (GHz)**: seberapa cepat CPU bekerja. 2,5 GHz artinya sekitar 2,5 miliar siklus per detik.
+- **Core**: jumlah "koki". CPU dengan 4 core bisa ngerjain empat hal sekaligus.
 
-**Real example**:
-- **4GB RAM**: Cukup buat browsing ringan, office apps. Tapi struggle kalau buka 20 tab Chrome.
-- **8GB RAM**: Sweet spot buat user biasa (browsing, Netflix, coding ringan).
-- **16GB+**: Buat developer (run Docker, VM), video editor, multitasker berat.
+Contoh nama yang bakal lu temui: Intel Core i3, i5, i7, i9. AMD Ryzen 3, 5, 7, 9. Chip Apple M1, M2, M3. Dalam satu seri, angka yang lebih besar biasanya lebih kencang.
 
-**Kapan RAM penting**:
-- Multitasking (banyak apps buka sekaligus)
-- Coding (IDE + browser + terminal + database)
-- Photo/video editing
-- Gaming
-
-**Coba perhatikan**:
-- Waktu RAM full, komputer jadi super lambat (disk swapping: pakai storage sebagai "RAM cadangan", tapi storage jauh lebih lambat).
-- Check RAM usage: Task Manager (Windows) atau Activity Monitor (Mac).
+Waktu lu buka puluhan tab dan laptop jadi ngelag, salah satu penyebabnya CPU kewalahan karena terlalu banyak yang harus dikerjain bareng.
 
 ---
 
-#### 3. Storage - Kulkas/Gudang
+### 2. RAM: Meja Kerja
 
-![SSD and HDD Storage](https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&q=80)
-*Photo by [Benjamin Lehman](https://unsplash.com/@benjaminlehman) on [Unsplash](https://unsplash.com)*
+![RAM](https://images.unsplash.com/photo-1541746972996-4e0b0f43e02a?w=600&q=80)
+*Foto oleh [Harrison Broadbent](https://unsplash.com/@harrisonbroadbent) di [Unsplash](https://unsplash.com)*
 
-**Fungsi**: Simpen data **permanen**. File, foto, video, aplikasi. Ga ilang waktu komputer dimatiin.
+**RAM** (Random Access Memory) nyimpen data yang lagi dipakai sekarang. Cepat diakses, tapi isinya hilang waktu komputer mati.
 
-**Analogi**: Kulkas atau gudang. Lu simpen bahan makanan di kulkas. Kapanpun lu mau masak, ambil dari kulkas. Bedanya sama meja kerja (RAM): kulkas lebih lambat diakses, tapi bisa simpen lebih banyak dan ga ilang waktu listrik mati.
+Bayangin meja kerja di dapur. Bahan yang lagi dipakai ditaruh di situ biar gampang diambil. Kalau mejanya sempit, lu bolak-balik ke kulkas tiap butuh bahan, dan itu lambat. Kalau mejanya luas, semua bahan ada di jangkauan tangan.
 
-**Jenis storage**:
+Ukuran RAM yang umum: 4 GB, 8 GB, 16 GB, 32 GB. Sebagai gambaran kasar:
 
-**HDD (Hard Disk Drive)** - Piringan putar:
-- **Murah**: 1 TB cuma 400-600rb
-- **Kapasitas besar**: 1 TB, 2 TB, 4 TB
-- **Lambat**: 100 MB/s read speed
-- **Ada bagian gerak**: bisa rusak kalau kejatuh
+- **4 GB**: cukup buat browsing ringan dan dokumen. Berat kalau tab-nya banyak.
+- **8 GB**: nyaman buat pemakaian harian, termasuk coding ringan.
+- **16 GB atau lebih**: enak buat developer, editing video, atau yang sering buka banyak aplikasi sekaligus.
 
-**SSD (Solid State Drive)** - Chip elektronik:
-- **Cepat**: 500 MB/s (SATA) atau 3,000 MB/s (NVMe)
-- **Ga ada bagian gerak**: lebih tahan banting
-- **Lebih mahal**: 1 TB SSD ~1-1.5 juta
-
-**Real example**:
-- Laptop lama (HDD): Boot Windows 2-3 menit, buka app lambat.
-- Laptop baru (SSD): Boot Windows 10-15 detik, buka app instant.
-
-**Impact nyata**:
-- Upgrade dari HDD ke SSD = **laptop kerasa 3x lebih cepat** (ini upgrade paling worth it).
-
-**Kapan storage penting**:
-- Simpen banyak file (foto, video, project)
-- Install banyak apps/games
+Waktu RAM penuh, sistem operasi mulai nitip data ke storage sebagai RAM cadangan (namanya **swap**). Storage jauh lebih lambat dari RAM, jadi komputer langsung terasa berat.
 
 ---
 
-#### 4. Output Devices - Cara Komputer "Ngomong" ke Lu
+### 3. Storage: Kulkas
 
-**Monitor/Screen**: Nampilin visual (text, image, video).  
-**Speaker**: Output audio.  
-**Printer**: Output fisik (kertas).
+![SSD dan HDD](https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=600&q=80)
+*Foto oleh [Benjamin Lehman](https://unsplash.com/@benjaminlehman) di [Unsplash](https://unsplash.com)*
 
-**Analogi**: Piring tempat naruh hasil masakan. Lu masak (CPU proses), hasil akhirnya ditaro di piring (monitor nampilin hasil).
+**Storage** nyimpen data secara permanen: file, foto, video, aplikasi. Isinya tetap ada waktu komputer mati.
+
+Kulkas lebih lambat dijangkau dibanding meja kerja, tapi muat jauh lebih banyak dan nggak hilang waktu listrik padam.
+
+Ada dua jenis yang umum:
+
+| | HDD | SSD |
+|---|---|---|
+| Cara kerja | Piringan yang berputar | Chip elektronik |
+| Kecepatan baca | Kira-kira 100 sampai 200 MB per detik | Kira-kira 500 MB per detik (SATA) sampai lebih dari 3.000 MB per detik (NVMe) |
+| Bagian bergerak | Ada, jadi lebih rentan kalau jatuh | Nggak ada |
+| Harga per GB | Lebih murah | Lebih mahal |
+
+Buat laptop yang masih pakai HDD, pindah ke SSD biasanya perubahan paling terasa. Komputer nyala lebih cepat dan aplikasi kebuka lebih cepat.
+
+Satu hal lagi yang sering terlewat: storage yang hampir penuh bikin komputer lambat. Sistem butuh ruang kosong buat kerja. Usahakan sisakan sekitar 10 sampai 20 persen.
 
 ---
 
-#### 5. Input Devices - Cara Lu "Ngomong" ke Komputer
+### 4. Output: Piring
 
-**Keyboard**: Input text/command.  
-**Mouse/Trackpad**: Navigate UI, click.  
-**Microphone**: Input audio (voice command, recording).  
-**Camera**: Input video (video call, foto).
+Output adalah cara komputer ngasih hasil ke lu: **monitor** (tampilan), **speaker** (suara), **printer** (kertas).
 
-**Analogi**: Lu kasih instruksi ke komputer. Kayak lu kasih tau koki (CPU) mau masak apa.
+### 5. Input: Cara Lu Ngasih Perintah
 
----
+Input adalah cara lu ngomong ke komputer: **keyboard**, **mouse atau trackpad**, **mikrofon**, **kamera**.

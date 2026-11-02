@@ -1,19 +1,19 @@
-## Apa itu Terminal?
+## Apa itu Terminal
 
-Terminal = **text-based interface** buat ngasih perintah ke komputer.
+Terminal adalah antarmuka berbasis teks buat ngasih perintah ke komputer.
 
 ---
 
 ### Istilah yang Sering Bingung
 
-**Terminal, Command Line, Shell, Console** - sebenernya beda, tapi orang sering pake interchangeably:
+**Terminal, command line, shell, console**: sebenarnya beda, tapi orang sering memakainya bergantian.
 
-- **Terminal**: Aplikasi yang nge-run shell
-- **Shell**: Program yang nerima command (bash, zsh, fish)
-- **Command Line / CLI**: Interface text-based secara umum
-- **Console**: Istilah lama, sekarang sama kayak terminal
+- **Terminal**: aplikasi tempat lu ngetik
+- **Shell**: program yang membaca dan menjalankan perintah lu (bash, zsh, PowerShell)
+- **Command line** atau **CLI**: istilah umum buat antarmuka berbasis teks
+- **Console**: istilah lama, sekarang artinya hampir sama dengan terminal
 
-**Praktis**: Sebut aja "terminal". Semua orang ngerti.
+Sehari-hari cukup bilang "terminal". Semua orang ngerti.
 
 ---
 
@@ -26,7 +26,7 @@ Terminal = **text-based interface** buat ngasih perintah ke komputer.
 **Windows**:
 - Win + R → ketik "cmd" → Enter (Command Prompt)
 - Atau: Win + X → pilih "Windows Terminal" / "PowerShell"
-- Lebih baik: Install [Git Bash](https://git-scm.com/downloads) (dapet bash shell kayak Mac/Linux)
+- Alternatif yang disarankan buat belajar: pasang [Git Bash](https://git-scm.com/downloads), supaya perintahnya sama dengan macOS dan Linux. Cara pasangnya dibahas di Lesson 6.
 
 **Linux**:
 - Ctrl + Alt + T
@@ -54,7 +54,7 @@ Rafi@DESKTOP-ABC ~/
 $
 ```
 
-**Parts**:
+**Bagian-bagiannya**:
 - `mac` / `Rafi` = username
 - `Macbook` / `DESKTOP-ABC` = hostname (nama komputer)
 - `~` / `C:\Users\Rafi` = current directory
@@ -80,34 +80,34 @@ Itu command pertama lu.
 
 ---
 
-### Anatomy of a Command
+### Bagian-Bagian Sebuah Perintah
 
 ```bash
 ls -la /Users/rafi
 ```
 
 **Parts**:
-- `ls` = command (nama program)
-- `-la` = flags/options (modify behavior)
-- `/Users/rafi` = argument (input buat command)
+- `ls`: nama perintah
+- `-la`: opsi (flag) yang mengubah cara kerja perintah
+- `/Users/rafi`: argumen, yaitu bahan yang dikerjakan perintah
 
 ---
 
-### Command Shortcuts
+### Pintasan Keyboard
 
 **macOS/Linux/Git Bash**:
-- `Tab` = autocomplete (ketik `cd Doc` terus Tab → jadi `cd Documents`)
-- `↑` = command sebelumnya (history)
+- `Tab` = melengkapi nama otomatis (ketik `cd Doc` lalu Tab, jadi `cd Documents`)
+- `↑` = perintah sebelumnya
 - `Ctrl + C` = stop command yang lagi jalan
 - `Ctrl + L` = clear screen
-- `Ctrl + D` = exit terminal
+- `Ctrl + D` = keluar dari terminal
 
 **Windows CMD**:
 - Sama, tapi beberapa shortcut beda (misal: `Ctrl + L` ga jalan di CMD lama)
 
 ---
 
-### Terminal itu Safe
+### Seberapa Aman Terminal
 
 Lu ga bakal rusak sistem cuma gara-gara typo. Contoh:
 
@@ -122,4 +122,4 @@ Terminal cuma bilang "ga ngerti command itu", ga bakal crash atau rusak apa-apa.
 
 ---
 
-Next: **Basic Commands** - ls, cd, pwd, mkdir.
+Berikutnya: perintah dasar seperti `ls`, `cd`, `pwd`, dan `mkdir`.

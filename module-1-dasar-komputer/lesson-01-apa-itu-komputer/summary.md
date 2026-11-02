@@ -1,29 +1,27 @@
-## Ringkasan
+## Summary
 
-**Yang udah lu pelajari**:
+**Yang udah lu pelajari**
 
-- **Komputer = Hardware + Software**. Hardware (fisik) + Software (instruksi) = sistem yang fungsional.
-- **Hardware utama**:
-  - **CPU**: Otak (process instruksi)
-  - **RAM**: Meja kerja (data sementara, cepat)
-  - **Storage**: Gudang (data permanen, lebih lambat)
-  - **I/O devices**: Input (keyboard, mouse) + Output (monitor, speaker)
-- **Software**:
-  - **OS** (Windows, macOS, Linux): Koordinator semua hardware + apps
-  - **Applications**: Tools spesifik (browser, editor, game)
-  - **Drivers**: Penerjemah hardware
-- **Workflow**: Input → CPU process (via RAM) → Output (di monitor)
-- **Upgrade priority**: SSD > RAM > CPU (kalau laptop lambat)
+- Komputer itu hardware ditambah software. Hardware adalah bagian fisik, software adalah instruksinya.
+- **CPU** ngejalanin instruksi.
+- **RAM** nyimpen data yang lagi dipakai. Cepat, tapi hilang waktu komputer mati.
+- **Storage** nyimpen data permanen. Lebih lambat dari RAM, tapi nggak hilang waktu mati.
+- **Input dan output**: keyboard, mouse, monitor, speaker.
+- **OS** (Windows, macOS, Linux) ngatur hardware dan aplikasi, nyediain tampilan, dan menjaga keamanan.
+- **Aplikasi** dipakai buat tugas tertentu, dan **driver** jadi penerjemah ke perangkat keras.
+- Kalau komputer lambat, cek dulu RAM, storage, dan jenis disk sebelum mutusin beli baru.
 
-**Key terms**:
+**Istilah penting**
 
-- **Hardware**: Komponen fisik komputer (CPU, RAM, storage).
-- **Software**: Instruksi/program yang jalanin hardware.
-- **OS (Operating System)**: Software utama yang manage hardware + apps.
-- **RAM**: Memory sementara (cepat, ilang waktu mati).
-- **Storage**: Memory permanen (lambat, ga ilang).
-- **CPU**: Processor yang eksekusi instruksi.
-- **Path**: Alamat file di file system (e.g., `C:\Users\Rapi\Documents\file.txt`).
+| Istilah | Artinya |
+|---|---|
+| Hardware | Komponen fisik komputer |
+| Software | Instruksi atau program yang dijalankan hardware |
+| OS | Software utama yang ngatur hardware dan aplikasi |
+| CPU | Bagian yang ngejalanin instruksi |
+| RAM | Memori sementara yang cepat |
+| Storage | Penyimpanan permanen |
+| Driver | Software penerjemah buat perangkat keras tertentu |
 
 ## Lanjut Kemana?
 
@@ -31,4 +29,4 @@ Sekarang lu udah paham apa yang ada di dalam komputer dan cara kerjanya. Di Less
 
 ---
 
-**Punya pertanyaan?** Tanyakan di [Discord Community](../../resources/community.md) atau buka issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues)
+**Punya pertanyaan?** Tanyakan di [Discord](../../resources/community.md) atau buka issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues).

@@ -1,6 +1,6 @@
-## Navigation - Path Absolute vs Relative
+## Navigasi dan Path
 
-Path = **alamat file/folder**. Ada 2 jenis: absolute (dari root) dan relative (dari posisi sekarang).
+Path adalah alamat file atau folder. Ada dua jenis: absolut (dari root) dan relatif (dari posisi sekarang). Ini sama dengan yang lu pelajari di Lesson 2, sekarang dipakai lewat terminal.
 
 ---
 
@@ -130,19 +130,6 @@ cd ~/Desktop # Ke C:\Users\Rafi\Desktop
 
 ---
 
-### Contoh Real: Git Clone
-
-```bash
-# Biasa orang clone project di home atau Desktop
-cd ~                     # Balik ke home
-mkdir projects           # Bikin folder projects
-cd projects
-git clone https://github.com/user/repo.git
-cd repo
-```
-
----
-
 ### Slash: `/` vs `\`
 
 **macOS/Linux**: Pake `/`
@@ -164,7 +151,7 @@ cd C:/Users/Rafi/Documents  # Jalan di PowerShell/Git Bash
 
 ---
 
-### Wildcards (Bonus)
+### Wildcard (Bonus)
 
 `*` = match semua.
 
@@ -183,7 +170,7 @@ cp *.py backup/
 
 ---
 
-## Practice Drill
+## Latihan Cepat
 
 Coba sequence ini (jangan copy-paste, ketik manual):
 
@@ -203,8 +190,8 @@ pwd                      # /Users/rafi
 rm -r test-terminal      # Hapus folder test (cleanup)
 ```
 
-Kalau semua jalan, **lu udah ngerti navigation**!
+Kalau semua jalan, navigasi dasar sudah lu kuasai.
 
 ---
 
-Next: **Exercises** - praktek navigasi dan basic commands.
+Berikutnya: latihan lengkap di Exercises.

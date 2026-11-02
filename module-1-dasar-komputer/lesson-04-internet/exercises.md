@@ -1,99 +1,83 @@
-## Exercises - Internet & Web
+## Exercises
 
-Praktek DNS lookup, HTTP request, dan traceroute.
+Empat latihan, masing-masing sekitar 5 sampai 10 menit. Semuanya dijalankan di terminal. Di Windows, pakai PowerShell atau Git Bash.
 
 ---
 
-### Exercise 1: DNS Lookup
+### Latihan 1: Cari IP dari Nama Domain
 
-**Tujuan**: Cari IP address dari domain.
+**Tujuan**: pakai DNS lewat terminal.
 
-**Commands**:
 ```bash
-# Lookup google.com
-nslookup google.com
-
-# Atau pake dig (more detail)
-dig google.com
-
-# Atau host
-host google.com
+nslookup github.com
 ```
 
-**Expected Output** (nslookup). Angka IP lu bisa beda dari contoh ini, itu normal, karena Google punya banyak server:
-```
-Server:  8.8.8.8
-Name:    google.com
-Address: 142.250.185.46
-```
+Cari baris `Address` setelah bagian `Name`. Itu IP address github.com.
 
-**Task tambahan**: Lookup IP dari:
-- facebook.com
-- twitter.com
-- github.com
+**Tugas**: lakukan hal yang sama buat tiga domain lain yang lu pilih sendiri.
+
+**Hasil yang benar**: lu punya IP buat tiap domain. Angka lu bisa beda dari temen lu atau dari contoh di materi. Itu normal, karena situs besar punya banyak server dan DNS ngasih yang terdekat atau yang sedang tersedia.
 
 ---
 
-### Exercise 2: HTTP Request dengan curl
+### Latihan 2: Kirim Request dengan curl
 
-**Tujuan**: Kirim HTTP request manual.
+**Tujuan**: lihat sendiri permintaan dan balasan HTTP.
 
-**GET request simple**:
 ```bash
 curl https://jsonplaceholder.typicode.com/users/1
 ```
 
-**Expected Output**: JSON data user
+**Hasil yang benar**: balasan berupa data JSON tentang satu pengguna, berisi `id`, `name`, dan `email`.
 
-**Dengan headers**:
+Lalu lihat header-nya saja:
+
 ```bash
-curl -I https://google.com
+curl -I https://example.com
 ```
 
-Output: Response headers (status code, content-type, dll)
+**Hasil yang benar**: baris pertamanya `HTTP/2 200` (atau `HTTP/1.1 200 OK`), diikuti header seperti `content-type`.
 
-**POST request**:
+---
+
+### Latihan 3: Status Code
+
+**Tujuan**: kenal status code lewat contoh langsung.
+
+Jalankan dua perintah ini dan perhatikan status code-nya:
+
+```bash
+curl -I https://example.com
+curl -I https://example.com/halaman-yang-tidak-ada
+```
+
+**Hasil yang benar**: yang pertama `200`, yang kedua `404`. Jelasin pakai kata-kata lu sendiri kenapa angkanya beda.
+
+---
+
+### Latihan 4: Kirim POST
+
+**Tujuan**: bedain GET dan POST.
+
 ```bash
 curl -X POST https://jsonplaceholder.typicode.com/posts \
   -H "Content-Type: application/json" \
-  -d '{"title": "Test", "body": "Hello", "userId": 1}'
+  -d '{"title": "Test", "body": "Halo", "userId": 1}'
 ```
+
+**Hasil yang benar**: balasan JSON yang isinya sama dengan yang lu kirim, ditambah `"id": 101`. Situs ini cuma buat latihan, jadi datanya nggak benar-benar disimpan.
+
+Di Windows PowerShell, `curl` bisa berarti perintah lain. Kalau perintah di atas error, pakai Git Bash atau tulis `curl.exe` sebagai gantinya.
 
 ---
 
-### Exercise 3: Traceroute
+### Opsional: Lihat Rute Paket
 
-**Tujuan**: Liat route ke server.
-
-**macOS/Linux**:
 ```bash
-traceroute google.com
+traceroute google.com      # macOS dan Linux
+tracert google.com         # Windows
 ```
 
-**Windows**:
-```bash
-tracert google.com
-```
+Hitung berapa lompatan (hop) sampai tujuan. Sebagian baris bisa menampilkan `* * *`, artinya router di titik itu nggak membalas. Itu normal.
 
-**Expected Output**:
-```
-1  192.168.1.1  2ms  (router rumah)
-2  10.0.0.1     5ms  (ISP)
-...
-15 142.250.185.46  20ms (google.com)
-```
-
-**Analisa**: Berapa hop (lompatan)? Latency berapa?
-
----
-
-## Checklist
-
-- [ ] Lu bisa lookup IP dari domain
-- [ ] Lu bisa kirim HTTP request pake curl
-- [ ] Lu paham traceroute output
-- [ ] Lu ngerti status code (200, 404, 500)
-
----
-
-Next: **Summary** - ringkasan Internet & Web.
+Hasilnya beda buat tiap orang, karena tergantung ISP dan lokasi lu.

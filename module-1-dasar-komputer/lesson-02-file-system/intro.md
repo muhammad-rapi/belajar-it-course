@@ -1,86 +1,60 @@
-# File System & Path
+## Kenapa Perlu Belajar Ini
 
-## Kenapa Perlu Belajar Ini?
+Bayangin lu punya rumah dan semua barangnya, dari baju, buku, alat masak, sampai dokumen penting, ditumpuk di satu kamar. Mau nyari satu barang aja susah.
 
-Bayangin lu punya rumah dengan 1000 barang. Baju, buku, alat masak, mainan anak, dokumen penting, semua campur aduk di satu kamar. Mau cari apa-apa susah. Mau ngerapiin? Lebih susah lagi.
+Komputer lu juga isinya ribuan file: foto, dokumen, installer, video hasil download, screenshot. Bedanya, komputer punya sistem buat ngatur semuanya, namanya **file system**.
 
-Komputer lu juga begitu. Ada ribuan file: foto keluarga, dokumen kerja, installer aplikasi, video YouTube yang di-download, screenshot random, semua nyampur. Bedanya, komputer punya sistem buat ngatur ini semua: **file system**.
+### Kalau Nggak Paham File System
 
-**Tanpa ngerti file system, lu akan**:
-- Bingung nyari file (download dimana ya?)
-- Duplikat file berulang kali (dokumen_final.docx, dokumen_final_v2.docx, dokumen_final_FINAL.docx)
-- Kehabisan space karena ga tau file besar ada dimana
-- Susah collab (kalo kerja bareng, gimana share struktur folder yang sama?)
-- Susah coding (programmer HARUS paham path untuk akses file)
+- Lu bingung file hasil download ada di mana.
+- File numpuk dengan nama `dokumen_final`, `dokumen_final_v2`, `dokumen_final_beneran`.
+- Storage penuh dan lu nggak tahu file gede itu ada di folder mana.
+- Waktu coding, program lu error "file not found" padahal filenya ada.
 
-## Apa yang Akan Lu Pelajari
+Yang terakhir paling sering kejadian ke pemula.
 
-Setelah lesson ini, lu bisa:
-- Ngerti struktur folder komputer (dari root sampai file individual)
-- Bedain absolute path vs relative path
-- Tau file types (extension) dan kegunaannya
-- Paham konsep permissions (siapa boleh baca/edit file)
-- Navigasi file system dengan percaya diri
+### Yang Bakal Lu Bisa
 
-**Durasi**: ~20 menit baca + 30 menit praktek
+- Baca struktur folder, dari root sampai satu file
+- Bedain path absolut dan path relatif
+- Tahu fungsi ekstensi file dan kenapa ekstensi bisa jadi jebakan
+- Paham dasar permissions: siapa boleh baca, ubah, dan jalanin file
 
----
+### Analogi: Alamat Rumah
 
-## Analogi: File System = Sistem Alamat Rumah
+Mau kirim paket ke temen di Jakarta, nggak cukup nulis "rumah Budi". Harus lengkap:
 
-> Lu mau kirim paket ke temen di Jakarta. Ga cukup bilang "rumah si Budi". Lu butuh alamat lengkap:
-> 
-> **Indonesia** → **DKI Jakarta** → **Jakarta Selatan** → **Jl. Sudirman No. 123** → **Apartemen Thamrin** → **Lantai 15** → **Unit 1505**
+**Indonesia, DKI Jakarta, Jakarta Selatan, Jl. Sudirman No. 123, Apartemen Thamrin, Lantai 15, Unit 1505**
 
-Komputer sistemnya sama persis:
+Komputer nulis alamat file dengan cara yang sama:
 
 ```
-C:\                           ← Root (negara)
-└── Users\                    ← Folder users (provinsi)
-    └── Rafi\                 ← User lu (kota)
-        └── Documents\        ← Folder Documents (jalan)
-            └── Kerja\        ← Subfolder Kerja (gedung)
-                └── Laporan.docx  ← File (unit rumah)
+C:\                              <- root (negara)
+└── Users\                       <- folder users (provinsi)
+    └── Rafi\                    <- folder user lu (kota)
+        └── Documents\           <- folder Documents (jalan)
+            └── Kerja\           <- subfolder Kerja (gedung)
+                └── Laporan.docx  <- file (unit)
 ```
 
-Ini yang disebut **path** (alamat file).
+Alamat itu namanya **path**.
 
----
+### Kenapa Path Sering Bikin Error
 
-## Kenapa Path Penting Banget?
+Waktu lu coding, ini bakal sering ketemu:
 
-**Skenario 1: Lu belajar coding**
 ```python
-# Lu mau buka file data.csv
-file = open("data.csv")  # ERROR: File not found
+file = open("data.csv")
+# FileNotFoundError: No such file or directory: 'data.csv'
 ```
 
-Kenapa error? Karena Python cari di **current directory** (folder dimana lu run script). Kalo `data.csv` ada di folder lain, Python ga tau.
+Python nyari `data.csv` di folder tempat program dijalankan. Kalau filenya ada di folder lain, Python nggak nemu. Solusinya ngasih alamat yang benar, dan itu isi lesson ini.
 
-Solution:
-```python
-# Kasih full path
-file = open("C:/Users/Rafi/Documents/Kerja/data.csv")  # Works!
-```
+Waktu pakai terminal juga sama:
 
-**Skenario 2: Lu install software**
-Software tanya: "Install dimana?" Default biasanya `C:\Program Files\`. Kalo lu ga ngerti, nanti susah uninstall atau cari file config-nya.
-
-**Skenario 3: Command Line**
 ```bash
-cd /Users/Rafi/Projects  # Pindah ke folder Projects
-python script.py         # Run script di folder itu
+cd /Users/rafi/Projects   # pindah ke folder Projects
+python3 script.py         # jalanin script di folder itu
 ```
 
-Tanpa ngerti path, lu ga bisa navigasi command line.
-
----
-
-## Struktur Lesson Ini
-
-Kita akan bahas step-by-step:
-1. **File System Hierarchy**, struktur folder (root, subfolder, file)
-2. **File Types**, extension (.txt, .jpg, .exe) dan kegunaannya
-3. **Permissions**, siapa boleh baca/edit/hapus file
-4. **Hands-on Exercises**, eksplorasi file system lu sendiri
-
+Tanpa paham path, lu nggak bisa pindah-pindah folder lewat terminal.

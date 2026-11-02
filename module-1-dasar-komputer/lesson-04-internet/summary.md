@@ -1,68 +1,31 @@
-## Summary - Internet & Web
+## Summary
 
-Lu udah paham gimana data ngalir lewat internet.
+**Yang udah lu pelajari**
 
----
+- **Internet** adalah jaringan dari jaringan. **Web** adalah salah satu layanan di atasnya.
+- **IP address** adalah alamat tiap perangkat. **Router** mengarahkan paket ke tujuan.
+- Data dikirim sebagai **paket** kecil yang digabung lagi di tujuan.
+- **Client** meminta, **server** membalas. Polanya disebut permintaan dan balasan.
+- **HTTP** punya method: GET (ambil), POST (bikin), PUT (ganti), PATCH (ubah sebagian), DELETE (hapus).
+- **Status code**: 2xx berhasil, 3xx dialihkan, 4xx masalah di permintaan, 5xx masalah di server.
+- **HTTPS** mengenkripsi data, HTTP nggak.
+- **DNS** nerjemahin nama domain jadi IP address, dengan cache di tiap tahap. Perubahan DNS butuh waktu buat menyebar.
 
-## Key Concepts
+**Perintah yang dipakai**
 
-**Internet**:
-- Network of networks
-- IP address = alamat unik tiap device
-- Packet switching = data dipecah jadi packet kecil
-- Router = forward packet ke tujuan
-
-**HTTP**:
-- Request-response protocol
-- Methods: GET (ambil), POST (create), PUT (update), DELETE (hapus)
-- Status codes: 2xx (success), 4xx (client error), 5xx (server error)
-- HTTPS = encrypted (SSL/TLS)
-
-**DNS**:
-- Phonebook internet
-- Translate domain → IP
-- Cache di browser, OS, router
-- Propagation: beberapa menit sampai sehari lebih, tergantung TTL
-
----
-
-## Kenapa Ini Penting Buat Developer?
-
-**Waktu bikin app**:
-```python
-import requests
-
-# HTTP GET request
-response = requests.get("https://api.example.com/users")
-print(response.status_code)  # 200
-
-if response.status_code == 200:
-    data = response.json()
-    print(data)
+```bash
+nslookup github.com
+curl https://example.com
+curl -I https://example.com
+traceroute google.com
 ```
 
-Lu harus paham:
-- Request method (GET, POST, dll)
-- Status code (200 = ok, 404 = not found)
-- JSON response format
+**Cek sebelum lanjut**
 
----
+- Lu bisa bedain 200, 404, dan 500.
+- Lu bisa jelasin apa yang terjadi saat mengetik alamat web.
+- Lu bisa pakai `nslookup` dan `curl`.
 
-## Next Steps
+## Lanjut Kemana?
 
-**Next lesson: Browser & DevTools** - inspect web page, debug, console.
-
-Preview:
-- How browser works
-- DevTools (inspect element, network tab, console)
-- Debug JavaScript
-
-Sebelum lanjut:
-- [ ] Paham client-server model
-- [ ] Hafal HTTP status codes umum (200, 404, 500)
-- [ ] Bisa lookup DNS
-- [ ] Comfortable pake curl
-
----
-
-Ready buat Lesson 5! 
+Di Lesson 5, lu lihat bagian setelah balasan sampai: gimana browser mengolah HTML, CSS, dan JavaScript jadi halaman, dan gimana ngintip semua itu lewat DevTools.

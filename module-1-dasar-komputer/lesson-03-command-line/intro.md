@@ -1,68 +1,33 @@
-## Kenapa Perlu Belajar Terminal?
+## Kenapa Perlu Belajar Terminal
 
-Lu udah biasa klik-klik icon buat buka folder, delete file, install app. Kenapa harus belajar ketik command text?
+Lu udah biasa klik ikon buat buka folder, hapus file, dan install aplikasi. Terus kenapa harus ngetik perintah?
 
----
+### Masalah yang Bakal Lu Temui
 
-### Masalahnya
+Klik-klik itu nyaman, tapi ada hal yang nggak bisa dilakukan atau terlalu lambat kalau lewat klik:
 
-**GUI (klik-klik) itu lambat buat developer:**
+1. **Kerjaan berulang.** Bikin 100 folder atau ganti nama 50 file lewat klik itu melelahkan. Lewat terminal, satu perintah cukup.
+2. **Banyak tools developer cuma ada di terminal.** Jalanin program (`python3 app.py`), install library (`npm install`), dan pakai Git (`git commit`).
+3. **Server nggak punya tampilan.** Kalau nanti lu deploy aplikasi ke server, yang ada cuma terminal. Nggak ada ikon dan nggak ada mouse.
+4. **Otomatisasi.** Script yang jalan sendiri tiap malam, misalnya buat backup file, dijalankan lewat terminal.
 
-1. **Repetitive task**
-   - Bikin 100 folder? Klik 100x? Ribet.
-   - Rename 50 file? Satu-satu? Lama.
+### Analogi: Remote TV dan Tombol di TV
 
-2. **Developer tools cuma ada di terminal**
-   - Install library: `npm install react`
-   - Run program: `python app.py`
-   - Git: `git commit`, `git push`
-   - Hampir semua tool modern = terminal-based
+Tombol di badan TV itu seperti klik-klik. Mau pindah ke channel 50, lu pencet "next" 49 kali. Remote itu seperti terminal. Lu ketik 5, 0, selesai. Remote nggak otomatis lebih mudah di awal, tapi begitu terbiasa, jauh lebih cepat.
 
-3. **Server ga punya GUI**
-   - Deploy app ke server (AWS, VPS)? Cuma ada terminal
-   - Ga ada icon, ga ada mouse
+### Yang Bakal Lu Bisa
 
-4. **Automation**
-   - Script Python buat backup file otomatis? Jalan via terminal
-   - CI/CD pipeline? Terminal semua
+- Buka terminal di sistem lu
+- Pindah antar folder pakai perintah
+- Bikin, salin, pindah, dan hapus file serta folder
+- Bedain path absolut dan relatif di terminal
 
----
+### Tiga Rasa Takut yang Wajar
 
-### Analogi: Remote Control vs Tombol di TV
+**"Terminal itu buat hacker."** Terminal cuma antarmuka teks. Layar hitam dan tulisan hijau itu urusan film.
 
-> Remote control = terminal. Lu bisa switch channel cepet (1 → 50 langsung ketik 50).
-> 
-> Tombol di TV = GUI. Lu harus pencet next-next-next 49x.
+**"Salah ketik bisa ngerusak komputer."** Salah ketik nama perintah cuma bikin terminal bilang `command not found`. Yang perlu hati-hati cuma perintah yang menghapus file, dan itu dibahas di lesson ini.
 
-Terminal = jalan pintas buat yang tau cara pakainya.
+**"Lebih ribet daripada klik."** Di awal iya. Setelah hafal sekitar sepuluh perintah dasar, banyak pekerjaan jadi lebih cepat dari klik.
 
----
-
-## Apa yang Lu Bakal Pelajari
-
-Abis lesson ini, lu bisa:
-- Buka terminal
-- Navigasi folder pakai command
-- Bikin, hapus, pindah file/folder
-- Paham path (absolute vs relative)
-- Comfortable kerja di terminal (ga takut layar hitam)
-
----
-
-## Mental Block yang Sering Muncul
-
-**1. "Kayak hacker di film"**
-
-Terminal ga se-misterius itu. Cuma text interface buat ngasih perintah ke komputer.
-
-**2. "Takut salah ketik, rusak sistem"**
-
-Sistem operasi modern punya protection. Lu ga bakal rusak komputer cuma gara-gara typo command. Worst case: file yang lu mau hapus kehapus. (Makanya jangan ketik `rm -rf /` sembarangan)
-
-**3. "Ribet, mending klik"**
-
-Di awal emang ribet. Tapi begitu hafal 10 command dasar, lu 10x lebih cepet dari klik-klik.
-
----
-
-Ready? Buka Terminal lu sekarang.
+Buka terminal lu sekarang.

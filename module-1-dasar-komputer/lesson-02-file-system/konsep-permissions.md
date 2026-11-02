@@ -1,105 +1,99 @@
-# File Permissions
+## Permissions
 
-## Apa itu Permissions?
+**Permissions** adalah aturan siapa yang boleh membaca, mengubah, atau menjalankan sebuah file atau folder.
 
-**Permissions** = aturan siapa boleh **baca**, **edit**, atau **hapus** file/folder.
-
-**Analogi**: Kamar kos lu punya aturan:
-- **Lu (owner)**: boleh masuk, tidur, ubah furniture (full access)
-- **Teman (group)**: boleh masuk, duduk, tapi ga boleh pindahin kasur (read + limited write)
-- **Stranger (others)**: ga boleh masuk sama sekali (no access)
-
-File di komputer works sama.
+Bayangin kamar kos. Lu sebagai pemilik boleh masuk, tidur, dan ngatur isinya. Temen deket boleh masuk dan duduk, tapi nggak boleh mindahin kasur. Orang asing nggak boleh masuk sama sekali. File di komputer punya aturan yang mirip.
 
 ---
 
-## Permissions di Windows
+### Di Windows
 
-Windows lebih sederhana: file punya **attributes**.
+Windows pakai **atribut** yang lebih sederhana:
 
-**Attributes**:
-- **Read-only**: File cuma bisa dibaca, ga bisa diedit atau dihapus
-- **Hidden**: File disembunyiin dari File Explorer
-- **System**: File penting buat OS
+- **Read-only**: file cuma bisa dibaca, nggak bisa diubah
+- **Hidden**: file disembunyikan dari tampilan biasa
 
-**Cara lihat/ubah**:
-1. Klik kanan file → **Properties**
-2. Tab **General** → lihat di bagian **Attributes**
+Buat ngeceknya, klik kanan file, pilih **Properties**, lalu lihat bagian **Attributes** di tab General.
 
 ---
 
-## Permissions di macOS/Linux
+### Di macOS dan Linux
 
-macOS & Linux punya sistem permissions lebih detail.
+Sistemnya lebih rinci. Ada tiga jenis izin:
 
-### 3 Permissions:
-- **Read** (r): Bisa baca isi file
-- **Write** (w): Bisa edit atau hapus file
-- **Execute** (x): Bisa run file (kalo file adalah program/script)
+| Izin | Huruf | Artinya |
+|---|---|---|
+| Read | `r` | boleh membaca isi file |
+| Write | `w` | boleh mengubah atau menghapus file |
+| Execute | `x` | boleh menjalankan file (kalau itu program atau script) |
 
-### 3 User Categories:
-- **Owner** (u): user yang bikin file
-- **Group** (g): grup yang assigned ke file
-- **Others** (o): semua user lain
+Dan tiga kelompok pengguna:
 
-**Notasi**: `rwxr-xr--`
+| Kelompok | Siapa |
+|---|---|
+| Owner | pemilik file |
+| Group | grup yang ditetapkan ke file |
+| Others | semua orang selain itu |
 
-Breakdown:
+Hasilnya ditulis sebagai sembilan karakter, tiga untuk tiap kelompok:
+
 ```
 rwx  r-x  r--
 │││  │││  │││
-│││  │││  └└└─ Others: read only
-│││  └└└─────── Group: read + execute
-└└└──────────── Owner: read + write + execute
+│││  │││  └└└─ Others: baca saja
+│││  └└└─────── Group: baca dan jalankan
+└└└──────────── Owner: baca, ubah, dan jalankan
 ```
 
-**Cara lihat**:
+Tanda `-` artinya izin itu nggak ada.
+
+**Cara melihat**
+
 ```bash
 ls -l file.txt
--rw-r--r--  1 rafi  staff  1234 Oct 7 file.txt
 ```
 
-**Cara ubah**:
+Hasilnya seperti ini (angka dan nama di tiap komputer beda):
+
+```
+-rw-r--r--  1 rafi  staff  1234 Oct  7 10:00 file.txt
+```
+
+Sembilan karakter setelah tanda `-` pertama (`rw-r--r--`) adalah permissions-nya. Artinya: owner boleh baca dan ubah, group dan others cuma boleh baca.
+
+**Cara mengubah dengan angka**
+
+Tiap izin punya nilai: `r` = 4, `w` = 2, `x` = 1. Jumlahkan per kelompok.
+
+| Angka | Izin | Artinya |
+|---|---|---|
+| 7 | rwx | 4 + 2 + 1 |
+| 6 | rw- | 4 + 2 |
+| 5 | r-x | 4 + 1 |
+| 4 | r-- | 4 |
+
+Tiga angka berurutan adalah owner, group, others:
+
 ```bash
-chmod 755 script.sh    # Owner: rwx, Group: r-x, Others: r-x
-chmod +x script.sh     # Tambah execute permission
-chmod 600 config.json  # Cuma owner yang bisa read/write
+chmod 644 file.txt    # owner baca dan ubah, lainnya baca saja
+chmod 755 script.sh   # owner semua, lainnya baca dan jalankan
+chmod 600 rahasia.txt # hanya owner yang boleh baca dan ubah
+```
+
+Cara lain yang lebih singkat buat nambah izin jalankan:
+
+```bash
+chmod +x script.sh
 ```
 
 ---
 
-## Best Practices
+### Prinsip yang Layak Diingat
 
-### 1. Principle of Least Privilege
-Jangan kasih more permission than needed.
+**Kasih izin seperlunya.** `chmod 777` artinya semua orang boleh baca, ubah, dan jalankan. Itu jarang dibutuhkan, dan membuka peluang file lu diubah oleh program atau pengguna lain.
 
-- Bad: `chmod 777` (everyone can read/write/execute)  
-- Good: `chmod 644` untuk document (owner write, others read)
+Pola yang aman buat awal:
 
-### 2. Protect Sensitive Files
-```bash
-chmod 600 ~/.ssh/id_rsa    # Private SSH key (owner-only)
-```
-
-### 3. Executable Scripts
-```bash
-chmod 755 deploy.sh   # Owner can edit+run, others can only run
-```
-
----
-
-## Kesalahan Umum
-
-### chmod 777 Everything
-**Masalah**: Semua orang (even malware) bisa edit file lu.
-
-**Fix**: Pakai permission yang reasonable (644 for files, 755 for folders).
-
-### Forget to Make Script Executable
-**Masalah**: Download script, run, error "Permission denied".
-
-**Fix**: `chmod +x script.sh` dulu.
-
----
-
-Lanjut ke [Exercises →](./exercises.md)
+- File biasa: `644`
+- Folder dan script yang dijalankan: `755`
+- File yang berisi rahasia, misalnya kunci SSH: `600`

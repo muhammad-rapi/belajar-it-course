@@ -1,193 +1,147 @@
-# File System Hierarchy
+## Folder dan Path
 
-## Root Directory
+### Root
 
-**Root** = titik awal tertinggi di file system. Semua folder dan file ada di bawah root.
+**Root** adalah titik awal tertinggi di file system. Semua folder dan file ada di bawahnya.
 
-**Windows**: `C:\` (C drive)  
-**macOS/Linux**: `/` (forward slash)
-
-Bayangin ini kayak "Indonesia" di alamat. Semua provinsi/kota ada di bawahnya.
+- Windows: `C:\` (drive C)
+- macOS dan Linux: `/` (satu garis miring)
 
 ```
-C:\                          ← ROOT (Windows)
-├── Program Files\           ← Folder program installed
-├── Windows\                 ← System files OS
-└── Users\                   ← Folder semua user
+C:\                          <- root (Windows)
+├── Program Files\           <- aplikasi yang terpasang
+├── Windows\                 <- file sistem OS
+└── Users\                   <- folder semua pengguna
     ├── Rafi\
     ├── Budi\
     └── Public\
 ```
 
 ```
-/                            ← ROOT (macOS/Linux)
-├── Applications/            ← Apps installed
-├── System/                  ← OS files
-├── Users/                   ← User home folders
+/                            <- root (macOS dan Linux)
+├── Applications/            <- aplikasi yang terpasang (macOS)
+├── System/                  <- file sistem OS (macOS)
+├── Users/                   <- folder semua pengguna (macOS)
 │   ├── rafi/
 │   └── budi/
-└── tmp/                     ← Temporary files
+└── tmp/                     <- file sementara
 ```
 
-**Coba perhatikan**:
-- Windows pakai backslash `\`
-- macOS/Linux pakai forward slash `/`
-- Ini penting banget kalo lu coding (harus pakai yang sesuai OS)
+Coba perhatikan: Windows pakai garis miring terbalik (`\`), macOS dan Linux pakai garis miring biasa (`/`). Nanti waktu coding, ini bisa jadi sumber error.
 
 ---
 
-## Absolute Path vs Relative Path
+### Path Absolut
 
-### Absolute Path
-**Definisi**: Alamat LENGKAP dari root.
+Path absolut adalah alamat **lengkap dari root**. Seperti alamat rumah dari nama negara sampai nomor unit.
 
-**Analogi**: Alamat rumah lengkap (Negara → Provinsi → Kota → Jalan → Nomor)
-
-**Contoh Windows**:
 ```
-C:\Users\Rafi\Documents\Kerja\Laporan.docx
+C:\Users\Rafi\Documents\Kerja\Laporan.docx          (Windows)
+/Users/rafi/Documents/Kerja/Laporan.docx               (macOS)
 ```
 
-**Contoh macOS**:
-```
-/Users/rafi/Documents/Kerja/Laporan.docx
-```
-
-**Kegunaan**: Kalo lu mau akses file dari MANAPUN, pakai absolute path. Pasti ketemu.
+Path absolut selalu bisa dipakai dari mana pun, karena nggak bergantung lu lagi di folder mana.
 
 ---
 
-### Relative Path
-**Definisi**: Alamat RELATIF dari posisi sekarang.
+### Path Relatif
 
-**Analogi**: Lu lagi di Sudirman. Temen bilang "ke Thamrin residence aja, jalannya cuma 500 meter dari sini". Ga perlu sebut dari Indonesia.
+Path relatif adalah alamat **dari posisi lu sekarang**. Seperti bilang ke temen yang udah di Sudirman, "Thamrin Residence jalan 500 meter dari sini". Nggak perlu nyebut Indonesia lagi.
 
-**Contoh**:
-Lu lagi di folder `C:\Users\Rafi\Documents\`:
+Misalnya lu lagi ada di folder `Documents`:
+
 ```
-Kerja\Laporan.docx          ← Relative path (Kerja subfolder dari Documents)
-..\Downloads\foto.jpg       ← .. artinya "naik 1 level ke atas"
+Kerja/Laporan.docx          <- masuk ke subfolder Kerja
+../Downloads/foto.jpg       <- naik satu level, lalu masuk Downloads
 ```
 
-**Special symbols**:
-- `.` (single dot) = folder sekarang
-- `..` (double dot) = folder parent (naik 1 level)
-- `~` (tilde, macOS/Linux) = home directory lu (`/Users/rafi`)
+Tiga simbol yang perlu dihafal:
 
-**Kegunaan**: Relative path lebih pendek, bagus kalo file struktur lu tetap (project coding). Tapi kalo structure berubah, bisa error.
+| Simbol | Artinya |
+|---|---|
+| `.` | folder tempat lu sekarang |
+| `..` | folder di atasnya (parent) |
+| `~` | folder home lu (macOS dan Linux) |
+
+Path relatif lebih pendek, tapi bergantung pada posisi. Kalau lu pindah folder, path yang sama bisa jadi nggak nemu apa-apa.
 
 ---
 
-## Directory Tree (Pohon Folder)
+### Pohon Folder
 
-Struktur folder disebut **tree** karena bentuknya kayak pohon terbalik:
+Struktur folder sering disebut **pohon** karena bercabang:
 
 ```
-C:\Users\Rafi\               ← Root (batang)
-│
-├── Documents\               ← Branch (cabang)
-│   ├── Kerja\              ← Sub-branch
-│   │   ├── Laporan.docx   ← Leaf (daun/file)
+Rafi\
+├── Documents\
+│   ├── Kerja\
+│   │   ├── Laporan.docx
 │   │   └── Data.xlsx
 │   └── Pribadi\
 │       └── Catatan.txt
-│
 ├── Downloads\
 │   ├── installer.exe
 │   └── foto-liburan.jpg
-│
 └── Pictures\
     └── Keluarga\
         └── IMG_001.jpg
 ```
 
-**Terminologi**:
-- **Parent directory**: Folder di atasnya (Documents adalah parent dari Kerja)
-- **Child directory**: Folder di bawahnya (Kerja adalah child dari Documents)
-- **Sibling directories**: Folder sejajar (Kerja dan Pribadi adalah siblings)
+Istilah yang dipakai:
+
+- **Parent**: folder di atas. `Documents` adalah parent dari `Kerja`.
+- **Child**: folder di bawah. `Kerja` adalah child dari `Documents`.
+- **Sibling**: folder yang sejajar. `Kerja` dan `Pribadi` itu sibling.
 
 ---
 
-## Home Directory
+### Folder Home
 
-**Home directory** = folder pribadi user.
+**Home** adalah folder pribadi lu. Dokumen, download, dan foto lu ada di sini.
 
-**Windows**: `C:\Users\[username]\`  
-**macOS**: `/Users/[username]/`  
-**Linux**: `/home/[username]/`
+| Sistem | Lokasi home |
+|---|---|
+| Windows | `C:\Users\namalu\` |
+| macOS | `/Users/namalu/` |
+| Linux | `/home/namalu/` |
 
-Ini folder "rumah" lu. Semua file pribadi (Documents, Downloads, Pictures) ada di sini.
+Di terminal macOS dan Linux, `~` adalah jalan pintas ke home:
 
-**Shortcut**:
-- Windows: `%USERPROFILE%` atau `~` (PowerShell)
-- macOS/Linux: `~` (tilde)
-
-**Contoh**:
 ```bash
-cd ~               # Pindah ke home directory
-cd ~/Documents     # Langsung ke Documents tanpa sebut full path
+cd ~              # pindah ke home
+cd ~/Documents    # langsung ke Documents tanpa nulis path lengkap
 ```
 
 ---
 
-## Common System Folders
+### Folder Sistem yang Jangan Diutak-atik
 
-### Windows
-```
-C:\
-├── Program Files\       ← Software 64-bit installed
-├── Program Files (x86)\ ← Software 32-bit installed
-├── Windows\             ← OS system files (JANGAN DIHAPUS!)
-├── Users\               ← All user files
-└── Temp\                ← Temporary files (safe to delete)
-```
+**Windows**
 
-### macOS
-```
-/
-├── Applications/        ← Apps installed
-├── Library/             ← System + app settings
-├── System/              ← macOS core files (protected)
-├── Users/               ← User home folders
-└── Volumes/             ← External drives (USB, etc.)
-```
+- `Program Files` dan `Program Files (x86)`: aplikasi yang terpasang
+- `Windows`: file inti sistem operasi. Jangan hapus atau ubah isinya.
 
-**WARNING**: Jangan hapus atau edit file di `Windows\`, `System\`, atau `Library\` kecuali lu tau persis apa yang lu lakukan. Bisa bikin OS crash.
+**macOS**
+
+- `Applications`: aplikasi yang terpasang
+- `Library` dan `System`: pengaturan dan file inti. Jangan hapus atau ubah isinya kalau lu belum paham.
+- `Volumes`: flash disk dan hard disk eksternal yang tersambung
+
+Menghapus file di folder-folder ini bisa bikin sistem nggak bisa nyala.
 
 ---
 
-## Hidden Files
+### File Tersembunyi
 
-File/folder yang diawali `.` (dot) di macOS/Linux atau punya attribute "Hidden" di Windows = **hidden files**.
+Di macOS dan Linux, file atau folder yang namanya diawali titik (`.`) disembunyikan. Di Windows, ada atribut "Hidden". Contohnya:
 
-**Contoh**:
 ```
-.git/          ← Git version control folder (hidden)
-.env           ← Environment variables (biasanya simpen API keys)
-Desktop.ini    ← Windows settings file (hidden)
+.git/        <- riwayat Git (hidden)
+.env         <- biasanya berisi password dan API key
 ```
 
-**Kenapa dihidden?**
-- System files yang user biasa ga perlu liat
-- Config files yang jarang diubah
-- Avoid accidental deletion
+Lu bakal sering ketemu ini waktu coding. Cara melihatnya:
 
-**Cara lihat**:
-- **Windows**: File Explorer → View → Show hidden files
-- **macOS**: Finder → Cmd + Shift + . (dot)
-- **Terminal**: `ls -a` (Linux/macOS) atau `dir /a` (Windows)
-
----
-
-## Praktek
-
-Buka File Explorer (Windows) atau Finder (macOS) sekarang:
-
-1. **Navigate ke root directory** (`C:\` atau `/`)
-2. **Masuk ke home directory lu** (`C:\Users\[nama-lu]\` atau `/Users/[nama-lu]`)
-3. **Cari folder Downloads**. Cek path-nya (klik address bar di Windows atau klik kanan → Get Info di macOS)
-4. **Coba relative path**:
-   - Dari Downloads, gimana path ke Documents? (hint: `../Documents`)
-   - Dari Documents/Kerja, gimana path ke Downloads? (hint: `../../Downloads`)
-
-Lanjut ke [File Types →](./konsep-file-types.md)
+- Windows: File Explorer, tab View, centang **Hidden items**
+- macOS: di Finder, tekan `Cmd + Shift + .`
+- Terminal: `ls -a` (macOS dan Linux) atau `dir /a` (Windows CMD)

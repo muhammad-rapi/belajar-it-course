@@ -1,6 +1,6 @@
-## Apa itu Internet?
+## Apa itu Internet
 
-Internet = **network of networks**. Miliaran komputer tersambung satu sama lain.
+Internet adalah jaringan dari jaringan. Miliaran perangkat tersambung satu sama lain lewat kabel, serat optik, dan sinyal nirkabel.
 
 ---
 
@@ -9,16 +9,17 @@ Internet = **network of networks**. Miliaran komputer tersambung satu sama lain.
 Beda tapi sering disama-in:
 
 **Internet**:
-- Infrastruktur fisik (kabel, router, server)
-- Protocol (TCP/IP, HTTP, FTP, etc)
-- Transport layer
+- Infrastruktur fisik: kabel, router, server
+- Aturan komunikasi (protokol) seperti TCP/IP
 
-**WWW (Web)**:
-- Aplikasi yang jalan di atas internet
-- Website, browser
-- HTTP protocol
+**WWW (web)**:
+- Layanan yang berjalan di atas internet
+- Website dan browser
+- Memakai protokol HTTP
 
-**Analogi**: Internet = jalan raya, WWW = mobil yang jalan di atas jalan raya.
+Email dan game online juga memakai internet, tapi bukan bagian dari web.
+
+**Analogi**: internet itu jalan rayanya, web itu salah satu jenis kendaraan yang lewat di atasnya.
 
 ---
 
@@ -53,8 +54,8 @@ ipconfig
 
 ### Client-Server Model
 
-**Client** = yang minta data (browser lu, app mobile)  
-**Server** = yang kasih data (Google server, Instagram server)
+**Client** adalah pihak yang meminta data (browser lu, aplikasi di HP).  
+**Server** adalah pihak yang memberi data (server Google, server Instagram).
 
 **Flow**:
 1. Client kirim **request**
@@ -73,18 +74,18 @@ ipconfig
 
 Data ga dikirim utuh. Dipecah jadi **packet** kecil-kecil, dikirim terpisah, terus digabung lagi di tujuan.
 
-**Analogy**: Kirim buku 1000 halaman lewat pos. Daripada 1 paket gede (berat, lama), dipecah jadi 10 paket masing-masing 100 halaman. Tiap paket jalan sendiri, sampe tujuan digabung lagi.
+**Analogi**: kirim buku 1.000 halaman lewat pos. Daripada satu paket besar yang berat, dipecah jadi 10 paket berisi 100 halaman. Tiap paket jalan sendiri, lalu digabung lagi di tujuan.
 
-**Kenapa?**
-- Lebih efisien
-- Kalau 1 packet hilang, tinggal kirim ulang yang itu doang
-- Bisa lewat route berbeda (load balancing)
+**Kenapa dipecah?**
+- Lebih efisien dipakai bersama banyak pengguna
+- Kalau satu paket hilang, cukup kirim ulang yang itu saja
+- Paket bisa lewat jalur yang berbeda
 
 ---
 
 ### Router
 
-Router = **traffic director** internet.
+Router adalah perangkat yang mengarahkan paket data ke jalur berikutnya, seperti petugas yang ngatur arah kendaraan di persimpangan.
 
 Lu di Jakarta mau akses server di US. Data lu:
 1. Keluar dari router rumah
@@ -114,35 +115,28 @@ Output:
 
 ### Protocol
 
-Protocol = **aturan komunikasi**.
+Protokol adalah aturan komunikasi.
 
-**Analogi**: Lu telepon temen. Ada etika:
-- "Halo" dulu
-- Tunggu jawaban
-- Ngobrol
-- "Bye" sebelum tutup
-
-Internet juga gitu. Ada protocol:
-- **TCP/IP**: Base protocol buat semua komunikasi
-- **HTTP/HTTPS**: Web browsing
-- **FTP**: File transfer
-- **SMTP**: Email
-- **WebSocket**: Real-time communication (chat, game)
+**Analogi**: waktu telepon temen, ada urutannya. Bilang "halo", tunggu dijawab, ngobrol, lalu pamit sebelum tutup. Internet juga punya urutan yang disepakati:
+- **TCP/IP**: dasar semua komunikasi di internet
+- **HTTP dan HTTPS**: buka web
+- **FTP**: transfer file
+- **SMTP**: kirim email
+- **WebSocket**: komunikasi langsung dua arah, dipakai chat dan game
 
 ---
 
 ### Bandwidth vs Latency
 
-**Bandwidth** = seberapa banyak data bisa lewat (Mbps, Gbps)  
-**Latency** = seberapa cepat data sampe (ms)
+**Bandwidth** adalah seberapa banyak data bisa lewat dalam satu waktu (Mbps, Gbps).  
+**Latency** adalah berapa lama data sampai (milidetik).
 
-**Analogi**: Pipa air
-- Bandwidth = diameter pipa (besar = banyak air lewat)
-- Latency = jarak rumah ke sumber air (jauh = lama sampe)
+**Analogi**: pipa air.
+- Bandwidth itu besar pipanya. Pipa besar, air yang lewat banyak.
+- Latency itu jarak dari sumber air ke rumah lu. Makin jauh, makin lama air pertama sampai.
 
-**Gaming** butuh **low latency** (ping kecil), bandwidth ga perlu gede.  
-**Streaming 4K** butuh **high bandwidth**, latency agak tinggi ga masalah.
+Game online butuh latency kecil (ping rendah), bandwidth-nya nggak perlu besar. Nonton video 4K butuh bandwidth besar, latency agak tinggi nggak masalah.
 
 ---
 
-Next: **HTTP** - protocol buat browsing web.
+Berikutnya: HTTP, protokol yang dipakai buat buka web.

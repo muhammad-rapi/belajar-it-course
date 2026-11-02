@@ -1,68 +1,25 @@
-# Ringkasan: File System & Path
+## Summary
 
-## Key Takeaways
+**Yang udah lu pelajari**
 
-### 1. File System Hierarchy
-- **Root directory**: Titik awal semua files/folders (C:/ di Windows, / di macOS/Linux)
-- **Home directory**: Folder pribadi user
-- **Tree structure**: Folders bisa nested (parent/child/sibling)
+- **Root** adalah titik awal file system. `C:\` di Windows, `/` di macOS dan Linux.
+- **Path absolut** adalah alamat lengkap dari root. **Path relatif** adalah alamat dari posisi lu sekarang.
+- Tiga simbol: `.` (folder ini), `..` (folder di atasnya), `~` (home).
+- **Ekstensi** nentuin aplikasi yang membuka file, dan bisa dipakai buat nipu kalau tersembunyi.
+- **Permissions** di macOS dan Linux: `r`, `w`, `x` buat owner, group, dan others.
+- Pola umum: `644` buat file biasa, `755` buat folder dan script, `600` buat file rahasia.
+- Spasi di nama file bikin repot di terminal. Pakai tanda hubung.
 
-### 2. Paths
-**Absolute path**: Alamat lengkap dari root  
-**Relative path**: Alamat relatif dari current directory
+**Perintah yang dipakai di lesson ini**
 
-**Special symbols**:
-- `.` = current directory
-- `..` = parent directory (naik 1 level)
-- `~` = home directory
+```bash
+ls -l file.txt          # lihat permissions
+ls -a                   # lihat file tersembunyi
+chmod 644 file.txt      # ubah permissions
+chmod +x script.sh      # tambah izin jalankan
+mkdir -p a/b/c          # bikin folder bertingkat
+```
 
-### 3. File Extensions
-- Extension = 3-4 huruf setelah dot (.txt, .jpg, .exe)
-- Ngasih tau OS file type apa, buka pakai app apa
-- Security: Hati-hati dengan double extension (.pdf.exe)
+## Lanjut Kemana?
 
-**Common extensions**:
-- Documents: .txt, .docx, .pdf, .xlsx
-- Images: .jpg, .png, .gif
-- Code: .py, .js, .html, .css
-- Archives: .zip, .rar
-
-### 4. Permissions
-**Windows**: Attributes (Read-only, Hidden)  
-**macOS/Linux**: Read (r), Write (w), Execute (x) untuk Owner/Group/Others
-
-**Common permissions**:
-- `644`: Files (owner read/write, others read-only)
-- `755`: Folders & executables
-- `600`: Sensitive files (owner-only)
-
----
-
-## Kesalahan Umum yang Harus Dihindari
-
-- **Hide Extensions**: Ga tau file asli apa, malware bisa nyamar  
-- **Unhide extensions** di File Explorer/Finder
-
-- **Duplikat Files Tanpa Struktur**: `dokumen_final_v2_REAL.docx`  
-- **Bikin folder structure proper** atau pakai version control (Git)
-
-- **chmod 777 Sembarangan**: Everyone bisa edit/delete  
-- **Pakai permission reasonable** (644 for files, 755 for folders)
-
----
-
-## Apa Selanjutnya?
-
-Sekarang lu udah ngerti file system. Next step: **Command Line**.
-
-Di Lesson 3, lu akan belajar:
-- Navigate folders via Terminal/Command Prompt
-- Create/delete files tanpa GUI
-- Batch operations (rename 100 files sekaligus)
-- Shell commands dasar
-
-File system adalah fondasinya. Command line adalah cara tercepat buat memakainya.
-
----
-
-**Lanjut ke [Lesson 3: Command Line Basics →](../lesson-03-command-line/intro.md)**
+Di Lesson 3, lu mulai pindah-pindah folder dan bikin file lewat terminal. Semua yang barusan lu pelajari soal path langsung kepakai di sana.

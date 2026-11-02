@@ -1,124 +1,51 @@
-## Summary - Command Line Basics
+## Summary
 
-Sekarang lu udah bisa ngasih perintah ke komputer lewat terminal.
+**Yang udah lu pelajari**
 
----
+- Terminal adalah antarmuka teks buat ngasih perintah. Cocok buat kerjaan berulang, tools developer, dan server.
+- Bagian sebuah perintah: nama perintah, opsi, dan argumen.
+- Sepuluh perintah dasar:
 
-## Yang Udah Lu Pelajari
+| Perintah | Fungsi | Contoh |
+|---|---|---|
+| `pwd` | lihat posisi sekarang | `pwd` |
+| `ls` | lihat isi folder | `ls -la` |
+| `cd` | pindah folder | `cd Documents` |
+| `mkdir` | bikin folder | `mkdir project` |
+| `touch` | bikin file kosong | `touch app.py` |
+| `rm` | hapus | `rm file.txt` |
+| `cp` | salin | `cp a.txt b.txt` |
+| `mv` | pindah atau ganti nama | `mv old.txt new.txt` |
+| `cat` | lihat isi file | `cat file.txt` |
+| `clear` | bersihkan layar | `clear` |
 
-### Essential Commands
+- Path absolut dimulai dari root. Path relatif dihitung dari posisi sekarang. Simbolnya `.`, `..`, dan `~`.
+- `rm` menghapus permanen. Cek dulu dengan `ls`.
 
-| Command | Fungsi | Contoh |
-|---------|--------|--------|
-| `pwd` | Liat posisi sekarang | `pwd` |
-| `ls` | Liat isi folder | `ls -la` |
-| `cd` | Pindah folder | `cd Documents` |
-| `mkdir` | Bikin folder | `mkdir project` |
-| `touch` | Bikin file | `touch app.py` |
-| `rm` | Hapus | `rm file.txt` |
-| `cp` | Copy | `cp a.txt b.txt` |
-| `mv` | Move/rename | `mv old.txt new.txt` |
-| `cat` | Liat isi file | `cat file.txt` |
-| `clear` | Clear screen | `clear` |
+**Kenapa ini kepakai nanti**
 
-### Path Types
-
-- **Absolute**: Full path dari root (`/Users/rafi/Documents`)
-- **Relative**: From current position (`../Documents`)
-- **Symbols**: `.` (current), `..` (parent), `~` (home)
-
----
-
-## Kenapa Ini Penting?
-
-**Waktu lu belajar programming nanti**:
+Semua yang berikut dijalankan di terminal:
 
 ```bash
-# Install library
-npm install react
-
-# Run Python script
 python3 app.py
-
-# Git workflow
+npm install
 git add .
-git commit -m "Initial commit"
-git push origin main
-
-# Deploy ke server
-ssh user@server
-cd /var/www/app
-git pull
-npm run build
+git commit -m "pesan"
 ```
 
-Semua itu **di terminal**. Ga ada GUI.
+**Cek sebelum lanjut**
 
----
+- Lu bisa buka terminal tanpa bingung.
+- Lu bisa pindah folder pakai `cd`, termasuk path relatif.
+- Lu paham kenapa `rm` perlu hati-hati.
 
-## Next Steps
+## Tips Biar Makin Lancar
 
-**Next lesson: Internet & Web** - gimana data ngalir lewat internet.
+- Pakai terminal buat kerjaan kecil, misalnya bikin folder atau lihat isi folder, supaya cepat terbiasa.
+- Pakai `Tab` buat melengkapi nama, dan tombol panah atas buat mengulang perintah.
+- Pintasan yang berguna: `Ctrl + A` (ke awal baris), `Ctrl + E` (ke akhir baris), `Ctrl + R` (cari perintah lama).
+- Untuk belajar lebih jauh: [Command Line Crash Course (MDN)](https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Environment_setup/Command_line) dan [cmdchallenge.com](https://cmdchallenge.com/).
 
-Preview:
-- Apa itu HTTP
-- DNS (translate google.com → IP address)
-- Client-server model
-- Request-response cycle
+## Lanjut Kemana?
 
-Sebelum lanjut, **pastiin lu udah**:
-- [ ] Comfortable buka terminal
-- [ ] Hafal 10 command dasar
-- [ ] Bisa navigasi pakai `cd`
-- [ ] Paham absolute vs relative path
-
----
-
-## Tips Biar Jago Terminal
-
-**1. Sering-sering pake**
-
-Daripada klik Finder/Explorer, pake terminal:
-- Bikin folder? `mkdir`
-- Buka file? `cd folder && code file.py`
-- Cari file? `find . -name "*.py"`
-
-**2. Customize prompt**
-
-Install [Oh My Zsh](https://ohmyz.sh/) (macOS/Linux) atau [Oh My Posh](https://ohmyposh.dev/) (Windows) buat terminal lebih keren + helpful.
-
-**3. Learn keyboard shortcuts**
-
-- `Ctrl + A` = cursor ke awal line
-- `Ctrl + E` = cursor ke akhir line
-- `Ctrl + U` = hapus semua sebelum cursor
-- `Ctrl + R` = search command history
-
-**4. Alias untuk command sering dipake**
-
-Tambahin di `~/.bashrc` atau `~/.zshrc`:
-
-```bash
-alias ll='ls -la'
-alias gs='git status'
-alias gp='git push'
-```
-
-Setelah itu, tinggal ketik `ll` instead of `ls -la`.
-
----
-
-## Resources
-
-**Belajar lebih dalam**:
-- [Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line) - MDN
-- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line) - GitHub guide
-
-**Practice**:
-- [cmdchallenge.com](https://cmdchallenge.com/) - Terminal challenges
-
----
-
-Lu udah lewati mental block "takut terminal". Itu hambatan terbesar buat kebanyakan pemula.
-
-Next: Lesson 4 - Internet & Web!
+Di Lesson 4, lu belajar gimana data bergerak lewat internet: IP, HTTP, dan DNS. Beberapa perintah terminal yang barusan lu pelajari dipakai di sana buat ngecek koneksi dan mengirim permintaan.

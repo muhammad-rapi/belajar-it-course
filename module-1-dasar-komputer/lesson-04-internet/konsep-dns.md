@@ -1,92 +1,61 @@
-## DNS - Domain Name System
+## DNS
 
-DNS = **phonebook internet**. Translate domain (google.com) jadi IP address (142.250.185.46).
+DNS (Domain Name System) adalah buku telepon internet. Tugasnya nerjemahin nama domain seperti `google.com` jadi IP address seperti `142.250.185.46`.
 
 ---
 
 ### Kenapa Perlu DNS?
 
-Komputer cuma ngerti IP address (angka). Tapi manusia susah inget angka.
+Komputer berkomunikasi lewat angka (IP address), sementara manusia lebih gampang ingat nama.
 
-**Tanpa DNS**: Lu harus hafal
-```
-142.250.185.46  (Google)
-157.240.22.35   (Facebook)
-104.244.42.129  (Twitter)
-```
-
-**Dengan DNS**: Lu tinggal inget
-```
-google.com
-facebook.com
-twitter.com
-```
-
-DNS otomatis translate domain → IP.
+Tanpa DNS, lu harus ngapalin deretan angka tiap situs. Dengan DNS, lu cukup ingat `google.com`, dan DNS yang nyari angkanya. Cara kerjanya sama dengan kontak di HP: lu pilih nama "Ibu", HP yang nelepon nomornya.
 
 ---
 
-### DNS Lookup Process
+### Urutan Pencarian DNS
 
-**1. Lu ketik google.com di browser**
+1. Lu ketik `google.com` di browser.
+2. Browser ngecek ingatannya (cache). Kalau sudah pernah nyari, dia pakai hasil yang tersimpan. Kalau belum, OS lu ngecek cache-nya juga.
+3. Kalau belum ada, permintaan dikirim ke **resolver**, biasanya milik ISP lu atau layanan seperti `8.8.8.8`.
+4. Resolver nanya ke **root server**: "siapa yang ngurus `.com`?" Root server nunjuk ke server `.com`.
+5. Resolver nanya ke **server `.com`** (disebut TLD server): "siapa yang ngurus `google.com`?" Server itu nunjuk ke server milik Google.
+6. Resolver nanya ke **server milik Google** (authoritative server): "IP `google.com` berapa?" Dijawab dengan IP address.
+7. Resolver ngasih IP itu ke browser, dan browser tersambung ke server tersebut.
 
-**2. Browser check cache**
-- Ada di browser cache? Pake itu.
-- Ada di OS cache? Pake itu.
-- Ga ada? Lanjut step 3.
-
-**3. Browser tanya DNS Resolver** (biasanya ISP lu atau 8.8.8.8)
-
-**4. Resolver tanya Root DNS Server**
-- "Siapa yang handle .com?"
-- Root: "Tanya TLD Server .com"
-
-**5. Resolver tanya TLD (Top-Level Domain) Server**
-- "Siapa yang handle google.com?"
-- TLD: "Tanya Authoritative DNS Server google"
-
-**6. Resolver tanya Authoritative DNS**
-- "IP google.com apa?"
-- Auth: "142.250.185.46"
-
-**7. Resolver kasih IP ke browser**
-
-**8. Browser konek ke 142.250.185.46**
-
-**Proses ini cepet** (milidetik) karena cache di tiap layer.
+Proses ini hanya makan milidetik karena hasilnya disimpan di tiap tahap.
 
 ---
 
-### DNS Record Types
+### Jenis Record DNS
 
-**A Record** = Domain → IPv4
+**A record**: domain ke IPv4
 ```
 google.com → 142.250.185.46
 ```
 
-**AAAA Record** = Domain → IPv6
+**AAAA record**: domain ke IPv6
 ```
 google.com → 2001:4860:4860::8888
 ```
 
-**CNAME** = Alias
+**CNAME**: nama alias
 ```
 www.google.com → google.com
 ```
 
-**MX Record** = Mail server
+**MX record**: server email
 ```
 gmail.com → mail.google.com
 ```
 
-**TXT Record** = Text data (verification, SPF, etc)
+**TXT record**: teks bebas, dipakai buat verifikasi domain dan keamanan email
 ```
 google.com → "v=spf1 include:_spf.google.com ~all"
 ```
 
 ---
 
-### Public DNS Servers
+### DNS Publik
 
 **Google DNS**:
 ```
@@ -106,20 +75,18 @@ google.com → "v=spf1 include:_spf.google.com ~all"
 208.67.220.220
 ```
 
-**Kenapa ganti DNS?**
-- ISP DNS lambat → pake Google/Cloudflare lebih cepet
-- ISP block site tertentu → public DNS ga block
-- Privacy (Cloudflare claim ga log data)
+**Kenapa orang ganti DNS?**
+- DNS bawaan ISP kadang lambat atau sering bermasalah
+- Sebagian ISP memblokir situs lewat DNS-nya
+- Alasan privasi: tiap penyedia punya kebijakan pencatatan yang berbeda, jadi baca kebijakannya dulu
 
 ---
 
-### DNS Cache
+### Cache DNS
 
-**Browser cache**: ~60 detik  
-**OS cache**: ~beberapa menit  
-**Router cache**: ~beberapa jam  
+Hasil pencarian DNS disimpan sementara di browser, OS, router, dan resolver. Lama tersimpannya ditentukan oleh **TTL** (Time To Live) yang diatur pemilik domain, dan biasanya antara beberapa menit sampai beberapa jam.
 
-**Flush DNS cache** (kalau web ga load setelah update DNS):
+**Mengosongkan cache DNS** (kalau situs belum berubah setelah DNS diganti):
 
 **macOS**:
 ```bash
@@ -139,7 +106,7 @@ sudo systemd-resolve --flush-caches
 
 ---
 
-### DNS Lookup Tools
+### Alat Cek DNS
 
 **nslookup**:
 ```bash
@@ -155,7 +122,7 @@ Name:    google.com
 Address: 142.250.185.46
 ```
 
-**dig** (detail):
+**dig** (lebih rinci):
 ```bash
 dig google.com
 ```
@@ -169,16 +136,14 @@ host google.com
 
 ### DNS Propagation
 
-Kalau lu update DNS record (misal: ganti IP server), ga langsung update global.
+Kalau lu mengubah DNS record (misalnya ganti IP server), perubahannya nggak langsung terlihat di semua tempat.
 
 **Propagation time**: biasanya beberapa menit sampai beberapa jam, kadang sampai sehari lebih
 
-Karena cache di tiap layer. TTL (Time To Live) nentuin berapa lama cache.
+Penyebabnya cache di tiap tahap. Selama TTL belum habis, sebagian orang masih ngeliat alamat lama.
 
-**Check propagation**:
-- [whatsmydns.net](https://www.whatsmydns.net/)
-- Liat DNS dari berbagai lokasi global
+**Cara mengecek**: [whatsmydns.net](https://www.whatsmydns.net/) nampilin hasil DNS dari berbagai lokasi di dunia.
 
 ---
 
-Next: **Exercises** - praktek DNS lookup, HTTP request.
+Berikutnya: latihan DNS dan HTTP di Exercises.
