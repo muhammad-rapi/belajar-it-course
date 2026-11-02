@@ -46,8 +46,6 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background tekni
 
 ## Kenapa Course Ini Beda?
 
-**Bahasa Indonesia natural** - No AI slop, no buzzwords, conversational tone\
-**Analogies dari daily life** - Gojek, KTP, warung, bukan abstract tech jargon\
 **Exercises hands-on** - Praktek > teori, semua lesson ada latihan\
 **Realistic expectations** - Gue ga janji lu jadi expert dalam 1 bulan. Yang gue kasih: roadmap jujur berapa lama sampe lu bisa kerja.
 **Free & Open** - Gratis untuk basic modules, paid untuk advanced (support project)
