@@ -169,7 +169,7 @@ Normal
 
 ### Order Matters (Urutan Penting)
 
-**❌ Salah (urutan kebalik)**:
+**Salah (urutan kebalik)**:
 
 ```python
 nilai = 85
@@ -184,7 +184,7 @@ elif nilai >= 90:
 
 Output: `C` (padahal harusnya B)
 
-**✅ Benar (dari besar ke kecil)**:
+**Benar (dari besar ke kecil)**:
 
 ```python
 nilai = 85

@@ -72,7 +72,7 @@ def add_transaction(transactions, trans_type, amount, category, date=None):
     }
     transactions.append(transaction)
     save_transactions(transactions)
-    print(f"✅ Transaksi ditambah: {trans_type} Rp {amount:,}")
+    print(f"Transaksi ditambah: {trans_type} Rp {amount:,}")
 
 def view_transactions(transactions):
     if not transactions:
@@ -80,7 +80,7 @@ def view_transactions(transactions):
         return
     
     for t in transactions:
-        icon = "💰" if t["type"] == "income" else "💸"
+        icon = "+" if t["type"] == "income" else "-"
         print(f"{icon} [{t['id']}] {t['date']} | {t['category']} | Rp {t['amount']:,}")
 
 def calculate_summary(transactions):
@@ -89,9 +89,9 @@ def calculate_summary(transactions):
     balance = income - expense
     
     print("\n=== Summary ===")
-    print(f"💰 Total Income:  Rp {income:,}")
-    print(f"💸 Total Expense: Rp {expense:,}")
-    print(f"💵 Balance:       Rp {balance:,}")
+    print(f"Total Income:  Rp {income:,}")
+    print(f"Total Expense: Rp {expense:,}")
+    print(f"Balance:       Rp {balance:,}")
 
 def main():
     transactions = load_transactions()
@@ -108,7 +108,7 @@ def main():
         if pilihan == "1":
             trans_type = input("Type (income/expense): ").lower()
             if trans_type not in ["income", "expense"]:
-                print("❌ Type harus 'income' atau 'expense'")
+                print("Type harus 'income' atau 'expense'")
                 continue
             
             amount = int(input("Amount (Rp): "))
@@ -171,7 +171,7 @@ def export_to_csv(transactions, filename="transactions.csv"):
         writer = csv.DictWriter(f, fieldnames=["id", "type", "amount", "category", "date"])
         writer.writeheader()
         writer.writerows(transactions)
-    print(f"✅ Exported to {filename}")
+    print(f"Exported to {filename}")
 ```
 
 **4. Chart** (perlu `pip install matplotlib`)
@@ -191,4 +191,4 @@ def plot_expenses_by_category(transactions):
 
 ---
 
-Done! Lu punya expense tracker yang bisa track keuangan lu. 💰
+Done! Lu punya expense tracker yang bisa track keuangan lu. 

@@ -6,11 +6,11 @@ Saatnya apply semua yang udah lu pelajari!
 
 ### Yang Udah Lu Kuasai
 
-✅ Variables & data types  
-✅ String, list, dictionary operations  
-✅ If-elif-else conditionals  
-✅ For & while loops  
-✅ Functions  
+- Variables & data types  
+- String, list, dictionary operations  
+- If-elif-else conditionals  
+- For & while loops  
+- Functions  
 
 ---
 

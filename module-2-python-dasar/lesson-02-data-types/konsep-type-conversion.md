@@ -10,7 +10,7 @@ Kadang lu perlu convert tipe data: string → int, int → string, dll.
 
 ```python
 umur = input("Umur: ")  # Input selalu string!
-print(umur + 5)  # ❌ Error: can't add string + int
+print(umur + 5)  # SALAH: Error: can't add string + int
 ```
 
 Harus convert dulu:
@@ -18,21 +18,21 @@ Harus convert dulu:
 ```python
 umur = input("Umur: ")
 umur = int(umur)  # Convert string → int
-print(umur + 5)  # ✅ Jalan
+print(umur + 5)  # BENAR: Jalan
 ```
 
 **Skenario 2: Print angka + text**
 
 ```python
 umur = 25
-print("Umur: " + umur)  # ❌ Error: can't concatenate str + int
+print("Umur: " + umur)  # SALAH: Error: can't concatenate str + int
 ```
 
 Convert int → string:
 
 ```python
 umur = 25
-print("Umur: " + str(umur))  # ✅ Jalan
+print("Umur: " + str(umur))  # BENAR: Jalan
 ```
 
 ---
@@ -60,7 +60,7 @@ print(int(False))  # 0
 **Error kalau string bukan angka**:
 
 ```python
-int("abc")  # ❌ ValueError: invalid literal for int()
+int("abc")  # SALAH: ValueError: invalid literal for int()
 ```
 
 ---
@@ -273,7 +273,7 @@ print(user)  # {'nama': 'Rafi', 'umur': 25}
 **1. Convert string non-angka ke int**
 
 ```python
-int("abc")  # ❌ ValueError
+int("abc")  # SALAH: ValueError
 ```
 
 **Fix**: Validasi dulu
@@ -287,7 +287,7 @@ if text.isdigit():
 
 ```python
 umur = input("Umur: ")  # String!
-if umur >= 18:  # ❌ Compare string sama int
+if umur >= 18:  # SALAH: Compare string sama int
     print("Dewasa")
 ```
 

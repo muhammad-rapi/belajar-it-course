@@ -73,8 +73,8 @@ chmod 600 config.json  # Cuma owner yang bisa read/write
 ### 1. Principle of Least Privilege
 Jangan kasih more permission than needed.
 
-❌ Bad: `chmod 777` (everyone can read/write/execute)  
-✅ Good: `chmod 644` untuk document (owner write, others read)
+- Bad: `chmod 777` (everyone can read/write/execute)  
+- Good: `chmod 644` untuk document (owner write, others read)
 
 ### 2. Protect Sensitive Files
 ```bash

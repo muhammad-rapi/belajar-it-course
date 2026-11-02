@@ -86,11 +86,11 @@ while True:
 
 **3. Use built-in functions**
 ```python
-# ✅ Better
+# BENAR: Better
 total = sum(numbers)
 max_val = max(numbers)
 
-# ❌ Manual loop (lebih lambat)
+# SALAH: Manual loop (lebih lambat)
 total = 0
 for num in numbers:
     total += num
@@ -98,10 +98,10 @@ for num in numbers:
 
 **4. List comprehension** (next level)
 ```python
-# ✅ Compact
+# BENAR: Compact
 squared = [x**2 for x in range(10)]
 
-# ❌ Verbose
+# SALAH: Verbose
 squared = []
 for x in range(10):
     squared.append(x**2)
@@ -128,4 +128,4 @@ Sebelum lanjut:
 
 ---
 
-Ready buat Functions! 🚀
+Ready buat Functions! 

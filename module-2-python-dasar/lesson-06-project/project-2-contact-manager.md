@@ -71,7 +71,7 @@ def add_contact(contacts, name, phone, email):
     }
     contacts.append(contact)
     save_contacts(contacts)
-    print(f"✅ Contact '{name}' ditambah")
+    print(f"Contact '{name}' ditambah")
 
 def view_contacts(contacts):
     """Display all contacts"""
@@ -97,9 +97,9 @@ def delete_contact(contacts, contact_id):
         if c["id"] == contact_id:
             deleted = contacts.pop(i)
             save_contacts(contacts)
-            print(f"✅ Contact '{deleted['name']}' dihapus")
+            print(f"Contact '{deleted['name']}' dihapus")
             return
-    print("❌ ID ga ketemu")
+    print("ID ga ketemu")
 
 def main():
     contacts = load_contacts()
@@ -171,7 +171,7 @@ def edit_contact(contacts, contact_id, name=None, phone=None, email=None):
             if phone: c["phone"] = phone
             if email: c["email"] = email
             save_contacts(contacts)
-            print("✅ Contact diupdate")
+            print("Contact diupdate")
             return
 ```
 
@@ -184,7 +184,7 @@ def export_to_csv(contacts, filename="contacts.csv"):
         writer = csv.DictWriter(f, fieldnames=["id", "name", "phone", "email"])
         writer.writeheader()
         writer.writerows(contacts)
-    print(f"✅ Exported to {filename}")
+    print(f"Exported to {filename}")
 ```
 
 **3. Validation**
@@ -194,4 +194,4 @@ def export_to_csv(contacts, filename="contacts.csv"):
 
 ---
 
-Done! Lu punya contact manager yang fully functional. 📇
+Done! Lu punya contact manager yang fully functional. 

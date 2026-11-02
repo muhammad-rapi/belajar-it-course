@@ -192,14 +192,14 @@ Shortcut lain:
 #### 1. Pake Variable Sebelum Didefinisikan
 
 ```python
-print(nama)  # ❌ NameError: name 'nama' is not defined
+print(nama)  # SALAH: NameError: name 'nama' is not defined
 nama = "Rafi"
 ```
 
 **Fix**: Definisikan dulu, baru pake.
 
 ```python
-nama = "Rafi"  # ✅ Definisikan dulu
+nama = "Rafi"  # BENAR: Definisikan dulu
 print(nama)
 ```
 
@@ -207,7 +207,7 @@ print(nama)
 
 ```python
 nama = "Rafi"
-print(nma)  # ❌ NameError: name 'nma' is not defined
+print(nma)  # SALAH: NameError: name 'nma' is not defined
 ```
 
 Python **case-sensitive**: `nama` ≠ `Nama` ≠ `NAMA`.
@@ -217,14 +217,13 @@ Python **case-sensitive**: `nama` ≠ `Nama` ≠ `NAMA`.
 #### 3. Lupa Kutip untuk String
 
 ```python
-nama = Rafi  # ❌ NameError: name 'Rafi' is not defined
+nama = Rafi  # SALAH: NameError: name 'Rafi' is not defined
 ```
 
 **Fix**: Text harus pake kutip.
 
 ```python
-nama = "Rafi"  # ✅
-```
+nama = "Rafi"  # BENAR: ```
 
 ---
 

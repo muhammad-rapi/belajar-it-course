@@ -4,7 +4,7 @@ Tempat diskusi, tanya jawab, dan share progress!
 
 ---
 
-## 💬 Discord - Anak IT Ngumpul
+## Discord - Anak IT Ngumpul
 
 **Join Discord**: [https://discord.gg/rjc4pPxEeb](https://discord.gg/rjc4pPxEeb)
 
@@ -23,7 +23,7 @@ Di Discord lu bisa:
 
 ---
 
-## 📱 Social Media
+## Social Media
 
 Follow buat update & tips IT:
 
@@ -35,7 +35,7 @@ Professional updates & career tips.
 
 ---
 
-## 📖 Course Links
+## Course Links
 
 **GitBook**: [anak-it-ngumpul.gitbook.io](https://anak-it-ngumpul.gitbook.io)  
 Course content (always up-to-date).
@@ -45,7 +45,7 @@ Source code, contribute, report issues.
 
 ---
 
-## ❓ Pertanyaan?
+## Pertanyaan?
 
 Langsung aja tanya di **Discord** → [https://discord.gg/rjc4pPxEeb](https://discord.gg/rjc4pPxEeb)
 
@@ -53,4 +53,4 @@ Biasanya ada yang reply dalam beberapa jam. Community-driven, semua saling bantu
 
 ---
 
-**Selamat belajar!** 🚀
+**Selamat belajar!**

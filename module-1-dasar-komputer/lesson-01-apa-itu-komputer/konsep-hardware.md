@@ -77,15 +77,15 @@ Hardware itu **semua yang bisa kamu sentuh**. Komponen fisik.
 **Jenis storage**:
 
 **HDD (Hard Disk Drive)** - Piringan putar:
-- ✅ **Murah**: 1 TB cuma 400-600rb
-- ✅ **Kapasitas besar**: 1 TB, 2 TB, 4 TB
-- ❌ **Lambat**: 100 MB/s read speed
-- ❌ **Ada bagian gerak**: bisa rusak kalau kejatuh
+- **Murah**: 1 TB cuma 400-600rb
+- **Kapasitas besar**: 1 TB, 2 TB, 4 TB
+- **Lambat**: 100 MB/s read speed
+- **Ada bagian gerak**: bisa rusak kalau kejatuh
 
 **SSD (Solid State Drive)** - Chip elektronik:
-- ✅ **Cepat**: 500 MB/s (SATA) atau 3,000 MB/s (NVMe)
-- ✅ **Ga ada bagian gerak**: lebih tahan banting
-- ❌ **Lebih mahal**: 1 TB SSD ~1-1.5 juta
+- **Cepat**: 500 MB/s (SATA) atau 3,000 MB/s (NVMe)
+- **Ga ada bagian gerak**: lebih tahan banting
+- **Lebih mahal**: 1 TB SSD ~1-1.5 juta
 
 **Real example**:
 - Laptop lama (HDD): Boot Windows 2-3 menit, buka app lambat.

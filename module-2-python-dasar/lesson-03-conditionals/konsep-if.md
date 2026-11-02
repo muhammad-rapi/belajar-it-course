@@ -79,14 +79,14 @@ Selamat datang
 
 Python pake indent buat tau mana code yang ada di dalam `if`.
 
-**❌ Salah (ga ada indent)**:
+**Salah (ga ada indent)**:
 
 ```python
 if umur >= 18:
 print("Dewasa")  # IndentationError
 ```
 
-**✅ Benar (ada indent)**:
+**Benar (ada indent)**:
 
 ```python
 if umur >= 18:
@@ -251,42 +251,39 @@ if " " in username:
 **1. Lupa titik dua (:)**
 
 ```python
-if umur >= 18  # ❌ SyntaxError
+if umur >= 18  # SALAH: SyntaxError
     print("Dewasa")
 ```
 
 **Fix**: Tambahin `:`
 
 ```python
-if umur >= 18:  # ✅
-    print("Dewasa")
+if umur >= 18:  # BENAR: print("Dewasa")
 ```
 
 **2. Pakai `=` bukan `==`**
 
 ```python
-if nama = "Rafi":  # ❌ SyntaxError (assignment, bukan comparison)
+if nama = "Rafi":  # SALAH: SyntaxError (assignment, bukan comparison)
 ```
 
 **Fix**:
 
 ```python
-if nama == "Rafi":  # ✅
-```
+if nama == "Rafi":  # BENAR: ```
 
 **3. Lupa indent**
 
 ```python
 if umur >= 18:
-print("Dewasa")  # ❌ IndentationError
+print("Dewasa")  # SALAH: IndentationError
 ```
 
 **Fix**: Indent 4 spasi
 
 ```python
 if umur >= 18:
-    print("Dewasa")  # ✅
-```
+    print("Dewasa")  # BENAR: ```
 
 ---
 

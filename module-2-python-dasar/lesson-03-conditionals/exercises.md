@@ -287,7 +287,7 @@ ada_huruf_besar = any(char.isupper() for char in password)
 
 # Validasi
 if panjang_cukup and ada_angka and ada_huruf_besar:
-    print("Password valid ✓")
+    print("Password valid")
 else:
     print("Password tidak valid:")
     if not panjang_cukup:

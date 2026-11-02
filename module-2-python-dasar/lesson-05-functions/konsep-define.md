@@ -91,11 +91,11 @@ sapa("Rafi", salam="Yo") # Yo, Rafi!
 Default parameter **harus di akhir**:
 
 ```python
-# ✅ OK
+# BENAR: OK
 def func(a, b, c=10):
     pass
 
-# ❌ Error
+# SALAH: Error
 def func(a, b=10, c):
     pass
 ```

@@ -4,7 +4,7 @@ Official docs & learning resources.
 
 ---
 
-## 🐍 Python
+## Python
 
 **Python Official Docs** - [docs.python.org](https://docs.python.org/3/)
 - Comprehensive reference
@@ -21,7 +21,7 @@ Official docs & learning resources.
 
 ---
 
-## 🌐 Web Development
+## Web Development
 
 **MDN Web Docs** - [developer.mozilla.org](https://developer.mozilla.org/)
 - **Best resource** buat HTML, CSS, JavaScript
@@ -40,7 +40,7 @@ Official docs & learning resources.
 
 ---
 
-## 🛠️ Tools & Frameworks
+## Tools & Frameworks
 
 **Git** - [git-scm.com/doc](https://git-scm.com/doc)
 - Git official documentation
@@ -61,7 +61,7 @@ Official docs & learning resources.
 
 ---
 
-## 📚 Learning Paths
+## Learning Paths
 
 **roadmap.sh** - [roadmap.sh](https://roadmap.sh/)
 - Frontend, backend, DevOps roadmaps
@@ -75,7 +75,7 @@ Official docs & learning resources.
 
 ---
 
-## 🎥 Video Resources
+## Video Resources
 
 **freeCodeCamp YouTube** - [youtube.com/@freecodecamp](https://www.youtube.com/@freecodecamp)
 - Full courses (4-10 jam)
@@ -91,7 +91,7 @@ Official docs & learning resources.
 
 ---
 
-## 📖 Books (Gratis Online)
+## Books (Gratis Online)
 
 **Automate the Boring Stuff with Python** - [automatetheboringstuff.com](https://automatetheboringstuff.com/)
 - Practical Python
@@ -108,7 +108,7 @@ Official docs & learning resources.
 
 ---
 
-## 🔍 Quick Search
+## Quick Search
 
 Stuck? Search pattern:
 1. **Official docs** (Python, MDN)

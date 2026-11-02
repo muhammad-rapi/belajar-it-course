@@ -1,30 +1,30 @@
 ## Next Steps
 
-🎉 **Selamat! Lu udah complete Module 2: Dasar Programming dengan Python!**
+**Selamat! Lu udah complete Module 2: Dasar Programming dengan Python!**
 
 ---
 
 ## Yang Udah Lu Kuasai
 
-✅ Variables & data types  
-✅ String, list, dictionary operations  
-✅ Type conversion  
-✅ If-elif-else conditionals  
-✅ Comparison & logic operators  
-✅ For & while loops  
-✅ Loop control (break, continue)  
-✅ Functions (def, parameters, return)  
-✅ Scope (local vs global)  
-✅ *args & **kwargs  
-✅ Lambda functions  
-✅ File I/O (JSON, CSV)  
-✅ Real project automation
+- Variables & data types  
+- String, list, dictionary operations  
+- Type conversion  
+- If-elif-else conditionals  
+- Comparison & logic operators  
+- For & while loops  
+- Loop control (break, continue)  
+- Functions (def, parameters, return)  
+- Scope (local vs global)  
+- *args & **kwargs  
+- Lambda functions  
+- File I/O (JSON, CSV)  
+- Real project automation
 
 ---
 
 ## What's Next?
 
-### Module 3: Web Development (Coming Soon!)
+### Module 3: Web Development
 
 **What you'll learn**:
 - HTML/CSS basics
@@ -33,7 +33,7 @@
 - Fetch API
 - Build responsive web app
 
-### Module 4: Backend Development (Coming Soon!)
+### Module 4: Backend Development (rencana)
 
 **What you'll learn**:
 - Flask/FastAPI
@@ -42,7 +42,7 @@
 - Authentication
 - Deploy to cloud
 
-### Module 5: Data & Automation (Coming Soon!)
+### Module 5: Data & Automation (rencana)
 
 **What you'll learn**:
 - Pandas & NumPy
@@ -66,4 +66,4 @@
 
 ---
 
-**Lu udah punya foundation Python yang solid. Keep coding!** 🚀
+**Lu udah punya foundation Python yang solid. Keep coding!**

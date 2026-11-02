@@ -256,7 +256,7 @@ print(f"Bayar: Rp {int(total * (1 - diskon/100)):,}")
 **1. Lupa operator di multiple checks**
 
 ```python
-# ❌ Salah (Python bingung)
+# SALAH: Salah (Python bingung)
 if umur >= 18 and < 60:
     print("Dewasa")
 ```
@@ -264,7 +264,7 @@ if umur >= 18 and < 60:
 **Fix**:
 
 ```python
-# ✅ Benar
+# BENAR: Benar
 if umur >= 18 and umur < 60:
     print("Dewasa")
 
@@ -291,8 +291,8 @@ if is_member or total >= 200000:
 **3. Typo operator**
 
 ```python
-if umur = 18:  # ❌ Assignment, bukan comparison
-if umur == 18: # ✅ Comparison
+if umur = 18:  # SALAH: Assignment, bukan comparison
+if umur == 18: # BENAR: Comparison
 ```
 
 ---

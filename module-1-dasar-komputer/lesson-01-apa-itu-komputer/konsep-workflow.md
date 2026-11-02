@@ -40,7 +40,7 @@ graph LR
 ```
 *Diagram: Computer workflow ketika buka google.com*
 
-**📹 Video Explanation:**
+**Video Explanation:**
 
 <figure><img src="../../../assets/videos/computer-workflow.gif" alt="Computer Workflow Animation" width="100%"><figcaption><em>Input → Process → Network → Output dalam 25 detik</em></figcaption></figure>
 

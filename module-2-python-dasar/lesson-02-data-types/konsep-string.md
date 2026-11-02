@@ -145,10 +145,10 @@ print(f"Domain: {domain}")
 nama = "Rafi"
 umur = 25
 
-# ❌ Cara lama (concatenation)
+# SALAH: Cara lama (concatenation)
 pesan = "Nama: " + nama + ", Umur: " + str(umur)
 
-# ✅ F-string (Python 3.6+)
+# BENAR: F-string (Python 3.6+)
 pesan = f"Nama: {nama}, Umur: {umur}"
 print(pesan)  # Nama: Rafi, Umur: 25
 
@@ -177,10 +177,10 @@ String **ga bisa diubah** setelah dibuat. Method kayak `.replace()` **return str
 
 ```python
 nama = "Rafi"
-nama.upper()  # ❌ Ini ga ngubah `nama`
+nama.upper()  # SALAH: Ini ga ngubah `nama`
 print(nama)   # Output: Rafi (masih lowercase)
 
-# ✅ Harus assign ulang
+# BENAR: Harus assign ulang
 nama = nama.upper()
 print(nama)  # Output: RAFI
 ```

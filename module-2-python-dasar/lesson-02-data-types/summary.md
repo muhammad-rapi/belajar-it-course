@@ -39,12 +39,12 @@ Selamat! Lu udah paham cara Python simpen dan manipulasi berbagai jenis data.
 
 ## Skill yang Lu Kuasai Sekarang
 
-✅ Manipulasi text (uppercase, lowercase, split, join)  
-✅ Simpen banyak data dalam list  
-✅ Simpen data terstruktur dalam dictionary  
-✅ Convert antar tipe data  
-✅ Handle input user (string → int/float)  
-✅ Loop list dan dictionary  
+- Manipulasi text (uppercase, lowercase, split, join)  
+- Simpen banyak data dalam list  
+- Simpen data terstruktur dalam dictionary  
+- Convert antar tipe data  
+- Handle input user (string → int/float)  
+- Loop list dan dictionary  
 
 ---
 
@@ -140,12 +140,12 @@ Sebelum lanjut, **pastiin lu udah**:
 **1. String formatting**
 
 ```python
-# ✅ Modern (f-string)
+# BENAR: Modern (f-string)
 nama = "Rafi"
 umur = 25
 print(f"Nama: {nama}, Umur: {umur}")
 
-# ❌ Old (concatenation)
+# SALAH: Old (concatenation)
 print("Nama: " + nama + ", Umur: " + str(umur))
 ```
 
@@ -183,18 +183,18 @@ text = "hello"
 print(text[0])  # 'h' (string juga bisa indexing)
 
 # String immutable
-text[0] = "H"  # ❌ Error
+text[0] = "H"  # SALAH: Error
 
 # List mutable
 my_list = ["h", "e", "l", "l", "o"]
-my_list[0] = "H"  # ✅ Jalan
+my_list[0] = "H"  # BENAR: Jalan
 ```
 
 **2. Dict key typo**
 
 ```python
 user = {"nama": "Rafi"}
-print(user["name"])  # ❌ KeyError (typo: "name" vs "nama")
+print(user["name"])  # SALAH: KeyError (typo: "name" vs "nama")
 
 # Lebih aman pake .get()
 print(user.get("name"))  # None (ga error)
@@ -204,7 +204,7 @@ print(user.get("name"))  # None (ga error)
 
 ```python
 umur = input("Umur: ")  # String!
-if umur > 18:  # ❌ Compare string vs int
+if umur > 18:  # SALAH: Compare string vs int
     print("Dewasa")
 
 # Fix
@@ -256,4 +256,4 @@ phonebook = [c for c in phonebook if c["nama"] != "Rafi"]
 
 ---
 
-Ready buat Lesson 3 (Conditionals)? 🚀
+Ready buat Lesson 3 (Conditionals)? 

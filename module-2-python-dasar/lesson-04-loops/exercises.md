@@ -113,7 +113,7 @@ while True:
     
     # Validasi
     if len(password) < 8:
-        print("❌ Min 8 karakter")
+        print("Min 8 karakter")
         continue
     
     has_upper = any(c.isupper() for c in password)
@@ -121,18 +121,18 @@ while True:
     has_digit = any(c.isdigit() for c in password)
     
     if not has_upper:
-        print("❌ Harus ada huruf besar")
+        print("Harus ada huruf besar")
         continue
     
     if not has_lower:
-        print("❌ Harus ada huruf kecil")
+        print("Harus ada huruf kecil")
         continue
     
     if not has_digit:
-        print("❌ Harus ada angka")
+        print("Harus ada angka")
         continue
     
-    print("✅ Password valid!")
+    print("Password valid!")
     break
 ```
 
@@ -215,7 +215,7 @@ while True:
     if pilihan == "1":
         task = input("Task baru: ")
         tasks.append(task)
-        print("✅ Task ditambah")
+        print("Task ditambah")
     
     elif pilihan == "2":
         if not tasks:

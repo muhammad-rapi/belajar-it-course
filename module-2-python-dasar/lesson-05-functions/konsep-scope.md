@@ -14,7 +14,7 @@ def test():
     print(x)
 
 test()  # 10
-print(x)  # ❌ Error: x is not defined
+print(x)  # SALAH: Error: x is not defined
 ```
 
 ---
@@ -37,7 +37,7 @@ print(x)  # 10
 
 ### Modify Global Variable
 
-**❌ Ini ga modify global**:
+**Ini ga modify global**:
 
 ```python
 x = 10
@@ -50,7 +50,7 @@ test()  # 20
 print(x)  # 10 (global ga berubah)
 ```
 
-**✅ Pake keyword `global`**:
+**Pake keyword `global`**:
 
 ```python
 x = 10
@@ -67,7 +67,7 @@ print(x)  # 20 (global berubah)
 **Best practice**: **Hindari global**. Pass parameter instead.
 
 ```python
-# ✅ Better
+# BENAR: Better
 def tambah(x, y):
     return x + y
 

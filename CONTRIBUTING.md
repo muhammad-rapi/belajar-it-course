@@ -1,6 +1,6 @@
 # Contributing to Belajar IT dari Nol
 
-Terima kasih mau contribute! 🎉
+Terima kasih mau contribute!
 
 ## How to Contribute
 
@@ -66,4 +66,4 @@ Open [discussion](https://github.com/muhammad-rapi/belajar-it-course/discussions
 
 ---
 
-**Thank you for making this course better!** 🙏
+**Thank you for making this course better!**

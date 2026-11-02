@@ -4,7 +4,7 @@ Platform buat latihan coding & algorithm.
 
 ---
 
-## 🎯 Beginner-Friendly
+## Beginner-Friendly
 
 **Exercism** - [exercism.org/tracks/python](https://exercism.org/tracks/python)
 - Gratis
@@ -19,7 +19,7 @@ Platform buat latihan coding & algorithm.
 
 ---
 
-## 💪 Intermediate
+## Intermediate
 
 **LeetCode** - [leetcode.com](https://leetcode.com)
 - Interview prep
@@ -34,7 +34,7 @@ Platform buat latihan coding & algorithm.
 
 ---
 
-## 🔥 Advanced
+## Advanced
 
 **Codeforces** - [codeforces.com](https://codeforces.com)
 - Competitive programming
@@ -47,7 +47,7 @@ Platform buat latihan coding & algorithm.
 
 ---
 
-## 🌐 Project-Based
+## Project-Based
 
 **Frontend Mentor** - [frontendmentor.io](https://www.frontendmentor.io)
 - Real design → lu code
@@ -60,7 +60,7 @@ Platform buat latihan coding & algorithm.
 
 ---
 
-## 📌 Tips
+## Tips
 
 **Pemula**: Mulai dari **Exercism** (structured) atau **Codewars** (fun).  
 **Job hunting**: Focus **LeetCode** Easy/Medium (2-3 soal per hari).  

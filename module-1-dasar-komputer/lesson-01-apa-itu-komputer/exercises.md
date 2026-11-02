@@ -38,7 +38,7 @@ Komputer aku:
 - [ ] Tau storage type (SSD/HDD) + capacity
 
 <details>
-<summary>💡 Hints</summary>
+<summary>Hints</summary>
 
 **Hint 1**: Task Manager / Activity Monitor itu built-in tool di OS. Ga perlu install apa-apa.
 
@@ -52,7 +52,7 @@ Komputer aku:
 </details>
 
 <details>
-<summary>✅ Solusi</summary>
+<summary>Solusi</summary>
 
 Ga ada "solusi" fixed karena setiap komputer beda spec. Tapi **guideline**:
 
@@ -118,7 +118,7 @@ Chrome + VS Code + YouTube 4K: CPU 40%, RAM 5 GB, GPU active
 ```
 
 <details>
-<summary>💡 Hints</summary>
+<summary>Hints</summary>
 
 **Hint 1**: Apps "heavy" itu relative. YouTube 4K berat buat laptop 4 GB RAM, tapi ringan buat desktop 16 GB RAM.
 
@@ -129,7 +129,7 @@ Chrome + VS Code + YouTube 4K: CPU 40%, RAM 5 GB, GPU active
 </details>
 
 <details>
-<summary>✅ Solusi + Insight</summary>
+<summary>Solusi + Insight</summary>
 
 **Pattern yang kamu notice**:
 
@@ -203,7 +203,7 @@ C:\Users\Rapi\
 ```
 
 <details>
-<summary>💡 Hints</summary>
+<summary>Hints</summary>
 
 **Hint 1**: **Path** itu alamat file. Contoh: `C:\Users\Rapi\Documents\hello.txt` (Windows) atau `/Users/Rapi/Documents/hello.txt` (Mac/Linux).
 
@@ -219,7 +219,7 @@ C:\Users\Rapi\
 </details>
 
 <details>
-<summary>✅ Solusi + Insight</summary>
+<summary>Solusi + Insight</summary>
 
 **Kenapa ini penting**:
 

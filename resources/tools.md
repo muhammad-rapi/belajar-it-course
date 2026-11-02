@@ -4,7 +4,7 @@ Download & setup tools buat coding.
 
 ---
 
-## 💻 Code Editor
+## Code Editor
 
 **VS Code** (Recommended)
 - Download: [code.visualstudio.com](https://code.visualstudio.com/)
@@ -24,7 +24,7 @@ Download & setup tools buat coding.
 
 ---
 
-## 🐍 Python
+## Python
 
 **Python 3.10+**
 - Download: [python.org/downloads](https://www.python.org/downloads/)
@@ -41,7 +41,7 @@ pip3 --version
 
 ---
 
-## 🔧 Git
+## Git
 
 **Git Version Control**
 - Download: [git-scm.com](https://git-scm.com/)
@@ -59,7 +59,7 @@ git config --global user.email "you@example.com"
 
 ---
 
-## 🌐 Node.js (untuk web development)
+## Node.js (untuk web development)
 
 **Node.js LTS**
 - Download: [nodejs.org](https://nodejs.org/)
@@ -74,7 +74,7 @@ npm --version
 
 ---
 
-## 🖥️ Terminal
+## Terminal
 
 **Windows**:
 - Git Bash (included dengan Git)
@@ -90,7 +90,7 @@ npm --version
 
 ---
 
-## 🎨 Browser (untuk web dev)
+## Browser (untuk web dev)
 
 **Chrome** atau **Firefox** dengan DevTools.
 - Chrome DevTools: F12 atau Cmd+Option+I
@@ -98,7 +98,7 @@ npm --version
 
 ---
 
-## 📌 Setup Order
+## Setup Order
 
 1. **VS Code** - code editor
 2. **Python** - programming language

@@ -14,7 +14,7 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background tekni
 * Roadmap realistis sesuai kondisi kamu
 * Decision framework: mulai sekarang atau postpone?
 
-**Module 1: Dasar Komputer & Internet** (coming soon)
+**Module 1: Dasar Komputer & Internet**
 
 * Apa itu komputer, hardware, software, OS
 * File system, folder, path
@@ -22,13 +22,13 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background tekni
 * Internet, web, HTTP
 * Browser & DevTools
 
-**Module 2: Pemrograman Fundamental** (coming soon)
+**Module 2: Pemrograman Fundamental**
 
 * Python basics (variables, functions, loops, conditionals)
 * Problem solving & debugging
 * Mini projects
 
-**Module 3: Web Development** (coming soon)
+**Module 3: Web Development**
 
 * HTML, CSS, JavaScript
 * React basics
@@ -36,13 +36,13 @@ Course ini dibuat buat kamu yang mau belajar IT dari nol, tanpa background tekni
 
 ## Siapa yang Cocok Ikut Course Ini?
 
-✅ Kamu yang **belum pernah coding** sama sekali\
-✅ Kamu yang **career switch** dari bidang lain\
-✅ Kamu yang **ragu mulai** karena takut terlambat/ga cocok\
-✅ Kamu yang **belajar sendiri** (self-paced, no deadline)
+* Cocok: Kamu yang **belum pernah coding** sama sekali
+* Cocok: Kamu yang **career switch** dari bidang lain
+* Cocok: Kamu yang **ragu mulai** karena takut terlambat/ga cocok
+* Cocok: Kamu yang **belajar sendiri** (self-paced, no deadline)
 
-❌ Kamu yang **udah expert** (course ini terlalu basic)\
-❌ Kamu yang **expect hasil instan** 1-2 bulan (realistic timeline: 6-12 bulan)
+* Kurang cocok: Kamu yang **udah expert** (course ini terlalu basic)
+* Kurang cocok: Kamu yang **expect hasil instan** 1-2 bulan (realistic timeline: 6-12 bulan)
 
 ## Kenapa Course Ini Beda?
 
@@ -74,6 +74,6 @@ Lesson pertama bukan tentang coding. Ini bahas langsung: **ketakutan yang bikin 
 
 ***
 
-**Questions?** Drop di [Discord Community](resources/community.md) (coming soon) atau open issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues)
+**Questions?** Drop di [Discord Community](resources/community.md) atau open issue di [GitHub](https://github.com/muhammad-rapi/belajar-it-course/issues)
 
-**Want to support?** Star repo ini ⭐, share ke temen yang butuh, atau [buy me a coffee](https://trakteer.id/) (coming soon)
+**Want to support?** Star repo ini, share ke temen yang butuh, atau [buy me a coffee](https://trakteer.id/)

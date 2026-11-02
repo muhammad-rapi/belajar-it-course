@@ -36,12 +36,12 @@ Selamat! Lu udah nulis program Python pertama dan paham cara komputer simpen dat
 
 ## Skill yang Lu Kuasai Sekarang
 
-✅ Nulis dan run program Python  
-✅ Bikin dan update variable  
-✅ Print output ke Terminal  
-✅ Operasi matematika dasar  
-✅ Naming yang bener  
-✅ Debugging error sederhana  
+- Nulis dan run program Python  
+- Bikin dan update variable  
+- Print output ke Terminal  
+- Operasi matematika dasar  
+- Naming yang bener  
+- Debugging error sederhana  
 
 ---
 
@@ -130,4 +130,4 @@ print(f"BMI: {bmi:.2f}")  # :.2f = 2 desimal
 
 **Stuck?** Tanya di [Discord Community](../../resources/community.md).
 
-Ready buat Lesson 2? Let's go! 🚀
+Ready buat Lesson 2? Let's go! 

@@ -22,8 +22,8 @@ Komputer itu bodoh. Dia cuma bisa ikutin perintah lu **persis kayak yang lu tuli
 **Analogi: Ngasih instruksi ke anak kecil**
 
 > Lu suruh anak kecil ambil minum:
-> - ❌ "Ambil minum" → dia bingung, minum apa? Di mana?
-> - ✅ "Buka kulkas. Ambil botol aqua. Tuang ke gelas. Kasih ke aku." → jelas, step-by-step.
+> - "Ambil minum" → dia bingung, minum apa? Di mana?
+> - "Buka kulkas. Ambil botol aqua. Tuang ke gelas. Kasih ke aku." → jelas, step-by-step.
 
 Programming sama persis. Lu harus spesifik.
 

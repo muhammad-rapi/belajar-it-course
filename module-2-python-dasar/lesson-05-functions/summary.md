@@ -38,25 +38,25 @@ One-liner, anonymous function.
 
 **1. Descriptive names**
 ```python
-# ✅ Good
+# BENAR: Good
 def hitung_total_harga(items):
     pass
 
-# ❌ Bad
+# SALAH: Bad
 def calc(x):
     pass
 ```
 
 **2. Single responsibility**
 ```python
-# ✅ Good
+# BENAR: Good
 def validate_email(email):
     pass
 
 def send_email(to, subject, body):
     pass
 
-# ❌ Bad
+# SALAH: Bad
 def validate_and_send_email(email, subject, body):
     pass  # too many responsibilities
 ```
@@ -70,24 +70,24 @@ def tambah(a, b):
 
 **4. Default parameters di akhir**
 ```python
-# ✅ Good
+# BENAR: Good
 def func(a, b, c=10):
     pass
 
-# ❌ Bad
+# SALAH: Bad
 def func(a, b=10, c):
     pass
 ```
 
 **5. Return early**
 ```python
-# ✅ Good
+# BENAR: Good
 def divide(a, b):
     if b == 0:
         return "Error"
     return a / b
 
-# ❌ Bad (nested)
+# SALAH: Bad (nested)
 def divide(a, b):
     if b != 0:
         return a / b
@@ -102,7 +102,7 @@ def divide(a, b):
 **1. Forget return**
 ```python
 def tambah(a, b):
-    a + b  # ❌ ga return
+    a + b  # SALAH: ga return
 
 result = tambah(5, 3)
 print(result)  # None
@@ -110,12 +110,12 @@ print(result)  # None
 
 **2. Modify mutable default parameter**
 ```python
-# ❌ Bug
+# SALAH: Bug
 def add_item(item, items=[]):
     items.append(item)
     return items
 
-# ✅ Fix
+# BENAR: Fix
 def add_item(item, items=None):
     if items is None:
         items = []
@@ -143,4 +143,4 @@ Sebelum lanjut:
 
 ---
 
-Ready buat final project! 🚀
+Ready buat final project! 

@@ -65,4 +65,4 @@ Sebelum lanjut:
 
 ---
 
-Ready buat Lesson 5! 🌐
+Ready buat Lesson 5! 

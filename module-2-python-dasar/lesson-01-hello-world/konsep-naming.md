@@ -20,13 +20,13 @@ Nama variable itu **penting banget**. Code yang bagus = code yang gampang dibaca
 **Contoh**:
 
 ```python
-# ✅ Valid
+# BENAR: Valid
 nama = "Rafi"
 umur_sekarang = 25
 total_2024 = 1000000
 _temp = 123
 
-# ❌ Invalid
+# SALAH: Invalid
 nama saya = "Rafi"  # Ada spasi
 2024_total = 100    # Mulai dari angka
 total$ = 500        # Ada karakter khusus
@@ -40,16 +40,16 @@ for = 10            # 'for' adalah keyword Python
 Python pake **snake_case** buat nama variable: semua huruf kecil, kata dipisah `_`.
 
 ```python
-# ✅ Good (snake_case)
+# BENAR: Good (snake_case)
 nama_lengkap = "Rafi Maulana"
 harga_total = 50000
 jumlah_item_terjual = 15
 
-# ❌ Avoid (camelCase - ini untuk JavaScript)
+# SALAH: Avoid (camelCase - ini untuk JavaScript)
 namaLengkap = "Rafi"
 hargaTotal = 50000
 
-# ❌ Avoid (PascalCase - ini untuk class name)
+# SALAH: Avoid (PascalCase - ini untuk class name)
 NamaLengkap = "Rafi"
 ```
 
@@ -88,7 +88,7 @@ Langsung keliatan maksudnya.
 Singkatan **boleh** kalau udah jadi standar universal:
 
 ```python
-# ✅ Acceptable
+# BENAR: Acceptable
 id_user = 12345
 url_website = "https://example.com"
 html_content = "<div>Hello</div>"
@@ -101,7 +101,7 @@ Singkatan kayak `id`, `url`, `html`, `max`, `min` udah dipahami semua orang.
 **Avoid** singkatan yang lu bikin sendiri:
 
 ```python
-# ❌ Avoid
+# SALAH: Avoid
 jml_trx = 10      # "jumlah_transaksi" lebih jelas
 hrgttl = 50000    # "harga_total" lebih jelas
 ```

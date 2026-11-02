@@ -9,7 +9,7 @@ Bug-bug yang paling sering bikin frustasi pemula (dan cara fixnya).
 **Error paling sering muncul.**
 
 ```python
-print(nama)  # ❌ NameError: name 'nama' is not defined
+print(nama)  # SALAH: NameError: name 'nama' is not defined
 nama = "Rafi"
 ```
 
@@ -20,15 +20,15 @@ nama = "Rafi"
 
 **Fix**:
 ```python
-# ✅ Definisikan dulu, baru pake
+# BENAR: Definisikan dulu, baru pake
 nama = "Rafi"
 print(nama)
 
-# ✅ Cek typo
+# BENAR: Cek typo
 nama = "Rafi"
 print(nama)  # bukan "nma" atau "Nama"
 
-# ✅ String harus pake kutip
+# BENAR: String harus pake kutip
 print("Rafi")  # bukan print(Rafi)
 ```
 
@@ -39,7 +39,7 @@ print("Rafi")  # bukan print(Rafi)
 **Error umum kedua.**
 
 ```python
-print "Hello"  # ❌ SyntaxError (Python 3 wajib pake kurung)
+print "Hello"  # SALAH: SyntaxError (Python 3 wajib pake kurung)
 ```
 
 **Penyebab**:
@@ -49,13 +49,13 @@ print "Hello"  # ❌ SyntaxError (Python 3 wajib pake kurung)
 
 **Fix**:
 ```python
-# ✅ Python 3 wajib kurung
+# BENAR: Python 3 wajib kurung
 print("Hello")
 
-# ✅ String harus pake kutip
+# BENAR: String harus pake kutip
 nama = "Rafi"  # bukan nama = Rafi
 
-# ✅ Assignment pake `=`, bukan `==`
+# BENAR: Assignment pake `=`, bukan `==`
 nama = "Rafi"  # bukan nama == "Rafi"
 ```
 
@@ -67,7 +67,7 @@ nama = "Rafi"  # bukan nama == "Rafi"
 
 ```python
 umur = "25"  # Ini string, bukan angka
-umur_tahun_depan = umur + 1  # ❌ TypeError
+umur_tahun_depan = umur + 1  # SALAH: TypeError
 ```
 
 **Penyebab**: Operasi matematika sama string.
@@ -75,7 +75,7 @@ umur_tahun_depan = umur + 1  # ❌ TypeError
 **Fix**: Pastiin tipe data bener.
 
 ```python
-# ✅ Bikin umur jadi integer (angka)
+# BENAR: Bikin umur jadi integer (angka)
 umur = 25  # bukan "25"
 umur_tahun_depan = umur + 1
 print(umur_tahun_depan)  # 26
@@ -129,7 +129,7 @@ python3 hello.py  # bukan python3 test.py
 
 ```python
 nama = "Rafi"
-  print(nama)  # ❌ IndentationError: unexpected indent
+  print(nama)  # SALAH: IndentationError: unexpected indent
 ```
 
 **Penyebab**: Ada spasi/tab di awal line yang ga perlu.
@@ -138,7 +138,7 @@ nama = "Rafi"
 
 ```python
 nama = "Rafi"
-print(nama)  # ✅ Ga ada indent
+print(nama)  # BENAR: Ga ada indent
 ```
 
 ---
@@ -172,7 +172,7 @@ print("Umur:", umur)  # Output: Umur: 25
 
 ```python
 saldo = 100000
-saldo - 50000  # ❌ Ini ga ngapa-ngapain
+saldo - 50000  # SALAH: Ini ga ngapa-ngapain
 print(saldo)   # Output: 100000 (belum berubah)
 ```
 
@@ -181,7 +181,7 @@ print(saldo)   # Output: 100000 (belum berubah)
 **Fix**:
 ```python
 saldo = 100000
-saldo = saldo - 50000  # ✅ Assign ulang
+saldo = saldo - 50000  # BENAR: Assign ulang
 print(saldo)   # Output: 50000
 ```
 
@@ -193,15 +193,14 @@ print(saldo)   # Output: 50000
 
 ```python
 nama = "Rafi"
-print(Nama)  # ❌ NameError: name 'Nama' is not defined
+print(Nama)  # SALAH: NameError: name 'Nama' is not defined
 ```
 
 **Fix**: Ketik persis sama.
 
 ```python
 nama = "Rafi"
-print(nama)  # ✅
-```
+print(nama)  # BENAR: ```
 
 ---
 

@@ -105,9 +105,9 @@ if __name__ == "__main__":
     folder = input("Masukkan path folder: ")
     if os.path.exists(folder):
         organize_files(folder)
-        print("✅ Done!")
+        print("Done!")
     else:
-        print("❌ Folder ga ada")
+        print("Folder ga ada")
 ```
 
 ---
@@ -171,4 +171,4 @@ Save move history ke JSON, implement `undo()`.
 
 ---
 
-Done! Lu punya automation script yang save waktu berjam-jam. 🎉
+Done! Lu punya automation script yang save waktu berjam-jam. 

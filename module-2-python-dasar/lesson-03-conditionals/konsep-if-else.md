@@ -241,7 +241,7 @@ Output sama: `Dewasa`
 **1. Else tanpa If**
 
 ```python
-else:  # ❌ SyntaxError
+else:  # SALAH: SyntaxError
     print("Test")
 ```
 
@@ -252,7 +252,7 @@ else:  # ❌ SyntaxError
 ```python
 if umur >= 18:
     print("Dewasa")
-  else:  # ❌ IndentationError (else ga boleh indent)
+  else:  # SALAH: IndentationError (else ga boleh indent)
 ```
 
 **Fix**: `else` harus sejajar dengan `if`
@@ -260,8 +260,7 @@ if umur >= 18:
 ```python
 if umur >= 18:
     print("Dewasa")
-else:  # ✅
-    print("Anak-anak")
+else:  # BENAR: print("Anak-anak")
 ```
 
 ---

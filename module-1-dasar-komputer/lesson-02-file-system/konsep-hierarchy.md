@@ -152,7 +152,7 @@ C:\
 └── Volumes/             ← External drives (USB, etc.)
 ```
 
-**⚠️ WARNING**: Jangan hapus atau edit file di `Windows\`, `System\`, atau `Library\` kecuali kamu tau persis apa yang kamu lakukan. Bisa bikin OS crash.
+**WARNING**: Jangan hapus atau edit file di `Windows\`, `System\`, atau `Library\` kecuali kamu tau persis apa yang kamu lakukan. Bisa bikin OS crash.
 
 ---
 

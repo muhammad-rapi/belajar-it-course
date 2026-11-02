@@ -103,7 +103,7 @@ Server kasih status code buat info request berhasil/gagal.
 
 ```
 HTTP:  google.com   → Data plain text
-HTTPS: google.com   → Data encrypted 🔒
+HTTPS: google.com   → Data encrypted 
 ```
 
 **Kenapa penting?**
@@ -111,7 +111,7 @@ HTTPS: google.com   → Data encrypted 🔒
 - Payment → credit card number aman
 - Privacy → ISP ga bisa baca isi data
 
-**Cara cek**: Browser ada icon gembok 🔒 kalau HTTPS.
+**Cara cek**: Browser ada icon gembok kalau HTTPS.
 
 ---
 

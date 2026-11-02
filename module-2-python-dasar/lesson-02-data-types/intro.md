@@ -18,7 +18,7 @@ umur = 25
 ```python
 # User ketik umur
 umur_input = "25"  # Ini STRING (dari keyboard)
-umur_tahun_depan = umur_input + 1  # ❌ Error!
+umur_tahun_depan = umur_input + 1  # SALAH: Error!
 ```
 
 Error: `TypeError: can only concatenate str (not "int") to str`

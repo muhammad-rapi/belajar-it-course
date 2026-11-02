@@ -74,8 +74,8 @@ print(user.get("email"))  # None (ga error kalau key ga ada)
 **Perbedaan `[]` vs `.get()`**:
 
 ```python
-print(user["email"])      # ❌ KeyError (error kalau key ga ada)
-print(user.get("email"))  # ✅ None (ga error, return None)
+print(user["email"])      # SALAH: KeyError (error kalau key ga ada)
+print(user.get("email"))  # BENAR: None (ga error, return None)
 ```
 
 ---

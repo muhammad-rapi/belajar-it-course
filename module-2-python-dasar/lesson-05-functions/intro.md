@@ -9,7 +9,7 @@ lebar1 = 5
 luas1 = panjang1 * lebar1
 print(f"Luas: {luas1}")
 
-# Copas 10x buat 10 persegi? 🤮
+# Copas 10x buat 10 persegi? 
 panjang2 = 8
 lebar2 = 6
 luas2 = panjang2 * lebar2

@@ -61,7 +61,7 @@ while tebakan != rahasia:
     elif tebakan > rahasia:
         print("Terlalu besar")
     else:
-        print("Benar! 🎉")
+        print("Benar!")
 ```
 
 Lu ga tau user butuh berapa kali tebak. Makanya pake while.
@@ -73,7 +73,7 @@ Lu ga tau user butuh berapa kali tebak. Makanya pake while.
 Kalau kondisi ga pernah False, loop jalan selamanya.
 
 ```python
-# ⚠️ JANGAN JALANIN INI
+# JANGAN JALANIN INI
 while True:
     print("Infinite loop!")
 ```

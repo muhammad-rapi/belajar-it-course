@@ -66,4 +66,4 @@ Semua app pake loop.
 - **Loop control**: break, continue, pass
 - **Nested loops**: loop dalam loop
 
-Ready? Let's loop! 🔁
+Kita mulai dari for loop. 

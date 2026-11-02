@@ -34,12 +34,12 @@ Selamat! Lu udah bisa bikin program yang "mikir" berdasarkan kondisi.
 
 ## Skill yang Lu Kuasai Sekarang
 
-✅ Bikin keputusan berdasarkan kondisi  
-✅ Compare nilai dengan operator  
-✅ Combine multiple kondisi (and/or)  
-✅ Handle banyak pilihan (elif)  
-✅ Validasi input user  
-✅ Debugging conditional logic  
+- Bikin keputusan berdasarkan kondisi  
+- Compare nilai dengan operator  
+- Combine multiple kondisi (and/or)  
+- Handle banyak pilihan (elif)  
+- Validasi input user  
+- Debugging conditional logic  
 
 ---
 
@@ -184,9 +184,9 @@ print("B. Interpreted")
 jawaban1 = "B"
 if jawaban1 == "B":
     score += 10
-    print("✓ Benar (+10)\n")
+    print("Benar (+10)\n")
 else:
-    print("✗ Salah\n")
+    print("Salah\n")
 
 # Soal 2
 print("2. Syntax if yang benar:")
@@ -195,9 +195,9 @@ print("B. if x == 5:")
 jawaban2 = "B"
 if jawaban2 == "B":
     score += 10
-    print("✓ Benar (+10)\n")
+    print("Benar (+10)\n")
 else:
-    print("✗ Salah\n")
+    print("Salah\n")
 
 # Soal 3
 print("3. Operator logika untuk 'semua harus True':")
@@ -206,9 +206,9 @@ print("B. or")
 jawaban3 = "A"
 if jawaban3 == "A":
     score += 10
-    print("✓ Benar (+10)\n")
+    print("Benar (+10)\n")
 else:
-    print("✗ Salah\n")
+    print("Salah\n")
 
 # Soal 4
 print("4. Range 18 <= umur <= 60 artinya:")
@@ -217,9 +217,9 @@ print("B. umur >= 18 or umur <= 60")
 jawaban4 = "A"
 if jawaban4 == "A":
     score += 10
-    print("✓ Benar (+10)\n")
+    print("Benar (+10)\n")
 else:
-    print("✗ Salah\n")
+    print("Salah\n")
 
 # Soal 5
 print("5. Indent di Python:")
@@ -228,9 +228,9 @@ print("B. Wajib")
 jawaban5 = "B"
 if jawaban5 == "B":
     score += 10
-    print("✓ Benar (+10)\n")
+    print("Benar (+10)\n")
 else:
-    print("✗ Salah\n")
+    print("Salah\n")
 
 # Grading
 print("=" * 30)
@@ -249,4 +249,4 @@ else:
 
 ---
 
-Ready buat Lesson 4? Let's loop! 🔁
+Ready buat Lesson 4? Let's loop! 

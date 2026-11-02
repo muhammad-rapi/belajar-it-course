@@ -65,14 +65,14 @@ print(f"Last name: {last_name}")
 2. Bikin list kosong `todos`
 3. Tambah 3 task
 4. Print jumlah task
-5. Mark task pertama sebagai done (tambahin "✓" di depan)
+5. Mark task pertama sebagai done (tambahin "[x]" di depan)
 6. Hapus task terakhir
 7. Print semua task
 
 **Expected Output**:
 ```
 Task: 3
-1. ✓ Belajar Python
+1. [x] Belajar Python
 2. Bikin project
 ```
 
@@ -91,7 +91,7 @@ todos.append("Push ke GitHub")
 print(f"Task: {len(todos)}")
 
 # Mark done (update task pertama)
-todos[0] = "✓ " + todos[0]
+todos[0] = "[x] " + todos[0]
 
 # Hapus task terakhir
 todos.pop()

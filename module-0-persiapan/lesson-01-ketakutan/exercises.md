@@ -34,7 +34,7 @@ Harapan 6 bulan: Punya portfolio 2 project, dapet 1 job offer (atau freelance cl
 
 <details>
 
-<summary>💡 Hints</summary>
+<summary>Hints</summary>
 
 **Hint 1**: Be brutally honest. Ga ada yang judge. Ini buat kamu sendiri.
 
@@ -46,7 +46,7 @@ Harapan 6 bulan: Punya portfolio 2 project, dapet 1 job offer (atau freelance cl
 
 <details>
 
-<summary>✅ Solusi</summary>
+<summary>Solusi</summary>
 
 Ga ada "solusi" fixed buat latihan ini karena setiap orang beda. Tapi **framework evaluasi**:
 
@@ -119,7 +119,7 @@ Dokumen timeline (Google Docs, Notion, atau kertas) dengan:
 
 <details>
 
-<summary>💡 Hints</summary>
+<summary>Hints</summary>
 
 **Hint 1**: **Under-promise, over-deliver**. Lebih baik set target 10 jam/minggu dan exceed (actual 15 jam) daripada set 20 jam tapi cuma achieve 5 jam (demotivating).
 
@@ -131,7 +131,7 @@ Dokumen timeline (Google Docs, Notion, atau kertas) dengan:
 
 <details>
 
-<summary>✅ Solusi</summary>
+<summary>Solusi</summary>
 
 **Framework buat bikin timeline realistis**:
 
@@ -228,7 +228,7 @@ Revisit: April 2025
 
 <details>
 
-<summary>💡 Hints</summary>
+<summary>Hints</summary>
 
 **Hint 1**: **Jangan postpone karena "belum sempurna" (belum punya laptop terbaik, belum tau semua roadmap, dll)**. Itu procrastination disguised as planning. Kalau criteria Go terpenuhi, **just start**.
 
@@ -240,7 +240,7 @@ Revisit: April 2025
 
 <details>
 
-<summary>✅ Solusi</summary>
+<summary>Solusi</summary>
 
 **Framework decision**:
 

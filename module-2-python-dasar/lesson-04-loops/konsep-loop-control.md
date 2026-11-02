@@ -110,12 +110,12 @@ Output:
 Python ga boleh ada block kosong. Kalau belum tau mau ngapain, pake pass.
 
 ```python
-# ❌ Error
+# SALAH: Error
 for i in range(5):
     if i == 2:
         # Kosong, error!
 
-# ✅ OK
+# BENAR: OK
 for i in range(5):
     if i == 2:
         pass  # Placeholder

@@ -119,6 +119,6 @@ Setelah itu, tinggal ketik `ll` instead of `ls -la`.
 
 ---
 
-Lu udah lewati mental block "takut terminal". Sekarang lu punya **superpowers** yang kebanyakan orang ga punya. 🚀
+Lu udah lewati mental block "takut terminal". Sekarang lu punya **superpowers** yang kebanyakan orang ga punya. 
 
 Next: Lesson 4 - Internet & Web!

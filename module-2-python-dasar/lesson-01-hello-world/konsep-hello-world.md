@@ -36,9 +36,7 @@ Itu doang. Satu baris.
 Hello, World!
 ```
 
-Kalau keluar itu, **selamat, lu udah jadi programmer** 🎉
-
----
+Kalau keluar itu, **selamat, lu udah jadi programmer**---
 
 ## Apa yang Terjadi?
 
@@ -83,41 +81,38 @@ Tiap `print()` = satu baris output.
 ### 1. Lupa Tanda Kutip
 
 ```python
-print(Hello, World!)  # ❌ Error: NameError
+print(Hello, World!)  # SALAH: Error: NameError
 ```
 
 **Kenapa error?**: Python mikir `Hello` itu nama variable (nanti kita bahas). Text harus pake kutip `"..."` atau `'...'`.
 
 **Fix**:
 ```python
-print("Hello, World!")  # ✅
-```
+print("Hello, World!")  # BENAR: ```
 
 ### 2. Salah Ketik Nama Fungsi
 
 ```python
-Print("Hello")  # ❌ Error: NameError: name 'Print' is not defined
+Print("Hello")  # SALAH: Error: NameError: name 'Print' is not defined
 ```
 
 **Kenapa error?**: Python **case-sensitive**. `print` ≠ `Print`. Huruf kecil semua.
 
 **Fix**:
 ```python
-print("Hello")  # ✅
-```
+print("Hello")  # BENAR: ```
 
 ### 3. Lupa Kurung
 
 ```python
-print "Hello"  # ❌ SyntaxError (Python 3)
+print "Hello"  # SALAH: SyntaxError (Python 3)
 ```
 
 **Kenapa error?**: Syntax Python 3 wajib pake kurung `()`. Python 2 nggak wajib, tapi Python 2 udah deprecated.
 
 **Fix**:
 ```python
-print("Hello")  # ✅
-```
+print("Hello")  # BENAR: ```
 
 ---
 

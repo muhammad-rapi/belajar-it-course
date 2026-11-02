@@ -61,4 +61,4 @@ Internet works the same. Komputer lu = pengirim, server = penerima, router = kan
 
 ---
 
-Ready? Let's dive in.
+Kita mulai dari yang paling dasar: apa sebenarnya internet itu.

@@ -12,17 +12,17 @@
 
 **Red flags** (yang bikin susah dapet kerja):
 
-* ❌ Cuma lulus course/bootcamp, no portfolio
-* ❌ Ga pernah bikin project sendiri (semua cuma tutorial copas)
-* ❌ Ga aktif network (LinkedIn, GitHub, tech community)
-* ❌ Ga tau cara interview (live coding, system design)
+- Cuma lulus course/bootcamp, no portfolio
+- Ga pernah bikin project sendiri (semua cuma tutorial copas)
+- Ga aktif network (LinkedIn, GitHub, tech community)
+- Ga tau cara interview (live coding, system design)
 
 **Green flags** (yang bikin gampang dapet kerja):
 
-* ✅ Portfolio 2-3 project real (deployed, bisa di-demo)
-* ✅ GitHub active (commit history, kontribusi open source)
-* ✅ Tech blog/content (write-up problem solving, tutorial)
-* ✅ Network (ikut meetup, Discord tech community, referral dari temen)
+- Portfolio 2-3 project real (deployed, bisa di-demo)
+- GitHub active (commit history, kontribusi open source)
+- Tech blog/content (write-up problem solving, tutorial)
+- Network (ikut meetup, Discord tech community, referral dari temen)
 
 **Analogi**:
 

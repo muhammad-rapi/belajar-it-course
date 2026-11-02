@@ -84,4 +84,4 @@ Kita akan bahas step-by-step:
 3. **Permissions** — siapa boleh baca/edit/hapus file
 4. **Hands-on Exercises** — eksplorasi file system kamu sendiri
 
-Mari kita mulai! 🚀
+Mari kita mulai! 

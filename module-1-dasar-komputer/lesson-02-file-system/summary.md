@@ -40,14 +40,14 @@
 
 ## Kesalahan Umum yang Harus Dihindari
 
-❌ **Hide Extensions**: Ga tau file asli apa, malware bisa nyamar  
-✅ **Unhide extensions** di File Explorer/Finder
+- **Hide Extensions**: Ga tau file asli apa, malware bisa nyamar  
+- **Unhide extensions** di File Explorer/Finder
 
-❌ **Duplikat Files Tanpa Struktur**: `dokumen_final_v2_REAL.docx`  
-✅ **Bikin folder structure proper** atau pakai version control (Git)
+- **Duplikat Files Tanpa Struktur**: `dokumen_final_v2_REAL.docx`  
+- **Bikin folder structure proper** atau pakai version control (Git)
 
-❌ **chmod 777 Sembarangan**: Everyone bisa edit/delete  
-✅ **Pakai permission reasonable** (644 for files, 755 for folders)
+- **chmod 777 Sembarangan**: Everyone bisa edit/delete  
+- **Pakai permission reasonable** (644 for files, 755 for folders)
 
 ---
 

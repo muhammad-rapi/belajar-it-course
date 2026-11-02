@@ -29,9 +29,9 @@
 
 Sekarang kamu udah paham **apa yang ada di dalam komputer** dan **cara kerjanya**. Next step: kita bakal belajar **cara "ngomong" ke komputer** via **command line** (terminal).
 
-Command line itu interface text-based yang powerful banget buat developer. Lebih cepat dari klik-klik GUI, dan banyak tools development cuma available via command line.
+Command line itu interface text-based yang bertenaga banget buat developer. Lebih cepat dari klik-klik GUI, dan banyak tools development cuma available via command line.
 
-**Lesson 3: "Command Line Basics - Ngobrol dengan Komputer via Text"** (coming soon)
+**Lesson 3: "Command Line Basics - Ngobrol dengan Komputer via Text"** (lesson berikutnya)
 
 Di lesson itu kita bakal belajar:
 - Apa itu terminal/command line
@@ -39,7 +39,7 @@ Di lesson itu kita bakal belajar:
 - File operations (mkdir, rm, cp, mv)
 - Kenapa developer prefer terminal vs GUI
 
-See you there! 🚀
+See you there! 
 
 ---
 

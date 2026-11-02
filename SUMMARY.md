@@ -1,9 +1,9 @@
 # Table of contents
 
-* [📘 Welcome](README.md)
-* [📖 Cara Pakai Course Ini](cara-pakai.md)
+* [Welcome](README.md)
+* [Cara Pakai Course Ini](cara-pakai.md)
 
-## 💭 Module 0: Persiapan Mental
+## Module 0: Persiapan Mental
 
 * [Lesson 1: Masuk ke Dunia IT - Ketakutan](module-0-persiapan/lesson-01-ketakutan/README.md)
   * [Intro](module-0-persiapan/lesson-01-ketakutan/intro.md)
@@ -16,7 +16,7 @@
   * [Kesalahan Umum](module-0-persiapan/lesson-01-ketakutan/kesalahan-umum.md)
   * [Summary](module-0-persiapan/lesson-01-ketakutan/summary.md)
 
-## 🖥️ Module 1: Dasar Komputer & Internet
+## Module 1: Dasar Komputer & Internet
 
 * [Lesson 1: Apa itu Komputer?](module-1-dasar-komputer/lesson-01-apa-itu-komputer/README.md)
   * [Intro](module-1-dasar-komputer/lesson-01-apa-itu-komputer/intro.md)
@@ -68,7 +68,7 @@
   * [Kesalahan Umum](module-1-dasar-komputer/lesson-06-tools-setup/kesalahan-umum.md)
   * [Summary](module-1-dasar-komputer/lesson-06-tools-setup/summary.md)
 
-## 🐍 Module 2: Dasar Programming dengan Python
+## Module 2: Dasar Programming dengan Python
 
 * [Module 2 Overview](module-2-python-dasar/README.md)
 * [Lesson 1: Hello World & Variables](module-2-python-dasar/lesson-01-hello-world/README.md)
@@ -118,7 +118,7 @@
   * [Project 3: Expense Tracker](module-2-python-dasar/lesson-06-project/project-3-expense-tracker.md)
   * [Next Steps](module-2-python-dasar/lesson-06-project/next-steps.md)
 
-## 📚 Resources
+## Resources
 
 * [Join Community](resources/community.md)
 * [Practice Platforms](resources/practice-platforms.md)

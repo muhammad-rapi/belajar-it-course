@@ -40,7 +40,7 @@ graph TD
 ```
 *Diagram: Analogi dapur - gimana komponen komputer kerja bareng*
 
-**📹 Video Explanation:**
+**Video Explanation:**
 
 <figure><img src="../../../assets/videos/kitchen-analogy.gif" alt="Kitchen Analogy Animation" width="100%"><figcaption><em>CPU, RAM, dan Storage explained dengan analogi dapur</em></figcaption></figure>
 

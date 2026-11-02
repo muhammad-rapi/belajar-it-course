@@ -34,7 +34,7 @@ Lu udah biasa klik-klik icon buat buka folder, delete file, install app. Kenapa 
 > 
 > Tombol di TV = GUI. Lu harus pencet next-next-next 49x.
 
-Terminal = **powerful shortcuts** buat yang tau cara pakainya.
+Terminal = jalan pintas buat yang tau cara pakainya.
 
 ---
 
