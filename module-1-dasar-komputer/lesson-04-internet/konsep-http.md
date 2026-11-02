@@ -83,7 +83,7 @@ Server ngasih **status code**, yaitu angka yang nunjukin permintaan berhasil ata
 - `400 Bad Request` = Request salah format
 - `401 Unauthorized` = Belum login
 - `403 Forbidden` = sudah login, tapi nggak punya akses
-- `404 Not Found` = URL ga ada
+- `404 Not Found` = URL nggak ada
 - `429 Too Many Requests` = Spam request, kena limit
 
 **5xx = kesalahan di sisi server**

@@ -119,7 +119,7 @@ rm -r folder         # Hapus folder + isinya (recursive)
 rm -rf folder        # Force delete (no confirmation)
 ```
 
-**HATI-HATI**: `rm` ga ada undo. File langsung hilang (ga ke Recycle Bin).
+**HATI-HATI**: `rm` nggak ada undo. File langsung hilang (nggak ke Recycle Bin).
 
 **Windows**: Pake `del file.txt` (file) atau `rmdir /s folder` (folder)
 

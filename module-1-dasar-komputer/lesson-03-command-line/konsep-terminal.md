@@ -103,20 +103,20 @@ ls -la /Users/rafi
 - `Ctrl + D` = keluar dari terminal
 
 **Windows CMD**:
-- Sama, tapi beberapa shortcut beda (misal: `Ctrl + L` ga jalan di CMD lama)
+- Sama, tapi beberapa shortcut beda (misal: `Ctrl + L` nggak jalan di CMD lama)
 
 ---
 
 ### Seberapa Aman Terminal
 
-Lu ga bakal rusak sistem cuma gara-gara typo. Contoh:
+Lu nggak bakal rusak sistem cuma gara-gara typo. Contoh:
 
 ```bash
 # Typo command
-cdd Desktop  # Command not found (ga ada command 'cdd')
+cdd Desktop  # Command not found (nggak ada command 'cdd')
 ```
 
-Terminal cuma bilang "ga ngerti command itu", ga bakal crash atau rusak apa-apa.
+Terminal cuma bilang "nggak ngerti command itu", nggak bakal crash atau rusak apa-apa.
 
 **Yang harus hati-hati**: command yang menghapus atau mengubah file, seperti `rm`. Command itu jalan tanpa konfirmasi dan nggak ada Recycle Bin. File yang kehapus lewat terminal nggak bisa dibalikin dengan gampang.
 

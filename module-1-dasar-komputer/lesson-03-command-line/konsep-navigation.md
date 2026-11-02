@@ -22,7 +22,7 @@ C:\Users\Rafi\Documents\project\app.py
 
 Dimulai dari `C:\` (drive letter).
 
-**Kapan pake?** Kalau lu mau refer ke file dari **mana aja**. Path selalu sama, ga peduli lu ada di folder mana.
+**Kapan pake?** Kalau lu mau refer ke file dari **mana aja**. Path selalu sama, nggak peduli lu ada di folder mana.
 
 **Contoh**:
 
@@ -166,7 +166,7 @@ rm *.log
 cp *.py backup/
 ```
 
-**Hati-hati**: `rm *` hapus **semua file** di folder. Ga ada undo.
+**Hati-hati**: `rm *` hapus **semua file** di folder. Nggak ada undo.
 
 ---
 

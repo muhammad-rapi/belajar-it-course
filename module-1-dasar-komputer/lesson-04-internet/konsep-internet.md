@@ -72,7 +72,7 @@ ipconfig
 
 ### Packet Switching
 
-Data ga dikirim utuh. Dipecah jadi **packet** kecil-kecil, dikirim terpisah, terus digabung lagi di tujuan.
+Data nggak dikirim utuh. Dipecah jadi **packet** kecil-kecil, dikirim terpisah, terus digabung lagi di tujuan.
 
 **Analogi**: kirim buku 1.000 halaman lewat pos. Daripada satu paket besar yang berat, dipecah jadi 10 paket berisi 100 halaman. Tiap paket jalan sendiri, lalu digabung lagi di tujuan.
 
